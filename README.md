@@ -67,9 +67,9 @@ Tuesday | Thursday
 ### Class 1: Introducción al Business Analytics
 * Bienvenida a la formación
 * Resumen del curso([slides](slides/01_course_overview.pdf))
-* Introducción al Business Analytics ([slides](slides/01_intro_to_data_science.pdf))
-* Discuta el proyecto del curso: [requirements](project/README.md) and [example projects](https://github.com/justmarkham/DAT-project-examples)
-* Tipos de datos([slides](slides/01_types_of_data.pdf)) and [public data sources](project/public_data.md)
+* Introducción al Business Analytics ([slides](slides/01_intro_to_data_analytics.pdf))
+* Discuta el proyecto del curso: [requerimientos](project/README.md) and [proyectos de ejemplo](https://github.com/justmarkham/DAT-project-examples)
+* Tipos de datos([slides](slides/01_types_of_data.pdf)) and [fuentes de datos publicos](project/public_data.md)
 
 **Asignación:**
 * Work through GA's friendly [command line tutorial](http://generalassembly.github.io/prework/command-line/#/) using Terminal (Linux/Mac) or Git Bash (Windows).
@@ -78,13 +78,13 @@ Tuesday | Thursday
 
 
 **Recursos:**
-*Para una mirada útil a los diferentes tipos de científicos de datos, lea [analizar los analizadores] (http://cdn.oreillystatic.com/oreilly/radarreport/0636920029014/analyzing_the_analyzers.pdf) (32 páginas).
+*Para una mirada útil a los diferentes tipos de científicos de datos, lea [analizar los analizadores] (https://www.datascienceassn.org/sites/default/files/Analyzing_the_Analyzers.pdf) (40 páginas).
 * Para algunas ideas sobre lo que es ser un científico de datos, lea estas publicaciones breves de [Win-vector] (http://www.win-vector.com/blog/2012/09/on-being-a-data-Scientist/) y [DataScope Analytics] (http://datascopeopealytics.com/what-we-think/2014/07/31/six-qualities-of-a-great-data-scientist).
 * Quora tiene una [FAQ de tema de ciencias de datos] (https://www.quora.com/data-science) con muchas preguntas y respuestas interesantes.
-* Manténgase al día con los eventos locales relacionados con los datos a través del Data Community DC [Calendario de eventos] (http://www.datacommunitydc.org/calendar) o [boletín semanal] (http://www.datacommunitydc.org/newletter).
+* Sobre la minería de datos (https://aws.amazon.com/es/what-is/data-mining/)
 -----
 
-### Clase 2: Línea de comandos y control de versiones
+### Recursos Adicionales: Línea de comandos y control de versiones (Opcional)
 * Slack Tour
 * Revise el ejercicio previo a la clase de la línea de comando ([code](code/02_command_line.md))
 * Git and GitHub ([slides](slides/02_git_github.pdf))
@@ -96,15 +96,15 @@ Tuesday | Thursday
     * [Introduction to Python](http://introtopython.org/)hace un gran trabajo explicando Python Essentials e incluye toneladas de código de ejemplo.
     * Si te gusta aprender de un libro, [Python for Informatics](http://www.pythonlearn.com/html-270/) Tiene capítulos útiles sobre cadenas, listas y diccionarios.
     * Si prefiere ejercicios interactivos, pruebe estas lecciones de [Codecademy](http://www.codecademy.com/en/tracks/python): "Python listas y diccionarios" y "un día en el supermercado".
-    *Si tiene más tiempo, pruebe las misiones 2 y 3 de [DataQuest's Learning Python](https://www.dataquest.io/course/learning-python) curso.
-    *Si ya ha dominado estos temas y quiere más desafío, intente resolver [Python Challenge](http://www.pythonchallenge.com/) nNúmero 1 (decodificando un mensaje) y envíeme su código en Slack.
+    * Si tiene más tiempo, pruebe las misiones 2 y 3 de [DataQuest's Learning Python](https://www.dataquest.io/course/learning-python) curso.
+    * Si ya ha dominado estos temas y quiere más desafío, intente resolver [Python Challenge](http://www.pythonchallenge.com/) nNúmero 1 (decodificando un mensaje) y envíeme su código en Slack.
 * Para darle un marco para pensar en su proyecto, mire [What is machine learning, and how does it work?](https://www.youtube.com/watch?v=elojMnjn4kk) (10 minutes). (Este es el [IPython notebook](https://github.com/justmarkham/scikit-learn-videos/blob/master/01_machine_learning_intro.ipynb) shown en el video.) Alternativamente, lea [A Visual Introduction to Machine Learning](http://www.r2d3.us/visual-intro-to-machine-learning-part-1/), que se centra en un modelo de aprendizaje automático específico llamado árboles de decisión.
 * **Opcional:** Navegar por un poco más [example student projects](https://github.com/justmarkham/DAT-project-examples), ¡Lo que puede ayudar a inspirar su propio proyecto!
 
 **Recursos Git y Markdown:**
-* [Pro Git](http://git-scm.com/book/en/v2) esUnExcelenteLibroParaAprenderGitLeaLosDosPrimerosCapítulosParaObtenerUnaComprensiónMásProfundaDelControlDeVersionesYElComandoBásicos.
-* siQuieresPracticarMuchoGit (yAprenderMuchosMásComandos), [Git Immersion](http://gitimmersion.com/) parecePrometedor
-* siQuieresEntenderCómoContribuirEnGitHub,PrimeroTienesQueEntender [forks and pull requests](http://www.dataschool.io/simple-guide-to-forks-in-github-and-git/).
+* [Pro Git](http://git-scm.com/book/en/v2) es un excelente libro para aprender Git lea los dos primeros capítulos para obtener una comprensión más profunda del control de versiones y los comando básicos.
+* Si quieres practicar mucho Git y aprender muchos más comandos), [Git Immersion](http://gitimmersion.com/) 
+* Si quieres entender cómo contribuir en GitHub, primero tienes que entender [forks and pull requests](http://www.dataschool.io/simple-guide-to-forks-in-github-and-git/).
 * [GitRef](http://gitref.org/)esMiGuíaDeReferenciaFavoritaParaLosComandosGit,Y [Git quick reference for beginners](http://www.dataschool.io/git-quick-reference-for-beginners/) isUnaGuíaMásCortaConComandosAgrupadosPorFlujoDeTrabajo
 * [Cracking the Code to GitHub's Growth](https://growthhackers.com/growth-studies/github) explicaPorQuéGithubEsTanPopularEntreLosDesarrolladores
 * [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) proporcionaUnConjuntoExhaustivoDeEjemplosDeMarkdownConExplicacionesConcisasGithub's[Mastering Markdown](https://guides.github.com/features/mastering-markdown/)esUnaGuíaMásSimpleYAtractiva,PeroEsMenosIntegral
