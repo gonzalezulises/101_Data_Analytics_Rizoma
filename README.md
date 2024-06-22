@@ -64,10 +64,10 @@ Tuesday | Thursday
 
 -----
 
-### Class 1: Introducción al Business Analytics
+### Class 1: Introducción a Data Analytics
 * Bienvenida a la formación
 * Resumen del curso([slides](slides/01_course_overview.pdf))
-* Introducción al Business Analytics ([slides](slides/01_intro_to_data_analytics.pdf))
+* Introducción a Data Analytics ([slides](slides/01_intro_to_data_analytics.pdf))
 * Discuta el proyecto del curso: [requerimientos](project/README.md) and [proyectos de ejemplo](https://github.com/justmarkham/DAT-project-examples)
 * Tipos de datos([slides](slides/01_types_of_data.pdf)) and [fuentes de datos publicos](project/public_data.md)
 
