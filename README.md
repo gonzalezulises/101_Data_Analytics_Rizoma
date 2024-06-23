@@ -64,7 +64,7 @@ Tuesday | Thursday
 
 -----
 
-<a target="_blank" href=https://anaconda.cloud/api/nbserve/launch_notebook?nb_url=https%3A%2F%2Fanaconda.cloud%2Fapi%2Fprojects%2F658faa18-4b18-4068-b4ca-6ebb3743f592%2Ffiles%2F01_Introduccio%CC%81n_Python_Aprendizaje.ipynb%3Fversion%3D19da7a93-e91d-4d0a-853a-97fe3431ac97><img src="https://static.anaconda.cloud/content/a22d04e8445b700f28937ab3231b8cded505d0395c63b7a269696722196d5415"/></a>
+<img src="https://static.anaconda.cloud/content/a22d04e8445b700f28937ab3231b8cded505d0395c63b7a269696722196d5415"/></a>
 
 
 ### Class 1: Introducción a Data Analytics
