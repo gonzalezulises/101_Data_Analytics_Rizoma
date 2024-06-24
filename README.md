@@ -5,7 +5,7 @@ Materiales de soporte para la formación en Data Analytics
 
 **Instructor:** Ulises Gonzalez ([Rizoma](http://www.rizo.ma/), [Linkedin](https://www.linkedin.com/in/ulisesgonzalez/)
 
-[![Binder](http://mybinder.org/badge.svg)](http://mybinder.org/repo/justmarkham/DAT8)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/gonzalezulises/101_Data_Analytics_Rizoma.git/HEAD)
 
 Tuesday | Thursday
 --- | ---
