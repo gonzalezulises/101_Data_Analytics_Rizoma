@@ -1,22 +1,21 @@
 ## Repositorio de curso sobre Data Analytics
 
 Data Analytics (DA) consiste en explorar y analizar grandes cantidades de datos para obtener información sobre el desempeño empresarial pasado con el fin de guiar la planificación empresarial futura. Este curso presenta un conjunto de métodos avanzados centrados en datos que cubren las tres direcciones principales de BA: descriptivo (“¿qué pasó?”), predictivo (“¿qué pasará?”) y prescriptivo (“¿qué debería pasar?”). Los métodos se aplicarán a varios casos de negocios con el objetivo de demostrar cómo extraer valor comercial de los datos, brindar soporte para la toma de decisiones basada en datos junto con principios efectivos de gestión de datos.
-Materiales de soporte para la formación en Data Analytics
 
 **Instructor:** Ulises Gonzalez ([Rizoma](http://www.rizo.ma/), [Linkedin](https://www.linkedin.com/in/ulisesgonzalez/))
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/gonzalezulises/101_Data_Analytics_Rizoma.git/HEAD)
 
-Tuesday | Thursday
---- | ---
-8/18: [Introducción a Python](#class-1-introduction-to-data-science) | 8/20: [Funciones y listas en python](#class-2-command-line-and-version-control)
-8/25: [Lectura de Datos](#class-3-data-reading-and-cleaning) | 8/27: [Iniciación con Pandas](#class-4-exploratory-data-analysis)
-9/1: [Combinación de Datos](#class-5-visualization) | 9/3: [Análisis exploratorio de Datos I](#class-6-machine-learning)
-9/8: [Visualización de Datos II](#class-7-getting-data) | 9/10: [Visualización de Datos III](#class-8-k-nearest-neighbors)
-9/15: [Evaluación de modelos de pronóstico](#class-9-basic-model-evaluation) | 9/17: [Linear Regression](#class-10-linear-regression)
-9/22: [Logistic Regression](#class-11-first-project-presentation) | 9/24: [Árboles de decisión](#class-12-logistic-regression)
-9/29: [Clustering](#class-13-advanced-model-evaluation) | 10/1: [Uso de Tableau](#class-14-naive-bayes-and-text-data)
-10/6: [Publicación de tableros](#class-15-natural-language-processing) | 10/8: [Dirección de proyectos de Analítica de Datos](#class-16-kaggle-competition)
+|                                                                                  |                                                                              |
+| -------------------------------------------------------------------------------- | ---------------------------------------------------------------------------- |
+| Sesión 1:  [Introducción a Python](#class-1-introduction-to-data-science)        | [Funciones y listas en python](#class-2-command-line-and-version-control)    |
+| Sesión 2: [Obtención de Datos](#class-3-data-reading-and-cleaning)               | [Iniciación con Pandas](#class-4-exploratory-data-analysis)                  |
+| Sesión 3: [Combinación de Datos](#class-5-visualization)                         | [Análisis exploratorio de Datos I](#class-6-machine-learning)                |
+| Sesión 4: [Visualización de Datos I](#class-7-getting-data)                      | [Visualización de Datos II](#class-8-k-nearest-neighbors)                    |
+| Sesión 5: [Evaluación de modelos de pronóstico](#class-9-basic-model-evaluation) | [Linear Regression](#class-10-linear-regression)                             |
+| Sesión 6: [Logistic Regression](#class-11-first-project-presentation)            | [Árboles de decisión](#class-12-logistic-regression)                         |
+| Sesión 7: [Clustering](#class-13-advanced-model-evaluation)                      | [Uso de Tableau](#class-14-naive-bayes-and-text-data)                        |
+| Sesión 8: [Publicación de tableros](#class-15-natural-language-processing)       | [Dirección de proyectos de Analítica de Datos](#class-16-kaggle-competition) |
 
 
 <!-
@@ -33,16 +32,16 @@ Tuesday | Thursday
 * Practique Python utilizando los recursos a continuación.
 ->
 
-### Recursos de Python
+### Recursos adicionales de práctica
 * [Codecademy's Python course](http://www.codecademy.com/en/tracks/python): Buen material para principiantes, incluidos toneladas de ejercicios en el navegador.
 * [Dataquest](https://www.dataquest.io): Utiliza ejercicios interactivos para enseñar a Python en el contexto de la ciencia de datos.
 * [Google's Python Class](https://developers.google.com/edu/python/): Un poco más avanzado, incluidas horas de videos útiles de conferencias y ejercicios descargables (con soluciones).
 * [Introduction to Python](http://introtopython.org/): Una serie de cuadernos de iPython que hacen un gran trabajo explicando conceptos y estructuras de datos de Core Python.
 * [Python for Informatics](http://www.pythonlearn.com/book.php): Un libro muy orientado a principiante, con asociado [slides](https://drive.google.com/folderview?id=0B7X1ycQalUnyal9yeUx3VW81VDg&usp=sharing) and [videos](https://www.youtube.com/playlist?list=PLlRFEj9H3Oj4JXIwMwN1_ss1Tk8wZShEJ).
 * [A Crash Course in Python for Scientists](http://nbviewer.ipython.org/gist/rpmuller/5920182): Lea la sección de descripción general para una introducción muy rápida a Python.
-* [Python 2.7 Quick Reference](https://github.com/justmarkham/python-reference/blob/master/reference.py):Mi guía orientada a principiantes que demuestra conceptos de pitón a través de un ejemplo corto y bien commentados.
 * [Beginner](code/00_python_beginner_workshop.py) and [intermediate](code/00_python_intermediate_workshop.py) Código de taller: útil para revisión y referencia.
 * [Python Tutor](http://pythontutor.com/): Le permite visualizar la ejecución del código Python.
+
 
 <!--
 ### Formularios de presentación
