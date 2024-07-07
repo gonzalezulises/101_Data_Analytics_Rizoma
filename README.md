@@ -126,9 +126,12 @@ Podrías aprender  Git y Markdown que son herramientas valiosas para la analíti
 * Si desea hacer más en la línea de comando con archivos CSV, pruebe [csvkit](http://csvkit.readthedocs.org/), que se puede instalar a través de `pip`.
 
 -----
-<a target="_blank" href="https://anaconda.cloud/api/nbserve/launch_notebook?nb_url=https%3A%2F%2Fanaconda.cloud%2Fapi%2Fprojects%2F67155be7-64cb-494d-8f26-3fbf1e3f89c1%2Ffiles%2F02_Obtencio%CC%81nde_Datos_e_iniciacion_con_Pandas.ipynb%3Fversion%3Defd51d6a-77a2-4402-8ce6-5359e48fd1b3"><img src="https://static.anaconda.cloud/content/a22d04e8445b700f28937ab3231b8cded505d0395c63b7a269696722196d5415"/></a>
-
-
+<div style="display: flex; align-items: center;">
+    <a target="_blank" href="https://anaconda.cloud/api/nbserve/launch_notebook?nb_url=https%3A%2F%2Fanaconda.cloud%2Fapi%2Fprojects%2F67155be7-64cb-494d-8f26-3fbf1e3f89c1%2Ffiles%2F02_Obtencio%CC%81nde_Datos_e_iniciacion_con_Pandas.ipynb%3Fversion%3Defd51d6a-77a2-4402-8ce6-5359e48fd1b3"><img src="https://static.anaconda.cloud/content/a22d04e8445b700f28937ab3231b8cded505d0395c63b7a269696722196d5415"/></a>
+    <a href="https://drive.google.com/file/d/16wsQKsk28s2j9KytL9dHXkHhVJt1m1tT/view?usp=sharing" target="_blank" style="text-decoration:none;">
+        <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab" height="25"/>
+    </a>
+</div>
 ### Sesión 2: Obtención de datos e iniciación con Pandas
 
 * Obtención de datos ([slides](slides/01_intro_to_data_analytics.pdf))
