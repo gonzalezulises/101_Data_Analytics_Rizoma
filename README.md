@@ -78,7 +78,7 @@ Data Analytics (DA) consiste en explorar y analizar grandes cantidades de datos 
 * Si quieres entender a Python en un nivel más profundo, Ned Batchelder's [Loop Like A Native](http://nedbatchelder.com/text/iter.html)y [Python Names and Values](http://nedbatchelder.com/text/names1.html)son excelentes presentaciones.
 
 -----
-**¿Quieres ir más allá de lo aprendido?
+**¿Quieres ir más allá de lo aprendido?**
 
 Podrías aprender  Git y Markdown que son herramientas valiosas para la analítica de datos por varias razones como:
 
