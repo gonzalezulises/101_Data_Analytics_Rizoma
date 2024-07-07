@@ -6,10 +6,16 @@ Data Analytics (DA) consiste en explorar y analizar grandes cantidades de datos 
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/gonzalezulises/101_Data_Analytics_Rizoma.git/HEAD)
 
-|                                                                                  |                                                                           |
+| Tema de la sesión                                                                                 |     Objetivos                                                                      |
 | -------------------------------------------------------------------------------- | ------------------------------------------------------------------------- |
-| Sesión 1: [Introducción a Data Analytics](#sesión-1-introducción-a-data-analytics)      | [Funciones y listas en python](#class-2-command-line-and-version-control) |
-| Sesión 2: [Obtención de datos e iniciación con Pandas](#sesión-2-obtención-de-datos-e-iniciación-con-pandas)| [Iniciación con Pandas](#class-4-exploratory-data-analysis)               |
+| Sesión 1: [Introducción a Data Analytics](#sesión-1-introducción-a-data-analytics)      | - Comprender los conceptos fundamentales de la analítica de datos.
+- Identificar los diferentes tipos de análisis de datos: descriptivo, predictivo y prescriptivo.
+- Familiarizarse con el flujo de trabajo en un proyecto de analítica de datos.
+- Conocer las herramientas y tecnologías utilizadas en la analítica de datos. |
+| Sesión 2: [Obtención de datos e iniciación con Pandas](#sesión-2-obtención-de-datos-e-iniciación-con-pandas)| - Aprender a obtener y cargar datos desde diversas fuentes (CSV, Excel, SQL, APIs).
+- Introducción a la biblioteca Pandas y sus estructuras de datos principales (Series y DataFrames).
+- Realizar operaciones básicas de manipulación de datos con Pandas.
+- Limpiar y preparar datos para su análisis              |
 | Sesión 3: [Combinación de datos y Análisis de datos exploratorios](#sesión-3-combinación-de-datos-y-análisis-de-datos-exploratorios)         | [Análisis exploratorio de Datos II](#class-6-machine-learning)            |
 | Sesión 4: [Visualización de Datos](#clase-4-visualización-de-datos)                   | [Visualización de Datos II](#class-8-k-nearest-neighbors)                 |
 | Sesión 5: [Evaluación de modelos de pronósticos y regresión lineal](#clase-5-evaluación-de-modelos-de-pronósticos-y-regresión-lineal)| [Linear Regression](#class-10-linear-regression)                          |
@@ -201,6 +207,7 @@ Puedes obtener información si deseas llevar al siguiente nivel:
 * Leer [How Software in Half of NYC Cabs Generates $5.2 Million a Year in Extra Tips](http://iquantny.tumblr.com/post/107245431809/how-software-in-half-of-nyc-cabs-generates-5-2) Para un excelente ejemplo de análisis de datos exploratorios.
 
 -----
+<a target="_blank" href="https://anaconda.cloud/api/nbserve/launch_notebook?nb_url=https%3A%2F%2Fanaconda.cloud%2Fapi%2Fprojects%2Fb93c8453-0167-4bee-afe2-3811c4f40904%2Ffiles%2F04_Visualization_de_Datos_1.ipynb%3Fversion%3Dc94c5061-1acd-487e-9de4-1c4ee1563156"><img src="https://static.anaconda.cloud/content/a22d04e8445b700f28937ab3231b8cded505d0395c63b7a269696722196d5415"/></a>
 
 ### Clase 4: Visualización de Datos
 
