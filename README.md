@@ -23,7 +23,8 @@ Data Analytics (DA) consiste en explorar y analizar grandes cantidades de datos 
 * Para usar [google colaboratory](https://colab.research.google.com/)requerirás un correo de gmail para acceder. Si no dispones de uno lo puedes crear [sin costo aca](https://workspace.google.com/)
 * Para usar Anaconda no necesitarás algo adicional ya que es cloud, puedes crear una [cuenta acá](https://anaconda.cloud/)
 * Podrás usar también el notebook de Kaggle, puedes [crear una cuenta acá](https://www.kaggle.com/#)
-* Practique Python utilizando los recursos a continuación.
+* Puedes ir familiarizándote con Jupyter Notebook en este archivo
+* Puedes practicar Python utilizando los recursos a continuación.
 
 ### Recursos adicionales de práctica
 
@@ -156,7 +157,7 @@ Podrías aprender  Git y Markdown que son herramientas valiosas para la analíti
 * Microsoft's [Face Detection API](https://www.projectoxford.ai/demo/face#detection), que poderes[How-Old.net](http://how-old.net/), es un gran ejemplo de cómo se puede aprovechar una API de aprendizaje automático para producir una aplicación web convincente.
 
 -----
-**¿Quieres ir más allá de lo aprendido?
+**¿Quieres ir más allá de lo aprendido?**
 
 **Pandas AI** es una **mejora** de la librería de [Pandas](https://pandas.pydata.org/), que ha sido **combinada con la tecnología de OpenAI**, con el resultado de pode **ahorrarnos tiempo** en tener que seleccionar los encabezados, franjas y demás. Además de eso, también puede hacer cosas que le pidamos, en relación a los **csv** o dataframes, que le indiquemos.
 Puedes obtener información si deseas llevar al siguiente nivel:
