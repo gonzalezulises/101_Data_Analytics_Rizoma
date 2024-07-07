@@ -58,20 +58,12 @@ Data Analytics (DA) consiste en explorar y analizar grandes cantidades de datos 
 
 **Asignación:**
 
-* Leer Introducción a la programación y al análisis de datos con Python 
+* Leer [Introducción a la programación y al análisis de datos con Python](bibliografia/Sesion 1/Introducción a Python.pdf) 
 * Leer la ruta de [Data analytics](https://roadmap.sh/data-analyst)
 * Desarrollar el 01 Laboratorio de la Sesión 1 (Asignación)
 * (Opcional) [Aprende Git y GitHub - Curso desde Cero](https://www.youtube.com/watch?v=mBYSUUnMt9M), o leer las secciones 1.1 a 2.2 de [Pro Git](https://git-scm.com/book/es/v2).
 
-**Recursos:**
-* Para una mirada útil a los diferentes tipos de científicos de datos, lea [analizar los analizadores](<https://www.datascienceassn.org/sites/default/files/Analyzing_the_Analyzers.pdf>)(40 páginas).
-* Para algunas ideas sobre lo que es ser un científico de datos, lea estas publicaciones breves de [Win-vector] (<http://www.win-vector.com/blog/2012/09/on-being-a-data-Scientist/>) y [DataScope Analytics] (<http://datascopeopealytics.com/what-we-think/2014/07/31/six-qualities-of-a-great-data-scientist>).
-* Quora tiene una [FAQ de tema de ciencias de datos] (<https://www.quora.com/data-science>) con muchas preguntas y respuestas interesantes.
-* Sobre la minería de datos (<https://aws.amazon.com/es/what-is/data-mining/>)
-
------
-
-**Recursos Adicionales: (Opcional)**
+**Recursos Adicionales:**
 
 * Si deseas continuar aprendiendo python, puedes utilizar los siguientes recursos disponibles:
   * [Introduction to Python](http://introtopython.org/)hace un gran trabajo explicando Python Essentials e incluye toneladas de código de ejemplo.
