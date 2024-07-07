@@ -167,7 +167,7 @@ Puedes obtener información si deseas llevar al siguiente nivel:
 * [Introducción a PandasAI](https://docs.pandas-ai.com/intro)
 
 -----
-<a target="_blank" href=https://anaconda.cloud/api/nbserve/launch_notebook?nb_url=https%3A%2F%2Fanaconda.cloud%2Fapi%2Fprojects%2F94529ebc-682f-4c4a-84ac-8901569ae780%2Ffiles%2F03_analisis_exploratorio_de_datos%20(EDA).ipynb%3Fversion%3Dab666fed-078d-4c2d-9544-e976a369a3cc><img src="https://static.anaconda.cloud/content/a22d04e8445b700f28937ab3231b8cded505d0395c63b7a269696722196d5415"/></a>
+<a target="_blank" href="https://anaconda.cloud/api/nbserve/launch_notebook?nb_url=https%3A%2F%2Fanaconda.cloud%2Fapi%2Fprojects%2F94529ebc-682f-4c4a-84ac-8901569ae780%2Ffiles%2F03_analisis_exploratorio_de_datos%20(EDA).ipynb%3Fversion%3Dab666fed-078d-4c2d-9544-e976a369a3cc"><img src="https://static.anaconda.cloud/content/a22d04e8445b700f28937ab3231b8cded505d0395c63b7a269696722196d5415"/></a>
 
 ### Sesión 3: Combinación de datos y Análisis de datos exploratorios
 
