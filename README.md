@@ -60,7 +60,8 @@ Data Analytics (DA) consiste en explorar y analizar grandes cantidades de datos 
 
 * Leer [Introducción a la programación y al análisis de datos con Python](bibliografia/Sesion%201/Introducción%20a%20Python.pdf)
 * Leer la ruta de [Data analytics](https://roadmap.sh/data-analyst)
-* Desarrollar el 01 Laboratorio de la Sesión 1 (Asignación)
+* Desarrollar [Laboratorio de la Sesión 1 Ejercicios](laboratorios/01_Laborario%20de%20la%20Sesión%201_Ejercicios.ipynb)
+* Puedes revisar la solución al laboratorio acá: [Laboratorio de la Sesión 1 con solución](laboratorios/01_Laborario%20de%20la%20Sesión%201_con%20solucion.ipynb)
 * (Opcional) [Aprende Git y GitHub - Curso desde Cero](https://www.youtube.com/watch?v=mBYSUUnMt9M), o leer las secciones 1.1 a 2.2 de [Pro Git](https://git-scm.com/book/es/v2).
 
 **Recursos Adicionales:**
@@ -132,7 +133,8 @@ Podrías aprender  Git y Markdown que son herramientas valiosas para la analíti
 
 * Leer Getting started with pandas
 * Leer la documentación de [pandas](https://pandas.pydata.org/docs/)
-* Desarrollar el 02_Laboratorio de la Sesión 2 (Asignación)
+* Desarrollar el [Laboratorio de la Sesión 2](laboratorios/02_Laboratorio_de_la_sesión_2.ipynb)
+* La solución del laboratorio está a continuación:[Laboratorio de la Sesión 2 Soluciones](laboratorios/02_Laboratorio_de_la_sesión_2_Soluciones.ipynb)
 
 **Recursos:**
 
@@ -178,11 +180,13 @@ Puedes obtener información si deseas llevar al siguiente nivel:
 
 * Leer Preparing Data for EDA
 * [Paso a paso de un análisis exploratorio de datos](https://docs.google.com/document/d/10O7nB5zUSjJFKwH_cw_sCi7VPAP2jOaw1_6E05DC4RY/edit?usp=sharing)
-* Desarrollar el 03_Laboratorio de la Sesión 3 (Asignación)
-* (opcional) Puedes desarrollar el ejercicio Pandas ([code](code/04_pandas.py)):
-  * MOVIELENS 100K Clasificaciones de películas ([data](data/u.user), [data dictionary](http://files.grouplens.org/datasets/movielens/ml-100k-README.txt), [website](http://grouplens.org/datasets/movielens/))
-  * Consumo de alcohol por país ([data](data/drinks.csv), [article](http://fivethirtyeight.com/datalab/dear-mona-followup-where-do-people-drink-the-most-beer-wine-and-spirits/))
-* Ejercicio de preguntas del proyecto
+* Desarrollar [Laboratorio de la Sesión 3 parte 1 - API](laboratorios/03_Laboratorio_de_la_sesión_3_parte1-%20API.ipynb)
+* Desarrollar [Laboratorio de la Sesión 3 parte 2](laboratorios/03_Laboratorio_de_la_sesion_3_parte2.ipynb)
+* Desarrollar [Laboratorio EDA 1](laboratorios/04_Laboratorio_EDA_1.ipynb)
+* Desarrollar [Laboratorio EDA 2](laboratorios/04_Laboratorio_EDA_2.ipynb)
+* La solución al laboratorio 3 lo encuentras aca: 
+    * [Laboratorio de la Sesión 3 parte 1 - API](laboratorios/03_Laboratorio_de_la_sesión_3_parte1-%20API.ipynb)
+    * [Laboratorio de la Sesión 3 parte 2](laboratorios/03_Laboratorio_de_la_sesion_3_parte2.ipynb)
 * Leer [How Software in Half of NYC Cabs Generates $5.2 Million a Year in Extra Tips](http://iquantny.tumblr.com/post/107245431809/how-software-in-half-of-nyc-cabs-generates-5-2) Para un excelente ejemplo de análisis de datos exploratorios.
 * Leer [Anscombe's Quartet, and Why Summary Statistics Don't Tell the Whole Story](http://data.heapanalytics.com/anscombes-quartet-and-why-summary-statistics-dont-tell-the-whole-story/) Para un ejemplo clásico de por qué la visualización es útil.
 
@@ -193,7 +197,7 @@ Puedes obtener información si deseas llevar al siguiente nivel:
 * Este cuaderno demuestra los diferentes tipos de [joins in Pandas](notebooks/05_pandas_merge.ipynb), para cuando necesite descubrir cómo fusionar dos marcos de datos.
 * Este es un buen tutorial breve sobre [pivot tables](https://beta.oreilly.com/learning/pivot-tables) en pandas.
 
-**Recursos adicionales:
+**Recursos adicionales:**
 
 * Para trabajar con datos geoespaciales en Python, [GeoPandas](http://geopandas.org/index.html) parece prometedor.Este [tutorial](http://michelleful.github.io/code-blog/2015/04/24/sgmap/) Utiliza Geopandas (y Scikit-Learn) para construir un "mapa callejero lingüístico" de Singapur.
 * Browsing or searching the Pandas [API Reference](http://pandas.pydata.org/pandas-docs/stable/api.html) es una excelente manera de localizar una función incluso si no sabe su nombre exacto.
