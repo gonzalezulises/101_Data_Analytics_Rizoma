@@ -8,8 +8,8 @@ Data Analytics (DA) consiste en explorar y analizar grandes cantidades de datos 
 
 |                                                                                  |                                                                           |
 | -------------------------------------------------------------------------------- | ------------------------------------------------------------------------- |
-| Sesión 1: Introducción a Data Analytics [Introducción a Data Analytics](#sesión-1-introducción-a-data-analytics)      | [Funciones y listas en python](#class-2-command-line-and-version-control) |
-| Sesión 2: [Obtención de Datos](#class-3-data-reading-and-cleaning)               | [Iniciación con Pandas](#class-4-exploratory-data-analysis)               |
+| Sesión 1: [Introducción a Data Analytics](#sesión-1-introducción-a-data-analytics)      | [Funciones y listas en python](#class-2-command-line-and-version-control) |
+| Sesión 2: [Obtención de Datos](#sesión-2-obtención-de-datos-e-iniciación-con-pandas)| [Iniciación con Pandas](#class-4-exploratory-data-analysis)               |
 | Sesión 3: [Análisis exploratorio de Datos I](#class-6-machine-learning)          | [Análisis exploratorio de Datos II](#class-6-machine-learning)            |
 | Sesión 4: [Visualización de Datos I](#class-7-getting-data)                      | [Visualización de Datos II](#class-8-k-nearest-neighbors)                 |
 | Sesión 5: [Evaluación de modelos de pronóstico](#class-9-basic-model-evaluation) | [Linear Regression](#class-10-linear-regression)                          |
