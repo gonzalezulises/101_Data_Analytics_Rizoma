@@ -132,6 +132,7 @@ Podrías aprender  Git y Markdown que son herramientas valiosas para la analíti
         <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab" height="25"/>
     </a>
 </div>
+
 ### Sesión 2: Obtención de datos e iniciación con Pandas
 
 * Obtención de datos ([slides](slides/01_intro_to_data_analytics.pdf))
