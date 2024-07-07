@@ -17,15 +17,12 @@ Data Analytics (DA) consiste en explorar y analizar grandes cantidades de datos 
 | Sesión 7: [Clustering](#class-13-advanced-model-evaluation)                      | [Evaluación de modelos](#class-14-naive-bayes-and-text-data)              |
 | Sesión 8: [Uso de Tableau](#class-14-naive-bayes-and-text-data)                  | [Publicación de tableros](#class-15-natural-language-processing)          |
 
-
-<!-
 ### Antes de que comience el curso
 * Puedes dar una mirada al [data analyst roadmap](https://roadmap.sh/data-analyst)
 * Para usar [google colaboratory ](https://colab.research.google.com/)requerirás un correo de gmail para acceder. Si no dispones de uno lo puedes crear [sin costo aca](https://workspace.google.com/)
 * Para usar Anaconda no necesitarás algo adicional ya que es cloud, puedes crear una [cuenta acá ](https://anaconda.cloud/)
 * Podrás usar también el notebook de Kaggle, puedes [crear una cuenta acá](https://www.kaggle.com/#)
 * Practique Python utilizando los recursos a continuación.
-->
 
 ### Recursos adicionales de práctica
 * [Codecademy's Python course](http://www.codecademy.com/en/tracks/python): Buen material para principiantes, incluidos toneladas de ejercicios en el navegador.
