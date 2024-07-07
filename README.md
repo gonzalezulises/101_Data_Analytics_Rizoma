@@ -38,8 +38,6 @@ Data Analytics (DA) consiste en explorar y analizar grandes cantidades de datos 
 * [Python Tutor](http://pythontutor.com/): Le permite visualizar la ejecución del código Python.
 
 -----
-
-```python
 <div style="display: flex; align-items: center;">
     <a target="_blank" href="https://anaconda.cloud/api/nbserve/launch_notebook?nb_url=https%3A%2F%2Fanaconda.cloud%2Fapi%2Fprojects%2F26bdf97e-88f5-4cb9-b9fa-5b222176f941%2Ffiles%2F01_Introduccio%CC%81n_Python_Aprendizaje.ipynb%3Fversion%3Dfd2ebbdb-2222-4d4c-a1d3-27db0ae408f2" style="text-decoration:none; margin-right: 10px;">
         <img src="https://static.anaconda.cloud/content/a22d04e8445b700f28937ab3231b8cded505d0395c63b7a269696722196d5415" alt="Lanzar notebook sesión 1" height="25"/>
@@ -48,7 +46,6 @@ Data Analytics (DA) consiste en explorar y analizar grandes cantidades de datos 
         <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab" height="25"/>
     </a>
 </div>
-```
 
 
 ### Sesión 1: Introducción a Data Analytics
@@ -67,7 +64,7 @@ Data Analytics (DA) consiste en explorar y analizar grandes cantidades de datos 
 * (Opcional) [Aprende Git y GitHub - Curso desde Cero](https://www.youtube.com/watch?v=mBYSUUnMt9M), o leer las secciones 1.1 a 2.2 de [Pro Git](https://git-scm.com/book/es/v2).
 
 **Recursos:**
-* Para una mirada útil a los diferentes tipos de científicos de datos, lea [analizar los analizadores] (<https://www.datascienceassn.org/sites/default/files/Analyzing_the_Analyzers.pdf>) (40 páginas).
+* Para una mirada útil a los diferentes tipos de científicos de datos, lea [analizar los analizadores](<https://www.datascienceassn.org/sites/default/files/Analyzing_the_Analyzers.pdf>)(40 páginas).
 * Para algunas ideas sobre lo que es ser un científico de datos, lea estas publicaciones breves de [Win-vector] (<http://www.win-vector.com/blog/2012/09/on-being-a-data-Scientist/>) y [DataScope Analytics] (<http://datascopeopealytics.com/what-we-think/2014/07/31/six-qualities-of-a-great-data-scientist>).
 * Quora tiene una [FAQ de tema de ciencias de datos] (<https://www.quora.com/data-science>) con muchas preguntas y respuestas interesantes.
 * Sobre la minería de datos (<https://aws.amazon.com/es/what-is/data-mining/>)
