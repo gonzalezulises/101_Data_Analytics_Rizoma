@@ -8,7 +8,8 @@ Data Analytics (DA) consiste en explorar y analizar grandes cantidades de datos 
 
 |                                                                                  |                                                                           |
 | -------------------------------------------------------------------------------- | ------------------------------------------------------------------------- |
-| Sesión 1:  [Introducción a Python](#class-1-introduction-to-data-science)        | [Funciones y listas en python](#class-2-command-line-and-version-control) |
+| Sesión 1: Introducción a Data Analytics
+[Ir a Sesión 1: Introducción a Data Analytics](#sesión-1-introducción-a-data-analytics)      | [Funciones y listas en python](#class-2-command-line-and-version-control) |
 | Sesión 2: [Obtención de Datos](#class-3-data-reading-and-cleaning)               | [Iniciación con Pandas](#class-4-exploratory-data-analysis)               |
 | Sesión 3: [Análisis exploratorio de Datos I](#class-6-machine-learning)          | [Análisis exploratorio de Datos II](#class-6-machine-learning)            |
 | Sesión 4: [Visualización de Datos I](#class-7-getting-data)                      | [Visualización de Datos II](#class-8-k-nearest-neighbors)                 |
@@ -165,7 +166,7 @@ Puedes obtener información si deseas llevar al siguiente nivel:
 
 -----
 
-### Sesión 3: Combinación de datos y Análisis de datos exploratorios ###
+### Sesión 3: Combinación de datos y Análisis de datos exploratorios
 
 * Análisis de datos exploratorios (slides)
 * Parte 2 del análisis de datos exploratorios con pandas([code](code/04_pandas.py))
@@ -248,7 +249,7 @@ Son herramientas low-code de visualización de datos avanzada que permite a los 
 
 -----
 
-### Clase 5: Evaluación de modelos de pronósticos y regresión lineal ###
+### Clase 5: Evaluación de modelos de pronósticos y regresión lineal
 
 *Ejercicio de "aprendizaje humano":
     * [Iris dataset](http://archive.ics.uci.edu/ml/datasets/Iris) Organizado por el repositorio de aprendizaje automático de UCI
@@ -310,7 +311,7 @@ Son herramientas low-code de visualización de datos avanzada que permite a los 
 
 -----
 
-### Clase 6: Regresión logística y árboles de decisión ###
+### Clase 6: Regresión logística y árboles de decisión
 
 * Yelp Votes Tarea Due ([Solución] (cuadernos/10_yelp_votes_homework.ipynb))
 * Regresión logística ([cuaderno] (cuadernos/12_logistic_regression.ipynb))
@@ -356,7 +357,8 @@ Son herramientas low-code de visualización de datos avanzada que permite a los 
 
 -----
 
-### Clase 7: Clustering y Evaluación de modelos ###
+### Clase 7: Clustering y Evaluación de modelos
+
 
 * Breve revisión de pandas ([cuaderno] (cuadernos/08_pandas_review.ipynb)))
 * K-Near más vecinos y scikit-learn ([cuaderno] (cuadernos/08_knn_sklearn.ipynb))
@@ -422,7 +424,7 @@ Son herramientas low-code de visualización de datos avanzada que permite a los 
 
 -----
 
-### Clase 8: Introducción a Tableau ###
+### Clase 8: Introducción a Tableau
 
 -----
 
