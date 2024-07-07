@@ -39,9 +39,9 @@ Data Analytics (DA) consiste en explorar y analizar grandes cantidades de datos 
 
 -----
 
-<a target="_blank" href="https://anaconda.cloud/api/nbserve/launch_notebook?nb_url=https%3A%2F%2Fanaconda.cloud%2Fapi%2Fprojects%2F26bdf97e-88f5-4cb9-b9fa-5b222176f941%2Ffiles%2F01_Introduccio%CC%81n_Python_Aprendizaje.ipynb%3Fversion%3Dfd2ebbdb-2222-4d4c-a1d3-27db0ae408f2">
-    <img src="https://static.anaconda.cloud/content/a22d04e8445b700f28937ab3231b8cded505d0395c63b7a269696722196d5415" alt="Lanzar notebook sesión 1"/>
-</a>
+<a target="_blank" href="https://anaconda.cloud/api/nbserve/launch_notebook?nb_url=https%3A%2F%2Fanaconda.cloud%2Fapi%2Fprojects%2F26bdf97e-88f5-4cb9-b9fa-5b222176f941%2Ffiles%2F01_Introduccio%CC%81n_Python_Aprendizaje.ipynb%3Fversion%3Dfd2ebbdb-2222-4d4c-a1d3-27db0ae408f2"><img src="https://static.anaconda.cloud/content/a22d04e8445b700f28937ab3231b8cded505d0395c63b7a269696722196d5415" alt="Lanzar notebook sesión 1"/></a>
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://drive.google.com/file/d/1KMsX_mUVTS9akmcuvI8Y26Sdyj7E9X2o/view?usp=sharing)
 
 ### Sesión 1: Introducción a Data Analytics
 
@@ -368,6 +368,7 @@ Son herramientas low-code de visualización de datos avanzada que permite a los 
 ### Clase 7: Clustering y Evaluación de modelos
 
 <a target="_blank" href="https://anaconda.cloud/api/nbserve/launch_notebook?nb_url=https%3A%2F%2Fanaconda.cloud%2Fapi%2Fprojects%2Fe962544b-ba6a-48ff-bdd8-4f67b95eca5a%2Ffiles%2F07_knn_sklearn.ipynb%3Fversion%3D26f07033-9e1c-4eec-8255-9d1e073e11bf"><img src="https://static.anaconda.cloud/content/a22d04e8445b700f28937ab3231b8cded505d0395c63b7a269696722196d5415"/></a>
+
 
 * Breve revisión de pandas ([cuaderno] (cuadernos/08_pandas_review.ipynb)))
 * K-Near más vecinos y scikit-learn ([cuaderno] (cuadernos/08_knn_sklearn.ipynb))
