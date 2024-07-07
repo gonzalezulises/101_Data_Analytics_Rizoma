@@ -225,7 +225,7 @@ Puedes obtener información si deseas llevar al siguiente nivel:
 * Leer [Anscombe's Quartet, and Why Summary Statistics Don't Tell the Whole Story](http://data.heapanalytics.com/anscombes-quartet-and-why-summary-statistics-dont-tell-the-whole-story/) Para un ejemplo clásico de por qué la visualización es útil.
 
 -----
-**¿Quieres ir más allá de lo aprendido?
+**¿Quieres ir más allá de lo aprendido?**
 
 En el mundo actual, la capacidad de interpretar y visualizar datos de manera efectiva se ha convertido en una habilidad esencial para profesionales de diversas disciplinas. Scimago Graphica es una aplicación innovadora que ha surgido como una herramienta poderosa para satisfacer esta necesidad. Diseñada para transformar datos complejos en visualizaciones intuitivas y significativas. Aplicaciones como Scimago Graphica, Datawraper o Graphex no sólo facilitan el análisis de datos, sino que también mejoran la comunicación de información crucial.
 
@@ -254,6 +254,8 @@ Son herramientas low-code de visualización de datos avanzada que permite a los 
 -----
 
 ### Clase 5: Evaluación de modelos de pronósticos y regresión lineal
+
+<a target="_blank" href="https://anaconda.cloud/api/nbserve/launch_notebook?nb_url=https%3A%2F%2Fanaconda.cloud%2Fapi%2Fprojects%2F8ee6a43b-d310-4d19-953b-b0d3cab70f86%2Ffiles%2F05_Evaluacio%CC%81n_de_modelos_de_pronosticos.ipynb%3Fversion%3D49d2e21b-b892-4b5a-8e55-51b03a2faaf7"><img src="https://static.anaconda.cloud/content/a22d04e8445b700f28937ab3231b8cded505d0395c63b7a269696722196d5415"/></a>
 
 *Ejercicio de "aprendizaje humano":
     * [Iris dataset](http://archive.ics.uci.edu/ml/datasets/Iris) Organizado por el repositorio de aprendizaje automático de UCI
@@ -317,6 +319,8 @@ Son herramientas low-code de visualización de datos avanzada que permite a los 
 
 ### Clase 6: Regresión logística y árboles de decisión
 
+<a target="_blank" href="https://anaconda.cloud/api/nbserve/launch_notebook?nb_url=https%3A%2F%2Fanaconda.cloud%2Fapi%2Fprojects%2F1dfd06f2-1f99-4e0e-a208-0f7e118f1363%2Ffiles%2F06_logistic_regression.ipynb%3Fversion%3D0464a05a-9f77-487f-abbf-3c8622a2cf16"><img src="https://static.anaconda.cloud/content/a22d04e8445b700f28937ab3231b8cded505d0395c63b7a269696722196d5415"/></a>
+
 * Yelp Votes Tarea Due ([Solución] (cuadernos/10_yelp_votes_homework.ipynb))
 * Regresión logística ([cuaderno] (cuadernos/12_logistic_regression.ipynb))
 * [Conjunto de datos de identificación de vidrio] (<https://archive.ics.uci.edu/ml/datasets/glass+identification>)
@@ -363,6 +367,7 @@ Son herramientas low-code de visualización de datos avanzada que permite a los 
 
 ### Clase 7: Clustering y Evaluación de modelos
 
+<a target="_blank" href="https://anaconda.cloud/api/nbserve/launch_notebook?nb_url=https%3A%2F%2Fanaconda.cloud%2Fapi%2Fprojects%2Fe962544b-ba6a-48ff-bdd8-4f67b95eca5a%2Ffiles%2F07_knn_sklearn.ipynb%3Fversion%3D26f07033-9e1c-4eec-8255-9d1e073e11bf"><img src="https://static.anaconda.cloud/content/a22d04e8445b700f28937ab3231b8cded505d0395c63b7a269696722196d5415"/></a>
 
 * Breve revisión de pandas ([cuaderno] (cuadernos/08_pandas_review.ipynb)))
 * K-Near más vecinos y scikit-learn ([cuaderno] (cuadernos/08_knn_sklearn.ipynb))
