@@ -6,16 +6,10 @@ Data Analytics (DA) consiste en explorar y analizar grandes cantidades de datos 
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/gonzalezulises/101_Data_Analytics_Rizoma.git/HEAD)
 
-| Tema de la sesión                                                                                 |     Objetivos                                                                      |
+|                                                                                  |                                                                           |
 | -------------------------------------------------------------------------------- | ------------------------------------------------------------------------- |
-| Sesión 1: [Introducción a Data Analytics](#sesión-1-introducción-a-data-analytics)      | - Comprender los conceptos fundamentales de la analítica de datos.
-- Identificar los diferentes tipos de análisis de datos: descriptivo, predictivo y prescriptivo.
-- Familiarizarse con el flujo de trabajo en un proyecto de analítica de datos.
-- Conocer las herramientas y tecnologías utilizadas en la analítica de datos. |
-| Sesión 2: [Obtención de datos e iniciación con Pandas](#sesión-2-obtención-de-datos-e-iniciación-con-pandas)| - Aprender a obtener y cargar datos desde diversas fuentes (CSV, Excel, SQL, APIs).
-- Introducción a la biblioteca Pandas y sus estructuras de datos principales (Series y DataFrames).
-- Realizar operaciones básicas de manipulación de datos con Pandas.
-- Limpiar y preparar datos para su análisis              |
+| Sesión 1: [Introducción a Data Analytics](#sesión-1-introducción-a-data-analytics)      | [Funciones y listas en python](#class-2-command-line-and-version-control) |
+| Sesión 2: [Obtención de datos e iniciación con Pandas](#sesión-2-obtención-de-datos-e-iniciación-con-pandas)| [Iniciación con Pandas](#class-4-exploratory-data-analysis)               |
 | Sesión 3: [Combinación de datos y Análisis de datos exploratorios](#sesión-3-combinación-de-datos-y-análisis-de-datos-exploratorios)         | [Análisis exploratorio de Datos II](#class-6-machine-learning)            |
 | Sesión 4: [Visualización de Datos](#clase-4-visualización-de-datos)                   | [Visualización de Datos II](#class-8-k-nearest-neighbors)                 |
 | Sesión 5: [Evaluación de modelos de pronósticos y regresión lineal](#clase-5-evaluación-de-modelos-de-pronósticos-y-regresión-lineal)| [Linear Regression](#class-10-linear-regression)                          |
