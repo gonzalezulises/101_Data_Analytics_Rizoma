@@ -59,7 +59,7 @@ Data Analytics (DA) consiste en explorar y analizar grandes cantidades de datos 
 
 **Asignación:**
 
-* Leer Introducción a la programación y al análisis de datos con Python
+* Leer Introducción a la programación y al análisis de datos con Python ([bibliografia](Sesión 1/Sesión 1 - Introducción a Python.pdf))
 * Leer la ruta de [Data analytics](https://roadmap.sh/data-analyst)
 * Desarrollar el 01 Laboratorio de la Sesión 1 (Asignación)
 * (Opcional) [Aprende Git y GitHub - Curso desde Cero](https://www.youtube.com/watch?v=mBYSUUnMt9M), o leer las secciones 1.1 a 2.2 de [Pro Git](https://git-scm.com/book/es/v2).
