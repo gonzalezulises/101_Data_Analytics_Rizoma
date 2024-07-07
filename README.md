@@ -12,10 +12,10 @@ Data Analytics (DA) consiste en explorar y analizar grandes cantidades de datos 
 | Sesión 2: [Obtención de datos e iniciación con Pandas](#sesión-2-obtención-de-datos-e-iniciación-con-pandas)| [Iniciación con Pandas](#class-4-exploratory-data-analysis)               |
 | Sesión 3: [Combinación de datos y Análisis de datos exploratorios](#sesión-3-combinación-de-datos-y-análisis-de-datos-exploratorios)         | [Análisis exploratorio de Datos II](#class-6-machine-learning)            |
 | Sesión 4: [Visualización de Datos](#clase-4-visualización-de-datos)                   | [Visualización de Datos II](#class-8-k-nearest-neighbors)                 |
-| Sesión 5: [Evaluación de modelos de pronóstico](#class-9-basic-model-evaluation) | [Linear Regression](#class-10-linear-regression)                          |
-| Sesión 6: [Logistic Regression](#class-11-first-project-presentation)            | [Árboles de decisión](#class-12-logistic-regression)                      |
-| Sesión 7: [Clustering](#class-13-advanced-model-evaluation)                      | [Evaluación de modelos](#class-14-naive-bayes-and-text-data)              |
-| Sesión 8: [Uso de Tableau](#class-14-naive-bayes-and-text-data)                  | [Publicación de tableros](#class-15-natural-language-processing)          |
+| Sesión 5: [Evaluación de modelos de pronósticos y regresión lineal](#clase-5-evaluación-de-modelos-de-pronósticos-y-regresión-lineal)| [Linear Regression](#class-10-linear-regression)                          |
+| Sesión 6: [Regresión logística y árboles de decisión](#clase-6-regresión-logística-y-árboles-de-decisión)            | [Árboles de decisión](#class-12-logistic-regression)                      |
+| Sesión 7: [Clustering y Evaluación de modelos](#clase-7-clustering-y-evaluación-de-modelos)                     | [Evaluación de modelos](#class-14-naive-bayes-and-text-data)              |
+| Sesión 8: [Introducción a Tableau](#clase-8-introducción-a-tableau)                | [Publicación de tableros](#class-15-natural-language-processing)          |
 
 ### Antes de que comience el curso
 
