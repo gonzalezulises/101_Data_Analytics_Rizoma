@@ -148,7 +148,7 @@ Podrías aprender  Git y Markdown que son herramientas valiosas para la analíti
 * Browsing or searching the Pandas [API Reference](http://pandas.pydata.org/pandas-docs/stable/api.html) es una excelente manera de localizar una función incluso si no sabe su nombre exacto.
 * [What I do when I get a new data set as told through tweets](http://simplystatistics.org/2014/06/13/what-i-do-when-i-get-a-new-data-set-as-told-through-tweets/) es una mirada divertida (pero esclarecedora) al proceso de análisis de datos exploratorios.
 
-- Recursos API: Este guión de Python para [query the U.S. Census API](https://github.com/laurakurup/census-api) fue creado por un ex alumno de DA.Es un poco más complicado que el ejemplo que usamos en la clase, está muy bien comentado y puede proporcionar un marco útil para escribir su propio código para consultar las API.
+* Recursos API: Este guión de Python para [query the U.S. Census API](https://github.com/laurakurup/census-api) fue creado por un ex alumno de DA.Es un poco más complicado que el ejemplo que usamos en la clase, está muy bien comentado y puede proporcionar un marco útil para escribir su propio código para consultar las API.
 
 * [Mashape](https://www.mashape.com/explore) y [Apigee](https://apigee.com/providers)Permitirle explorar toneladas de diferentes API.Alternativamente, un [Python API wrapper](http://www.pythonforbeginners.com/api/list-of-python-apis) está disponible para muchas API populares.
 * the [Data Science Toolkit](http://www.datasciencetoolkit.org/) es una colección de API basadas en la ubicación y relacionadas con el texto.
@@ -160,6 +160,7 @@ Podrías aprender  Git y Markdown que son herramientas valiosas para la analíti
 
 **Pandas AI** es una **mejora** de la librería de [Pandas](https://pandas.pydata.org/), que ha sido **combinada con la tecnología de OpenAI**, con el resultado de pode **ahorrarnos tiempo** en tener que seleccionar los encabezados, franjas y demás. Además de eso, también puede hacer cosas que le pidamos, en relación a los **csv** o dataframes, que le indiquemos.
 Puedes obtener información si deseas llevar al siguiente nivel:
+
 * [Introducción a PandasAI](https://docs.pandas-ai.com/intro)
 
 -----
@@ -203,6 +204,7 @@ Puedes obtener información si deseas llevar al siguiente nivel:
 * Visualización con pandas y matplotlib ([notebook](notebooks/05_pandas_visualization.ipynb))
 
 **Asignación:**
+
 * Leer Data Manipulation and visualization in python
 * Desarrollar el 05_Laboratorio_de_Visualización (Asignación)
 * Obtén inspiración [desde esta galería](https://www.data-to-viz.com/)
@@ -238,7 +240,8 @@ Son herramientas low-code de visualización de datos avanzada que permite a los 
 
 5. **Acceso a Recursos y Soporte**: ofrecen una variedad de recursos, incluyendo tutoriales y soporte técnico, para ayudar a los usuarios a maximizar su experiencia y aprovechar al máximo las capacidades de la herramienta.
 
-**Herramientas:
+**Herramientas:**
+
 * [Scimago Graphica](https://www.graphica.app/)
 * [Datawrapper](https://www.datawrapper.de/)
 * [Graphext](https://www.graphext.com/)
@@ -260,6 +263,7 @@ Son herramientas low-code de visualización de datos avanzada que permite a los 
 * Ejemplo de ingeniería de características: [Predicting User Engagement in Corporate Collaboration Network](https://github.com/mikeyea/DAT7_project/blob/master/final%20project/Class_Presention_MYea.ipynb)
 
 **Asignación:**
+
 * Leer Data Manipulation and visualization in python
 * Desarrollar el 05_Laboratorio_de_Visualización (Asignación)
 * Obtén inspiración [desde esta galería](https://www.data-to-viz.com/)
@@ -379,7 +383,18 @@ Son herramientas low-code de visualización de datos avanzada que permite a los 
 * [Data visualization with Seaborn](https://beta.oreilly.com/learning/data-visualization-with-seaborn) es un recorrido rápido por algunos de los tipos populares de parcelas marinas.
 * [Visualizing Google Forms Data with Seaborn](http://pbpython.com/pandas-google-forms-part2.html) y [How to Create NBA Shot Charts in Python](http://savvastjortjoglou.com/nba-shot-sharts.html) son buenos ejemplos de uso de marinas sobre datos del mundo real.
 
-Evaluación básica del modelo
+**Recursos de Clustering:**
+
+* Para una introducción muy exhaustiva a la agrupación, lea el Capítulo 8 (69 páginas) de [Introduction to Data Mining](http://www-users.cs.umn.edu/~kumar/dmbook/index.php) (Disponible como descarga gratuita), o navegar a través de las diapositivas del Capítulo 8.
+* Guía del usuario de Scikit-Learn compara muchos diferentes[types of clustering](http://scikit-learn.org/stable/modules/clustering.html).
+* Esta[PowerPoint presentation](http://www2.research.att.com/~volinsky/DataMining/Columbia2011/Slides/Topic6-Clustering.ppt) De la clase de minería de datos de Columbia proporciona una buena introducción a la agrupación, incluida la agrupación jerárquica y las métricas de distancia alternativa.
+* Una introducción al aprendizaje estadístico tiene videos útiles sobre[K-means clustering](https://www.youtube.com/watch?v=aIybuNt9ps4&list=PL5-da3qGB5IBC-MneTc9oBZz0C6kNJ-f2)(17 minutos) y [hierarchical clustering](https://www.youtube.com/watch?v=Tuuc9Y06tAc&list=PL5-da3qGB5IBC-MneTc9oBZz0C6kNJ-f2) (15 minutos).
+* Esta es una excelente visualización interactiva de [hierarchical clustering](https://joyofdata.shinyapps.io/hclust-shiny/).
+* Esta es una buena explicación animada de[mean shift clustering](http://spin.atomicobject.com/2015/05/26/mean-shift-clustering/).
+* La [K-modes algorithm](http://www.cs.ust.hk/~qyang/Teaching/537/Papers/huang98extensions.pdf) Se puede utilizar para agrupar conjuntos de datos de características categóricas sin convertirlos en valores numéricos.Aquí hay una [implementación de Python] (<https://github.com/nicodv/kmodes>).
+* Aquí hay algunos ejemplos divertidos de agrupación: [A Statistical Analysis of the Work of Bob Ross](http://fivethirtyeight.com/features/a-statistical-analysis-of-the-work-of-bob-ross/) (with [data and Python code](https://github.com/fivethirtyeight/data/tree/master/bob-ross)), [How a Math Genius Hacked OkCupid to Find True Love](http://www.wired.com/2014/01/how-to-hack-okcupid/all/), and [characteristics of your zip code](http://www.esri.com/landing-pages/tapestry/).
+
+### Evaluación básica del modelo
 
 * Tarea de raspado web opcional adeudado ([solution](code/07_web_scraping.py#L136))
 * Reproducibilidad
@@ -526,14 +541,3 @@ Evaluación básica del modelo
 * Sebastian Raschka tiene una serie de excelentes recursos para los usuarios de Scikit-Learn, incluido un repositorio de[tutorials and examples](https://github.com/rasbt/pattern_classification), Una biblioteca de aprendizaje automático [tools and extensions](http://rasbt.github.io/mlxtend/), a new [book](https://github.com/rasbt/python-machine-learning-book), y un semi-activo [blog](http://sebastianraschka.com/blog/).
 * Scikit-Learn tiene un increíblemente activo [mailing list](https://www.mail-archive.com/scikit-learn-general@lists.sourceforge.net/index.html) Eso a menudo es mucho más útil que el desbordamiento de la pila para investigar las funciones y hacer preguntas.
 * Si olvida cómo usar una función particular de Scikit-Learn que hemos usado en la clase, ¡no olvide que este repositorio es completamente búsqueda!
-
-**Recursos de Clustering:**
-
-* Para una introducción muy exhaustiva a la agrupación, lea el Capítulo 8 (69 páginas) de [Introduction to Data Mining](http://www-users.cs.umn.edu/~kumar/dmbook/index.php) (Disponible como descarga gratuita), o navegar a través de las diapositivas del Capítulo 8.
-* Guía del usuario de Scikit-Learn compara muchos diferentes[types of clustering](http://scikit-learn.org/stable/modules/clustering.html).
-* Esta[PowerPoint presentation](http://www2.research.att.com/~volinsky/DataMining/Columbia2011/Slides/Topic6-Clustering.ppt) De la clase de minería de datos de Columbia proporciona una buena introducción a la agrupación, incluida la agrupación jerárquica y las métricas de distancia alternativa.
-* Una introducción al aprendizaje estadístico tiene videos útiles sobre[K-means clustering](https://www.youtube.com/watch?v=aIybuNt9ps4&list=PL5-da3qGB5IBC-MneTc9oBZz0C6kNJ-f2)(17 minutos) y [hierarchical clustering](https://www.youtube.com/watch?v=Tuuc9Y06tAc&list=PL5-da3qGB5IBC-MneTc9oBZz0C6kNJ-f2) (15 minutos).
-* Esta es una excelente visualización interactiva de [hierarchical clustering](https://joyofdata.shinyapps.io/hclust-shiny/).
-* Esta es una buena explicación animada de[mean shift clustering](http://spin.atomicobject.com/2015/05/26/mean-shift-clustering/).
-* La [K-modes algorithm](http://www.cs.ust.hk/~qyang/Teaching/537/Papers/huang98extensions.pdf) Se puede utilizar para agrupar conjuntos de datos de características categóricas sin convertirlos en valores numéricos.Aquí hay una [implementación de Python] (<https://github.com/nicodv/kmodes>).
-* Aquí hay algunos ejemplos divertidos de agrupación: [A Statistical Analysis of the Work of Bob Ross](http://fivethirtyeight.com/features/a-statistical-analysis-of-the-work-of-bob-ross/) (with [data and Python code](https://github.com/fivethirtyeight/data/tree/master/bob-ross)), [How a Math Genius Hacked OkCupid to Find True Love](http://www.wired.com/2014/01/how-to-hack-okcupid/all/), and [characteristics of your zip code](http://www.esri.com/landing-pages/tapestry/).
