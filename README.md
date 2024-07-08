@@ -182,11 +182,11 @@ Puedes obtener información si deseas llevar al siguiente nivel:
 * [Paso a paso de un análisis exploratorio de datos](https://docs.google.com/document/d/10O7nB5zUSjJFKwH_cw_sCi7VPAP2jOaw1_6E05DC4RY/edit?usp=sharing)
 * Desarrollar [Laboratorio de la Sesión 3 parte 1 - API](laboratorios/03_Laboratorio_de_la_sesión_3_parte1-%20API.ipynb)
 * Desarrollar [Laboratorio de la Sesión 3 parte 2](laboratorios/03_Laboratorio_de_la_sesion_3_parte2.ipynb)
-* Desarrollar [Laboratorio EDA 1](laboratorios/04_Laboratorio_EDA_1.ipynb)
-* Desarrollar [Laboratorio EDA 2](laboratorios/04_Laboratorio_EDA_2.ipynb)
+* Desarrollar [Laboratorio EDA 1](laboratorios/03_Laboratorio_EDA_1.ipynb)
+* Desarrollar [Laboratorio EDA 2](laboratorios/03_Laboratorio_EDA_2.ipynb)
 * La solución al laboratorio 3 lo encuentras aca: 
-    * [Laboratorio de la Sesión 3 parte 1 - API](laboratorios/03_Laboratorio_de_la_sesión_3_parte1-%20API.ipynb)
-    * [Laboratorio de la Sesión 3 parte 2](laboratorios/03_Laboratorio_de_la_sesion_3_parte2.ipynb)
+    * [Laboratorio de la Sesión 3 parte 1 - API](laboratorios/03_Laboratorio_EDA_1_sol.ipynb)
+    * [Laboratorio de la Sesión 3 parte 2](laboratorios/03_Laboratorio_EDA_2_sol.ipynb)
 * Leer [How Software in Half of NYC Cabs Generates $5.2 Million a Year in Extra Tips](http://iquantny.tumblr.com/post/107245431809/how-software-in-half-of-nyc-cabs-generates-5-2) Para un excelente ejemplo de análisis de datos exploratorios.
 * Leer [Anscombe's Quartet, and Why Summary Statistics Don't Tell the Whole Story](http://data.heapanalytics.com/anscombes-quartet-and-why-summary-statistics-dont-tell-the-whole-story/) Para un ejemplo clásico de por qué la visualización es útil.
 
@@ -207,15 +207,15 @@ Puedes obtener información si deseas llevar al siguiente nivel:
 -----
 <a target="_blank" href="https://anaconda.cloud/api/nbserve/launch_notebook?nb_url=https%3A%2F%2Fanaconda.cloud%2Fapi%2Fprojects%2Fb93c8453-0167-4bee-afe2-3811c4f40904%2Ffiles%2F04_Visualization_de_Datos_1.ipynb%3Fversion%3Dc94c5061-1acd-487e-9de4-1c4ee1563156"><img src="https://static.anaconda.cloud/content/a22d04e8445b700f28937ab3231b8cded505d0395c63b7a269696722196d5415"/></a>
 
-### Clase 4: Visualización de Datos
+### Sesión 4: Visualización de Datos
 
-* [Laboratorio de Visualización](laboratorios/05_Laboratorio_de_Visualizacion.ipynb)
-* Visualización con pandas y matplotlib ([notebook](notebooks/05_pandas_visualization.ipynb))
+* [Laboratorio de Visualización](laboratorios/04_Laboratorio_de_Visualizacion.ipynb)
+* Visualización con pandas y matplotlib ([notebook](notebooks/04_Visualization_I_Matplotlib.ipynb))
 
 **Asignación:**
 
-* Puedes desarrollar el [Laboratorio de Visualización Ejercicios](laboratorios/05_Laboratorio_de_Visualization_Ejercicios.ipynb)
-* Si deseas validar la solución aca estan las soluciones: [Laboratorio de Visualización Soluciones](laboratorios/05_Laboratorio_de_Visualization_Soluciones.ipynb)
+* Puedes desarrollar el [Laboratorio de Visualización Ejercicios](laboratorios/04_Laboratorio_de_Visualization_Ejercicios.ipynb)
+* Si deseas validar la solución aca estan las soluciones: [Laboratorio de Visualización Soluciones](laboratorios/04_Laboratorio_de_Visualization_Soluciones.ipynb)
 * Desarrollar el 05_Laboratorio_de_Visualización (Asignación)
 * Obtén inspiración [desde esta galería](https://www.data-to-viz.com/)
 
@@ -270,10 +270,7 @@ Son herramientas low-code de visualización de datos avanzada que permite a los 
 
 
 * Introducción al aprendizaje automático ([slides](slides/06_machine_learning.pdf))
-* Ejercicio de aprendizaje automático([article](http://blog.dominodatalab.com/10-interesting-uses-of-data-science/))
-* Regresión lineal ([notebook](notebooks/10_linear_regression.ipynb))
-  * [Capital Bikeshare dataset](data/bikeshare.csv) used in a Kaggle competition
-  * [Data dictionary](https://www.kaggle.com/c/bike-sharing-demand/data)
+* Ejercicio de aprendizaje automático([article](https://www.turing.com/kb/regression-analysis-techniques-in-data-science))
 * Ejemplo de ingeniería de características: [Predicting User Engagement in Corporate Collaboration Network](https://github.com/mikeyea/DAT7_project/blob/master/final%20project/Class_Presention_MYea.ipynb)
 
 **Asignación:**
