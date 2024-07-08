@@ -7,42 +7,155 @@
     <meta name="description" content="Curso completo de Data Analytics con Python, Pandas, y más">
     <meta name="keywords" content="data analytics, python, pandas, machine learning, visualización de datos">
     <style>
+        :root {
+            --primary-color: #3498db;
+            --secondary-color: #2c3e50;
+            --background-color: #f4f4f4;
+        }
+        
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Roboto', Arial, sans-serif;
             line-height: 1.6;
-            margin: 20px;
+            margin: 0;
+            padding: 0;
             color: #333;
+            background-color: var(--background-color);
+            background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%239C92AC' fill-opacity='0.1'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
         }
-        h2, h3 {
-            color: #2c3e50;
+
+        .contenedor-principal {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px 50px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
         }
+
+        nav {
+            background-color: var(--secondary-color);
+            padding: 1rem;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            color: var(--primary-color);
+        }
+
+        h1, h2, h3 {
+            color: var(--secondary-color);
+        }
+
         p {
             text-align: justify;
             margin-bottom: 20px;
         }
+
         ul, ol {
             margin-left: 20px;
         }
+
         li {
             margin-bottom: 10px;
         }
+
         a {
-            color: #3498db;
+            color: var(--primary-color);
             text-decoration: none;
+            transition: color 0.3s ease;
         }
+
         a:hover {
-            text-decoration: underline;
+            color: var(--secondary-color);
         }
+
         .button {
             display: inline-block;
             padding: 10px 15px;
-            background-color: #3498db;
+            background-color: var(--primary-color);
             color: white;
             border-radius: 5px;
             text-decoration: none;
+            transition: background-color 0.3s ease;
         }
+
         .button:hover {
-            background-color: #2980b9;
+            background-color: var(--secondary-color);
+        }
+
+        .curso-tabla {
+            border-collapse: collapse;
+            width: 100%;
+            margin: 20px 0;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+        }
+
+        .curso-tabla th, .curso-tabla td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: left;
+            transition: background-color 0.3s ease;
+        }
+
+        .curso-tabla th {
+            background-color: var(--primary-color);
+            color: white;
+        }
+
+        .curso-tabla tr:nth-child(even) {
+            background-color: #f8f8f8;
+        }
+
+        .curso-tabla tr:hover {
+            background-color: #f1f1f1;
+        }
+
+        footer {
+            background-color: var(--secondary-color);
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            margin-top: 2rem;
+        }
+
+        .volver-arriba {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: var(--primary-color);
+            color: white;
+            width: 40px;
+            height: 40px;
+            text-align: center;
+            line-height: 40px;
+            border-radius: 50%;
+            cursor: pointer;
+            display: none;
+            transition: background-color 0.3s ease;
+        }
+
+        .volver-arriba:hover {
+            background-color: var(--secondary-color);
         }
     </style>
 </head>
@@ -672,7 +785,19 @@
     </main>
 
     <footer>
-        <p>&copy; 2023 Curso de Data Analytics. Desarrollado por Ulises Gonzalez. Todos los derechos reservados.</p>
+        <p>&copy; 2023 Curso de Data Analytics. Todos los derechos reservados.</p>
     </footer>
+
+    <div class="volver-arriba" onclick="window.scrollTo({top: 0, behavior: 'smooth'})">↑</div>
+
+    <script>
+        window.onscroll = function() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                document.querySelector('.volver-arriba').style.display = "block";
+            } else {
+                document.querySelector('.volver-arriba').style.display = "none";
+            }
+        };
+    </script>
 </body>
 </html>
