@@ -262,10 +262,12 @@ Son herramientas low-code de visualización de datos avanzada que permite a los 
 
 <a target="_blank" href="https://anaconda.cloud/api/nbserve/launch_notebook?nb_url=https%3A%2F%2Fanaconda.cloud%2Fapi%2Fprojects%2F8ee6a43b-d310-4d19-953b-b0d3cab70f86%2Ffiles%2F05_Evaluacio%CC%81n_de_modelos_de_pronosticos.ipynb%3Fversion%3D49d2e21b-b892-4b5a-8e55-51b03a2faaf7"><img src="https://static.anaconda.cloud/content/a22d04e8445b700f28937ab3231b8cded505d0395c63b7a269696722196d5415"/></a>
 
-*Ejercicio de "aprendizaje humano":
+* Ejercicio de "aprendizaje humano":
     * [Iris dataset](http://archive.ics.uci.edu/ml/datasets/Iris) Organizado por el repositorio de aprendizaje automático de UCI
-    *[Iris photo](http://sebastianraschka.com/Images/2014_python_lda/iris_petal_sepal.png)
-    * [Notebook](notebooks/06_human_learning_iris.ipynb)
+    * [Iris photo](http://sebastianraschka.com/Images/2014_python_lda/iris_petal_sepal.png)
+    * [Evaluación de modelos de pronósticos](notebooks/05_Evaluación_de_modelos_de_pronosticos.ipynb)
+    * [Regresión Lineal con Python y scikit-learn](notebooks/05_Regresión_Lineal_con_Python_y_scikit_learn.ipynb)
+
 
 * Introducción al aprendizaje automático ([slides](slides/06_machine_learning.pdf))
 * Ejercicio de aprendizaje automático([article](http://blog.dominodatalab.com/10-interesting-uses-of-data-science/))
