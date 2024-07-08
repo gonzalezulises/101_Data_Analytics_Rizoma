@@ -63,9 +63,10 @@ Los participantes adquirirán habilidades prácticas en el uso de herramientas y
 ### Sesión 1: Introducción a Data Analytics
 
 * Bienvenida a la formación
-* Resumen del curso([slides](slides/01_course_overview.pdf))
-* Introducción a Data Analytics ([slides](slides/01_intro_to_data_analytics.pdf))
-* Tipos de datos([slides](https://medium.com/@diego.coder/variables-y-tipos-de-datos-en-python-str-int-bool-etc-45ac17e6acc7)) and [fuentes de datos publicos](project/public_data.md)
+* Resumen del curso([presentación](https://docs.google.com/document/d/1tC-gSUFGPTP3rVlfKEkB6fhAfKXqRTnR2xMPfupy5IY/edit?usp=sharing))
+* Introducción a Data Analytics ([lectura](bibliografia/Sesion 1/Python Data Analitics -fragmento.pdf))
+* Tipos de datos([lectura](https://medium.com/@diego.coder/variables-y-tipos-de-datos-en-python-str-int-bool-etc-45ac17e6acc7))
+* Dispones de las siguientes fuentes de datos públicos si deseas practicar [fuentes de datos publicos](project/public_data.md)
 
 **Asignación:**
 
