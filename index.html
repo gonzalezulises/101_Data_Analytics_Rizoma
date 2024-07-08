@@ -22,15 +22,25 @@
             background-color: var(--background-color);
             background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%239C92AC' fill-opacity='0.1'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
         }
-
+    
         .contenedor-principal {
             max-width: 1200px;
             margin: 0 auto;
-            padding: 20px 50px;
+            padding: 20px 5%; /* Cambiado de 50px a 5% */
             background-color: white;
             box-shadow: 0 0 10px rgba(0,0,0,0.1);
         }
-
+    
+        .contenedor-principal > * {
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+    
+        .curso-tabla {
+            padding-left: 0;
+            padding-right: 0;
+        }
+    
         nav {
             background-color: var(--secondary-color);
             padding: 1rem;
@@ -38,7 +48,7 @@
             top: 0;
             z-index: 1000;
         }
-
+    
         nav ul {
             list-style-type: none;
             padding: 0;
@@ -46,55 +56,49 @@
             display: flex;
             justify-content: center;
         }
-
+    
         nav ul li {
             margin: 0 15px;
         }
-
+    
         nav ul li a {
             color: white;
             text-decoration: none;
             font-weight: bold;
             transition: color 0.3s ease;
         }
-
+    
         nav ul li a:hover {
             color: var(--primary-color);
         }
-
-        .contenedor-principal {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 20px 50px; 
-        }
-
+    
         h1, h2, h3 {
             color: var(--secondary-color);
         }
-
+    
         p {
             text-align: justify;
             margin-bottom: 20px;
         }
-
+    
         ul, ol {
             margin-left: 20px;
         }
-
+    
         li {
             margin-bottom: 10px;
         }
-
+    
         a {
             color: var(--primary-color);
             text-decoration: none;
             transition: color 0.3s ease;
         }
-
+    
         a:hover {
             color: var(--secondary-color);
         }
-
+    
         .button {
             display: inline-block;
             padding: 10px 15px;
@@ -104,38 +108,38 @@
             text-decoration: none;
             transition: background-color 0.3s ease;
         }
-
+    
         .button:hover {
             background-color: var(--secondary-color);
         }
-
+    
         .curso-tabla {
             border-collapse: collapse;
             width: 100%;
             margin: 20px 0;
             box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
         }
-
+    
         .curso-tabla th, .curso-tabla td {
             border: 1px solid #ddd;
             padding: 12px;
             text-align: left;
             transition: background-color 0.3s ease;
         }
-
+    
         .curso-tabla th {
             background-color: var(--primary-color);
-            color: white;
+            color: black;
         }
-
+    
         .curso-tabla tr:nth-child(even) {
             background-color: #f8f8f8;
         }
-
+    
         .curso-tabla tr:hover {
             background-color: #f1f1f1;
         }
-
+    
         footer {
             background-color: var(--secondary-color);
             color: white;
@@ -143,7 +147,7 @@
             padding: 1rem;
             margin-top: 2rem;
         }
-
+    
         .volver-arriba {
             position: fixed;
             bottom: 20px;
@@ -159,9 +163,15 @@
             display: none;
             transition: background-color 0.3s ease;
         }
-
+    
         .volver-arriba:hover {
             background-color: var(--secondary-color);
+        }
+    
+        @media (max-width: 768px) {
+            .contenedor-principal {
+                padding: 20px 3%; /* Reduce el padding en pantallas más pequeñas */
+            }
         }
     </style>
 </head>
@@ -188,7 +198,6 @@
   </iframe>
 </div>
 <a href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAGKVSPBs6g&#x2F;dSQm7sNlSotAnazADwzYfw&#x2F;view?utm_content=DAGKVSPBs6g&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link" target="_blank" rel="noopener"></a>
-        <h1>Curso de Data Analytics</h1>
     </header>
 
     <nav>
