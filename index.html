@@ -215,6 +215,7 @@
 
     <nav>
         <h2>Contenido del curso</h2>
+        <button class="menu-toggle" aria-label="Toggle menu">☰</button>
         <ul>
             <li><a href="#introduccion">Introducción</a></li>
             <li><a href="#contenido">Contenido del curso</a></li>
@@ -222,6 +223,12 @@
             <li><a href="#recursos-adicionales">Recursos adicionales</a></li>
         </ul>
     </nav>
+    
+    <script>
+        document.querySelector('.menu-toggle').addEventListener('click', function() {
+            document.querySelector('nav ul').classList.toggle('show');
+        });
+    </script>
 
     <main>
         <section id="introduccion">
