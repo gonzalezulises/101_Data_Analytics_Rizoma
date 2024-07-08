@@ -36,7 +36,7 @@ Los participantes adquirirán habilidades prácticas en el uso de herramientas y
 * Para usar Anaconda no necesitarás algo adicional ya que es cloud, puedes crear una [cuenta acá](https://anaconda.cloud/)
 * Podrás usar también el notebook de Kaggle, puedes [crear una cuenta acá](https://www.kaggle.com/#)
 * Puedes ir familiarizándote con Jupyter Notebook en este archivo
-* Puedes practicar Python utilizando los recursos a continuación.
+
 
 ### Recursos adicionales de práctica
 
