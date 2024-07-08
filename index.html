@@ -110,7 +110,25 @@
 
             <!-- <p><a href="https://mybinder.org/v2/gh/gonzalezulises/101_Data_Analytics_Rizoma.git/HEAD"><img src="https://mybinder.org/badge_logo.svg" alt="Binder"/></a></p> -->
 
-            <table>
+            <style>
+                .curso-tabla {
+                    border-collapse: collapse;
+                    width: 80%;
+                    margin: 0 auto;
+                }
+                .curso-tabla th, .curso-tabla td {
+                    border: 1px solid #ddd;
+                    padding: 8px;
+                    text-align: left;
+                }
+                .curso-tabla th {
+                    background-color: #f2f2f2;
+                }
+                .curso-tabla tr:nth-child(even) {
+                    background-color: #f9f9f9;
+                }
+            </style>
+            <table class="curso-tabla">
                 <thead>
                     <tr>
                         <th>Nombre de la sesión</th>
@@ -537,7 +555,7 @@
                 <li><a href="notebooks/06_decision_trees.ipynb">Árboles de decisión</a></li>
             </ul>
 
-            <h4>Tarea:</h4>
+            <h4>Actividades:</h4>
 
             <ul>
                 <li>Si aún no se siente cómodo con toda la terminología de la matriz de confusión, mire los videos de Rahul Patwari en <a href="https://www.youtube.com/watch?v=U4_3fditnwg">Sensibilidad y especificidad intuitiva</a> (9 minutos) y <a href="https://www.youtube.com/watch?v=vtydyggeqyo">La compensación entre sensibilidad y especificidad</a> (13 minutos).</li>
@@ -595,7 +613,7 @@
                 <li><a href="notebooks/07_clustering.ipynb">Explorando la compensación de varianza de sesgo</a></li>
             </ul>
 
-            <h4>Asignación:</h4>
+            <h4>Actividades:</h4>
 
             <ul>
                 <li>Lea la <a href="http://www.dataschool.io/reproducibilidad-is-not-just-for-researchers/">Introducción a la reproducibilidad</a></li>
