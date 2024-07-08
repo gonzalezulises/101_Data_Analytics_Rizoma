@@ -209,12 +209,13 @@ Puedes obtener información si deseas llevar al siguiente nivel:
 
 ### Clase 4: Visualización de Datos
 
-* Tarea de Python con los datos de Chipotle adeudados ([solution](code/03_python_homework_chipotle.py), [detailed explanation](notebooks/03_python_homework_chipotle_explained.ipynb))
+* [Laboratorio de Visualización](laboratorios/05_Laboratorio_de_Visualizacion.ipynb)
 * Visualización con pandas y matplotlib ([notebook](notebooks/05_pandas_visualization.ipynb))
 
 **Asignación:**
 
-* Leer Data Manipulation and visualization in python
+* Puedes desarrollar el [Laboratorio de Visualización Ejercicios](laboratorios/05_Laboratorio_de_Visualization_Ejercicios.ipynb)
+* Si deseas validar la solución aca estan las soluciones: [Laboratorio de Visualización Soluciones](laboratorios/05_Laboratorio_de_Visualization_Soluciones.ipynb)
 * Desarrollar el 05_Laboratorio_de_Visualización (Asignación)
 * Obtén inspiración [desde esta galería](https://www.data-to-viz.com/)
 
