@@ -4,764 +4,354 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Curso de Data Analytics</title>
+    <meta name="description" content="Curso completo de Data Analytics con Python, Pandas, y más">
+    <meta name="keywords" content="data analytics, python, pandas, machine learning, visualización de datos">
     <style>
         body {
             font-family: Arial, sans-serif;
             line-height: 1.6;
             margin: 20px;
+            color: #333;
         }
-        h2 {
+        h2, h3 {
             color: #2c3e50;
         }
         p {
             text-align: justify;
             margin-bottom: 20px;
         }
-        ul {
-            list-style-type: disc;
+        ul, ol {
             margin-left: 20px;
         }
-        ul li {
+        li {
             margin-bottom: 10px;
+        }
+        a {
+            color: #3498db;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .button {
+            display: inline-block;
+            padding: 10px 15px;
+            background-color: #3498db;
+            color: white;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+        .button:hover {
+            background-color: #2980b9;
         }
     </style>
 </head>
 <body>
 
-    <h2>Curso de Data Analytics</h2>
-    
-    <p><strong>Data Analytics (DA)</strong> es un campo fundamental que se dedica a la exploración y el análisis de grandes volúmenes de datos para extraer información valiosa sobre el desempeño empresarial pasado. Este análisis permite a las organizaciones obtener una visión clara de sus operaciones históricas, identificar patrones y tendencias, y utilizar estos conocimientos para guiar la planificación y la toma de decisiones estratégicas futuras.</p>
+    <header>
+        <h1>Curso de Data Analytics</h1>
+    </header>
 
-    <p>El curso de Data Analytics que presentamos está diseñado para proporcionar una comprensión profunda de los métodos avanzados centrados en datos. Estos métodos abarcan las tres direcciones principales de la <strong>Business Analytics (BA)</strong>:</p>
-    
-    <ul>
-        <li><strong>Análisis Descriptivo:</strong> Responde a la pregunta "¿Qué pasó?". Se centra en la interpretación de datos históricos para identificar patrones, tendencias y anomalías. Este tipo de análisis es fundamental para entender el contexto y el desempeño pasado de una organización. Utiliza técnicas como la estadística descriptiva, visualización de datos y la elaboración de informes para transformar datos en información comprensible.</li>
+    <nav>
+        <h2>Contenido del curso</h2>
+        <ul>
+            <li><a href="#introduccion">Introducción</a></li>
+            <li><a href="#contenido">Contenido del curso</a></li>
+            <li><a href="#antes-del-curso">Antes de que comience el curso</a></li>
+            <li><a href="#recursos-adicionales">Recursos adicionales</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="introduccion">
+            <h2>Introducción al Data Analytics</h2>
+            
+            <p><strong>Data Analytics (DA)</strong> es un campo fundamental que se dedica a la exploración y el análisis de grandes volúmenes de datos para extraer información valiosa sobre el desempeño empresarial pasado. Este análisis permite a las organizaciones obtener una visión clara de sus operaciones históricas, identificar patrones y tendencias, y utilizar estos conocimientos para guiar la planificación y la toma de decisiones estratégicas futuras.</p>
+
+            <p>El curso de Data Analytics que presentamos está diseñado para proporcionar una comprensión profunda de los métodos avanzados centrados en datos. Estos métodos abarcan las tres direcciones principales de la <strong>Business Analytics (BA)</strong>:</p>
+            
+            <ul>
+                <li><strong>Análisis Descriptivo:</strong> Responde a la pregunta "¿Qué pasó?". Se centra en la interpretación de datos históricos para identificar patrones, tendencias y anomalías. Este tipo de análisis es fundamental para entender el contexto y el desempeño pasado de una organización. Utiliza técnicas como la estadística descriptiva, visualización de datos y la elaboración de informes para transformar datos en información comprensible.</li>
+                
+                <li><strong>Análisis Predictivo:</strong> Responde a la pregunta "¿Qué pasará?". Utiliza técnicas estadísticas y de machine learning para hacer predicciones sobre futuros eventos basándose en datos históricos y actuales. Este análisis permite a las organizaciones anticipar tendencias, comportamientos y resultados futuros. Herramientas como modelos de regresión, análisis de series temporales y algoritmos de clasificación son cruciales en esta etapa.</li>
+                
+                <li><strong>Análisis Prescriptivo:</strong> Responde a la pregunta "¿Qué debería pasar?". Va un paso más allá del análisis predictivo al no solo prever lo que podría suceder, sino también recomendar acciones específicas que podrían afectar esos resultados futuros. Este análisis utiliza técnicas avanzadas de optimización y simulación para proporcionar recomendaciones sobre la mejor manera de manejar posibles escenarios futuros.</li>
+            </ul>
+        </section>
+        <section id="contenido">
+            <h2>Contenido del curso</h2>
+            
+            <p>El curso aplica estos métodos a diversos casos de negocios para demostrar cómo se puede extraer valor comercial de los datos. Los estudiantes aprenderán a brindar soporte para la toma de decisiones basada en datos y a implementar principios efectivos de gestión de datos. Los casos de estudio abarcarán una variedad de industrias y situaciones, ofreciendo una perspectiva amplia y aplicada del análisis de datos.</p>
+            
+            <p>Los participantes adquirirán habilidades prácticas en el uso de herramientas y software de análisis de datos, desarrollando la capacidad de aplicar estos conocimientos en contextos reales. El curso también abordará temas críticos como la calidad de los datos, la ética en el análisis de datos y las mejores prácticas para la visualización de datos, asegurando que los estudiantes no solo puedan realizar análisis precisos, sino también comunicar sus hallazgos de manera efectiva.</p>
+
+            <h3>Instructor</h3>
+            <p><strong>Instructor:</strong> Ulises Gonzalez (<a href="http://www.rizo.ma/">Rizoma</a>, <a href="https://www.linkedin.com/in/ulisesgonzalez/">LinkedIn</a>)</p>
+
+            <p><a href="https://mybinder.org/v2/gh/gonzalezulises/101_Data_Analytics_Rizoma.git/HEAD"><img src="https://mybinder.org/badge_logo.svg" alt="Binder"/></a></p>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nombre de la sesión</th>
+                        <th>Objetivos de aprendizaje</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><a href="#class-1-introduction-to-data-analytics">Sesión 1: Introducción a Python</a></td>
+                        <td>
+                            <ul>
+                                <li>Comprender los conceptos fundamentales de la analítica de datos.</li>
+                                <li>Familiarizarse con el flujo de trabajo en un proyecto de analítica de datos.</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><a href="#class-2-data-reading-and-cleaning">Sesión 2: Obtención de Datos</a></td>
+                        <td>
+                            <ul>
+                                <li>Aprender a obtener y cargar datos desde diversas fuentes (CSV, Excel, SQL, APIs).</li>
+                                <li>Introducción a la biblioteca Pandas y sus estructuras de datos principales (Series y DataFrames).</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><a href="#class-3-machine-learning">Sesión 3: Análisis exploratorio de Datos I</a></td>
+                        <td>
+                            <ul>
+                                <li>Realizar análisis exploratorios de datos (EDA) para descubrir patrones, detectar anomalías y verificar supuestos.</li>
+                                <li>Utilizar técnicas de agrupación y agregación de datos.</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><a href="#class-4-getting-data">Sesión 4: Visualización de Datos</a></td>
+                        <td>
+                            <ul>
+                                <li>Conocer las herramientas y bibliotecas para la visualización de datos en Python (Matplotlib, Seaborn).</li>
+                                <li>Crear gráficos básicos y avanzados para representar datos.</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><a href="#class-5-basic-model-evaluation">Sesión 5: Evaluación de modelos de pronóstico</a></td>
+                        <td>
+                            <ul>
+                                <li>Introducción a los modelos de pronóstico y su aplicación en la analítica de datos.</li>
+                                <li>Entender los conceptos de regresión lineal y su uso en la predicción.</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><a href="#class-6-logistic-regression">Sesión 6: Regresión Logística</a></td>
+                        <td>
+                            <ul>
+                                <li>Comprender los principios de la regresión logística y su aplicación en la clasificación.</li>
+                                <li>Conocer los árboles de decisión y su uso en problemas de clasificación y regresión.</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><a href="#class-7-clustering">Sesión 7: Clustering</a></td>
+                        <td>
+                            <ul>
+                                <li>Introducción a las técnicas de clustering (agrupamiento) y su aplicación en la segmentación de datos.</li>
+                                <li>Evaluar la calidad y efectividad de los modelos de clustering.</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><a href="#class-8-tableau">Sesión 8: Uso de Tableau</a></td>
+                        <td>
+                            <ul>
+                                <li>Familiarizarse con Tableau como herramienta de visualización de datos.</li>
+                                <li>Crear dashboards interactivos y visualizaciones efectivas.</li>
+                            </ul>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section id="antes-del-curso">
+            <h3>Antes de que comience el curso</h3>
+
+            <ul>
+                <li>Puedes dar una mirada al <a href="https://roadmap.sh/data-analyst">data analyst roadmap</a></li>
+                <li>Para usar <a href="https://colab.research.google.com/">Google Colaboratory</a> requerirás un correo de Gmail para acceder. Si no dispones de uno lo puedes crear <a href="https://workspace.google.com/">sin costo acá</a></li>
+                <li>Para usar Anaconda no necesitarás algo adicional ya que es cloud, puedes crear una <a href="https://anaconda.cloud/">cuenta acá</a></li>
+                <li>Podrás usar también el notebook de Kaggle, puedes <a href="https://www.kaggle.com/">crear una cuenta acá</a></li>
+                <li>Puedes ir familiarizándote con Jupyter Notebook en este archivo</li>
+                <li>Puedes practicar Python utilizando los recursos a continuación.</li>
+            </ul>
+        </section>
+
+        <section id="recursos-adicionales">
+            <h3>Recursos adicionales de práctica</h3>
+
+            <ul>
+                <li><a href="http://www.codecademy.com/en/tracks/python">Codecademy's Python course</a>: Buen material para principiantes, incluidos toneladas de ejercicios en el navegador.</li>
+                <li><a href="https://www.dataquest.io">Dataquest</a>: Utiliza ejercicios interactivos para enseñar a Python en el contexto de la ciencia de datos.</li>
+                <li><a href="https://developers.google.com/edu/python/">Google's Python Class</a>: Un poco más avanzado, incluidas horas de videos útiles de conferencias y ejercicios descargables (con soluciones).</li>
+                <li><a href="http://introtopython.org/">Introduction to Python</a>: Una serie de cuadernos de iPython que hacen un gran trabajo explicando conceptos y estructuras de datos de Core Python.</li>
+                <li><a href="http://www.pythonlearn.com/book.php">Python for Informatics</a>: Un libro muy orientado a principiantes, con asociados <a href="https://drive.google.com/folderview?id=0B7X1ycQalUnyal9yeUx3VW81VDg&usp=sharing">slides</a> y <a href="https://www.youtube.com/playlist?list=PLlRFEj9H3Oj4JXIwMwN1_ss1Tk8wZShEJ">videos</a>.</li>
+                <li><a href="http://nbviewer.ipython.org/gist/rpmuller/5920182">A Crash Course in Python for Scientists</a>: Lea la sección de descripción general para una introducción muy rápida a Python.</li>
+                <li>Código de taller: <a href="code/00_python_beginner_workshop.py">Beginner</a> y <a href="code/00_python_intermediate_workshop.py">intermediate</a>: útil para revisión y referencia.</li>
+                <li><a href="http://pythontutor.com/">Python Tutor</a>: Le permite visualizar la ejecución del código Python.</li>
+            </ul>
+        </section>
+
+        <hr>
+
+        <section id="class-1-introduction-to-data-analytics">
+            <h3>Sesión 1: Introducción a Data Analytics</h3>
+
+            <ul>
+                <li>Bienvenida a la formación</li>
+                <li>Resumen del curso (<a href="slides/01_course_overview.pdf">slides</a>)</li>
+                <li>Introducción a Data Analytics (<a href="slides/01_intro_to_data_analytics.pdf">slides</a>)</li>
+                <li>Discuta el proyecto del curso: <a href="project/README.md">requerimientos</a> y <a href="https://github.com/justmarkham/DAT-project-examples">proyectos de ejemplo</a></li>
+                <li>Tipos de datos (<a href="slides/01_types_of_data.pdf">slides</a>) y <a href="project/public_data.md">fuentes de datos públicos</a></li>
+            </ul>
+
+            <h4>Asignación:</h4>
+
+            <ul>
+                <li>Leer <a href="bibliografia/Sesion%201/Introducción%20a%20Python.pdf">Introducción a la programación y al análisis de datos con Python</a></li>
+                <li>Leer la ruta de <a href="https://roadmap.sh/data-analyst">Data analytics</a></li>
+                <li>Desarrollar <a href="laboratorios/01_Laborario%20de%20la%20Sesión%201_Ejercicios.ipynb">Laboratorio de la Sesión 1 Ejercicios</a></li>
+                <li>Puedes revisar la solución al laboratorio acá: <a href="laboratorios/01_Laborario%20de%20la%20Sesión%201_con%20solucion.ipynb">Laboratorio de la Sesión 1 con solución</a></li>
+                <li>(Opcional) <a href="https://www.youtube.com/watch?v=mBYSUUnMt9M">Aprende Git y GitHub - Curso desde Cero</a>, o leer las secciones 1.1 a 2.2 de <a href="https://git-scm.com/book/es/v2">Pro Git</a>.</li>
+            </ul>
+
+            <h4>Recursos Adicionales:</h4>
+
+            <ul>
+                <li>Si deseas continuar aprendiendo Python, puedes utilizar los siguientes recursos disponibles:</li>
+                <ul>
+                    <li><a href="http://introtopython.org/">Introduction to Python</a> hace un gran trabajo explicando Python Essentials e incluye toneladas de código de ejemplo.</li>
+                    <li>Si te gusta aprender de un libro, <a href="http://www.pythonlearn.com/html-270/">Python for Informatics</a> tiene capítulos útiles sobre cadenas, listas y diccionarios.</li>
+                    <li>Si prefieres ejercicios interactivos, prueba estas lecciones de <a href="http://www.codecademy.com/en/tracks/python">Codecademy</a>: "Python listas y diccionarios" y "un día en el supermercado".</li>
+                    <li>Si tienes más tiempo, prueba las misiones 2 y 3 de <a href="https://www.dataquest.io/course/learning-python">DataQuest's Learning Python</a> course.</li>
+                    <li>Si ya has dominado estos temas y quieres más desafío, intenta resolver <a href="http://www.pythonchallenge.com/">Python Challenge</a> Número 1 (decodificando un mensaje)</li>
+                </ul>
+                <li>Para darle un marco para pensar en tu proyecto, mira <a href="https://www.youtube.com/watch?v=elojMnjn4kk">What is machine learning, and how does it work?</a> (10 minutos). (Este es el <a href="https://github.com/justmarkham/scikit-learn-videos/blob/master/01_machine_learning_intro.ipynb">IPython notebook</a> mostrado en el video.) Alternativamente, lee <a href="http://www.r2d3.us/visual-intro-to-machine-learning-part-1/">A Visual Introduction to Machine Learning</a>, que se centra en un modelo de aprendizaje automático específico llamado árboles de decisión.</li>
+                <li><a href="http://blog.lerner.co.il/want-to-understand-pythons-comprehensions-think-like-an-accountant/">Want to understand Python's comprehensions? Think in Excel or SQL</a> puede ser útil si todavía estás confundido por las comprensiones de lista.</li>
+                <li><a href="http://www.tecoed.co.uk/uploads/1/4/2/4/14249012/624506_orig.png">My code isn't working</a> es un gran diagrama de flujo que explica cómo depurar los errores de Python.</li>
+                <li><a href="https://www.python.org/dev/peps/pep-0008/">PEP 8</a> es la guía de estilo "clásica" de Python, y vale la pena leer si deseas escribir un código legible que sea consistente con el resto de la comunidad de Python.</li>
+                <li>Si quieres entender a Python en un nivel más profundo, Ned Batchelder's <a href="http://nedbatchelder.com/text/iter.html">Loop Like A Native</a> y <a href="http://nedbatchelder.com/text/names1.html">Python Names and Values</a> son excelentes presentaciones.</li>
+            </ul>
+        </section>
+        <hr>
+
+        <section id="class-2-data-reading-and-cleaning">
+            <h3>Sesión 2: Obtención de datos e iniciación con Pandas</h3>
+
+            <div style="display: flex; align-items: center;">
+                <a href="https://anaconda.cloud/api/nbserve/launch_notebook?nb_url=https%3A%2F%2Fanaconda.cloud%2Fapi%2Fprojects%2F67155be7-64cb-494d-8f26-3fbf1e3f89c1%2Ffiles%2F02_Obtencio%CC%81nde_Datos_e_iniciacion_con_Pandas.ipynb%3Fversion%3Defd51d6a-77a2-4402-8ce6-5359e48fd1b3" target="_blank">
+                    <img src="https://static.anaconda.cloud/content/a22d04e8445b700f28937ab3231b8cded505d0395c63b7a269696722196d5415" alt="Lanzar notebook sesión 2" height="25"/>
+                </a>
+                <a href="https://drive.google.com/file/d/16wsQKsk28s2j9KytL9dHXkHhVJt1m1tT/view?usp=sharing" target="_blank" style="text-decoration:none;">
+                    <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab" height="25"/>
+                </a>
+            </div>
+
+            <ul>
+                <li>Obtención de datos (<a href="slides/01_intro_to_data_analytics.pdf">slides</a>)</li>
+                <li>Iniciación con Pandas (slides)</li>
+            </ul>
+
+            <h4>Asignación:</h4>
+
+            <ul>
+                <li>Leer Getting started with pandas</li>
+                <li>Leer la documentación de <a href="https://pandas.pydata.org/docs/">pandas</a></li>
+                <li>Desarrollar el <a href="laboratorios/02_Laboratorio_de_la_sesión_2.ipynb">Laboratorio de la Sesión 2</a></li>
+                <li>La solución del laboratorio está a continuación: <a href="laboratorios/02_Laboratorio_de_la_sesión_2_Soluciones.ipynb">Laboratorio de la Sesión 2 Soluciones</a></li>
+            </ul>
+
+            <h4>Recursos:</h4>
+
+            <ul>
+                <li><a href="http://blog.lerner.co.il/want-to-understand-pythons-comprehensions-think-like-an-accountant/">Want to understand Python's comprehensions? Think in Excel or SQL</a> Puede ser útil si todavía está confundido por las comprensiones de la lista.</li>
+                <li><a href="http://www.tecoed.co.uk/uploads/1/4/2/4/14249012/624506_orig.png">My code isn't working</a> es un gran diagrama de flujo que explica cómo depurar los errores de Python.</li>
+                <li><a href="https://www.python.org/dev/peps/pep-0008/">PEP 8</a> es la guía de estilo "clásica" de Python, y vale la pena leer si desea escribir un código legible que sea consistente con el resto de la comunidad de Python.</li>
+                <li>Si quieres entender a Python en un nivel más profundo, Ned Batchelder's <a href="http://nedbatchelder.com/text/iter.html">Loop Like A Native</a> y <a href="http://nedbatchelder.com/text/names1.html">Python Names and Values</a> son excelentes presentaciones.</li>
+                <li>Pandas (<a href="code/04_pandas.py">code</a>):</li>
+                <ul>
+                    <li>MOVIELENS 100K Clasificaciones de películas (<a href="data/u.user">data</a>, <a href="http://files.grouplens.org/datasets/movielens/ml-100k-README.txt">data dictionary</a>, <a href="http://grouplens.org/datasets/movielens/">website</a>)</li>
+                    <li>Consumo de alcohol por país (<a href="data/drinks.csv">data</a>, <a href="http://fivethirtyeight.com/datalab/dear-mona-followup-where-do-people-drink-the-most-beer-wine-and-spirits/">article</a>)</li>
+                    <li>Informes de avistamientos de ovnis (<a href="data/ufo.csv">data</a>, <a href="http://www.nuforc.org/webreports.html">website</a>)</li>
+                </ul>
+                <li>Ejercicio de preguntas del proyecto</li>
+            </ul>
+
+            <h4>Recursos adicionales:</h4>
+
+            <ul>
+                <li>Browsing or searching the Pandas <a href="http://pandas.pydata.org/pandas-docs/stable/api.html">API Reference</a> es una excelente manera de localizar una función incluso si no sabe su nombre exacto.</li>
+                <li><a href="http://simplystatistics.org/2014/06/13/what-i-do-when-i-get-a-new-data-set-as-told-through-tweets/">What I do when I get a new data set as told through tweets</a> es una mirada divertida (pero esclarecedora) al proceso de análisis de datos exploratorios.</li>
+                <li>Recursos API: Este guión de Python para <a href="https://github.com/laurakurup/census-api">query the U.S. Census API</a> fue creado por un ex alumno de DA. Es un poco más complicado que el ejemplo que usamos en la clase, está muy bien comentado y puede proporcionar un marco útil para escribir su propio código para consultar las API.</li>
+                <li><a href="https://www.mashape.com/explore">Mashape</a> y <a href="https://apigee.com/providers">Apigee</a> Permitirle explorar toneladas de diferentes API. Alternativamente, un <a href="http://www.pythonforbeginners.com/api/list-of-python-apis">Python API wrapper</a> está disponible para muchas API populares.</li>
+                <li>el <a href="http://www.datasciencetoolkit.org/">Data Science Toolkit</a> es una colección de API basadas en la ubicación y relacionadas con el texto.</li>
+                <li><a href="https://realpython.com/blog/python/api-integration-in-python/">API Integration in Python</a> Proporciona una introducción muy legible a las API REST.</li>
+                <li>Microsoft's <a href="https://www.projectoxford.ai/demo/face#detection">Face Detection API</a>, que potencia <a href="http://how-old.net/">How-Old.net</a>, es un gran ejemplo de cómo se puede aprovechar una API de aprendizaje automático para producir una aplicación web convincente.</li>
+            </ul>
+        </section>
+
+        <hr>
+
+        <section id="class-3-machine-learning">
+            <h3>Sesión 3: Combinación de datos y Análisis de datos exploratorios</h3>
+
+            <div style="display: flex; align-items: center;">
+                <a href="https://anaconda.cloud/api/nbserve/launch_notebook?nb_url=https%3A%2F%2Fanaconda.cloud%2Fapi%2Fprojects%2F94529ebc-682f-4c4a-84ac-8901569ae780%2Ffiles%2F03_analisis_exploratorio_de_datos%20(EDA).ipynb%3Fversion%3Dab666fed-078d-4c2d-9544-e976a369a3cc" target="_blank">
+                    <img src="https://static.anaconda.cloud/content/a22d04e8445b700f28937ab3231b8cded505d0395c63b7a269696722196d5415" alt="Lanzar notebook sesión 3" height="25"/>
+                </a>
+                <a href="https://drive.google.com/file/d/1eGTcAWAT5ehm6ighaDGzsIcJIxeJpUsG/view?usp=sharing" target="_blank" style="text-decoration:none;">
+                    <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab" height="25"/>
+                </a>
+            </div>
+
+            <ul>
+                <li>Análisis de datos exploratorios (slides)</li>
+                <li>Parte 2 del análisis de datos exploratorios con pandas (<a href="code/04_pandas.py">code</a>)</li>
+            </ul>
+
+            <h4>Asignación:</h4>
+
+            <ul>
+                <li>Leer Preparing Data for EDA</li>
+                <li><a href="https://docs.google.com/document/d/10O7nB5zUSjJFKwH_cw_sCi7VPAP2jOaw1_6E05DC4RY/edit?usp=sharing">Paso a paso de un análisis exploratorio de datos</a></li>
+                <li>Desarrollar <a href="laboratorios/03_Laboratorio_de_la_sesión_3_parte1-%20API.ipynb">Laboratorio de la Sesión 3 parte 1 - API</a></li>
+                <li>Desarrollar <a href="laboratorios/03_Laboratorio_de_la_sesion_3_parte2.ipynb">Laboratorio de la Sesión 3 parte 2</a></li>
+                <li>Desarrollar <a href="laboratorios/03_Laboratorio_EDA_1.ipynb">Laboratorio EDA 1</a></li>
+                <li>Desarrollar <a href="laboratorios/03_Laboratorio_EDA_2.ipynb">Laboratorio EDA 2</a></li>
+                <li>La solución al laboratorio 3 lo encuentras acá:</li>
+                <ul>
+                    <li><a href="laboratorios/03_Laboratorio_EDA_1_sol.ipynb">Laboratorio de la Sesión 3 parte 1 - API</a></li>
+                    <li><a href="laboratorios/03_Laboratorio_EDA_2_sol.ipynb">Laboratorio de la Sesión 3 parte 2</a></li>
+                </ul>
+                <li><a href="http://iquantny.tumblr.com/post/107245431809/how-software-in-half-of-nyc-cabs-generates-5-2">Leer How Software in Half of NYC Cabs Generates $5.2 Million a Year in Extra Tips</a> Para un excelente ejemplo de análisis de datos exploratorios.</li>
+                <li><a href="http://data.heapanalytics.com/anscombes-quartet-and-why-summary-statistics-dont-tell-the-whole-story/">Leer Anscombe's Quartet, and Why Summary Statistics Don't Tell the Whole Story</a> Para un ejemplo clásico de por qué la visualización es útil.</li>
+            </ul>
+
+            <h4>Recursos:</h4>
+
+            <ul>
+                <li>Para obtener más pandas, lea este <a href="http://www.gregreda.com/2013/10/26/intro-to-pandas-data-structures/">three-part tutorial</a>, O revise estos dos cuadernos excelentes (pero largos) en Pandas: <a href="https://github.com/fonnesbeck/Bios8366/blob/master/notebooks/Section2_5-Introduction-to-Pandas.ipynb">introduction</a> and <a href="https://github.com/fonnesbeck/Bios8366/blob/master/notebooks/Section2_6-Data-Wrangling-with-Pandas.ipynb">data wrangling</a>.</li>
+                <li>Si quieres profundizar en los pandas (y numpy), lee el libro <a href="http://shop.oreilly.com/product/0636920023784.do">Python for Data Analysis</a>, Escrito por el Creador de Pandas.</li>
+                <li>Este cuaderno demuestra los diferentes tipos de <a href="notebooks/05_pandas_merge.ipynb">joins in Pandas</a>, para cuando necesite descubrir cómo fusionar dos marcos de datos.</li>
+                <li>Este es un buen tutorial breve sobre <a href="https://beta.oreilly.com/learning/pivot-tables">pivot tables</a> en pandas.</li>
+            </ul>
+
+            <h4>Recursos adicionales:</h4>
+
+            <ul>
+                <li>Para trabajar con datos geoespaciales en Python, <a href="http://geopandas.org/index.html">GeoPandas</a> parece prometedor. Este <a href="http://michelleful.github.io/code-blog/2015/04/24/sgmap/">tutorial</a> Utiliza Geopandas (y Scikit-Learn) para construir un "mapa callejero lingüístico" de Singapur.</li>
+                <li>Browsing or searching the Pandas <a href="http://pandas.pydata.org/pandas-docs/stable/api.html">API Reference</a> es una excelente manera de localizar una función incluso si no sabe su nombre exacto.</li>
+                <li><a href="http://simplystatistics.org/2014/06/13/what-i-do-when-i-get-a-new-data-set-as-told-through-tweets/">What I do when I get a new data set as told through tweets</a> es una mirada divertida (pero esclarecedora) al proceso de análisis de datos exploratorios.</li>
+                <li><a href="http://iquantny.tumblr.com/post/107245431809/how-software-in-half-of-nyc-cabs-generates-5-2">Leer How Software in Half of NYC Cabs Generates $5.2 Million a Year in Extra Tips</a> Para un excelente ejemplo de análisis de datos exploratorios.</li>
+            </ul>
+        </section>
         
-        <li><strong>Análisis Predictivo:</strong> Responde a la pregunta "¿Qué pasará?". Utiliza técnicas estadísticas y de machine learning para hacer predicciones sobre futuros eventos basándose en datos históricos y actuales. Este análisis permite a las organizaciones anticipar tendencias, comportamientos y resultados futuros. Herramientas como modelos de regresión, análisis de series temporales y algoritmos de clasificación son cruciales en esta etapa.</li>
-        
-        <li><strong>Análisis Prescriptivo:</strong> Responde a la pregunta "¿Qué debería pasar?". Va un paso más allá del análisis predictivo al no solo prever lo que podría suceder, sino también recomendar acciones específicas que podrían afectar esos resultados futuros. Este análisis utiliza técnicas avanzadas de optimización y simulación para proporcionar recomendaciones sobre la mejor manera de manejar posibles escenarios futuros.</li>
-    </ul>
-    
-    <p>El curso aplica estos métodos a diversos casos de negocios para demostrar cómo se puede extraer valor comercial de los datos. Los estudiantes aprenderán a brindar soporte para la toma de decisiones basada en datos y a implementar principios efectivos de gestión de datos. Los casos de estudio abarcarán una variedad de industrias y situaciones, ofreciendo una perspectiva amplia y aplicada del análisis de datos.</p>
-    
-    <p>Los participantes adquirirán habilidades prácticas en el uso de herramientas y software de análisis de datos, desarrollando la capacidad de aplicar estos conocimientos en contextos reales. El curso también abordará temas críticos como la calidad de los datos, la ética en el análisis de datos y las mejores prácticas para la visualización de datos, asegurando que los estudiantes no solo puedan realizar análisis precisos, sino también comunicar sus hallazgos de manera efectiva.</p>
-
-</body>
-</html>
-
-
-<p><strong>Instructor:</strong> Ulises Gonzalez (<a href="http://www.rizo.ma/">Rizoma</a>, <a href="https://www.linkedin.com/in/ulisesgonzalez/">Linkedin</a>)</p>
-
-<p><a href="https://mybinder.org/v2/gh/gonzalezulises/101_Data_Analytics_Rizoma.git/HEAD"><img src="https://mybinder.org/badge_logo.svg" alt="Binder"/></a></p>
-
-<table>
-    <thead>
-        <h3>Contenido del curso</h3>
-      <tr>
-        <th>Nombre de la sesión</th>
-        <th>Objetivos de aprendizaje</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>Sesión 1: <a href="#class-1-introduction-to-data-analytics">Introducción a Python</a></td>
-        <td>- Comprender los conceptos fundamentales de la analítica de datos.<br>- Familiarizarse con el flujo de trabajo en un proyecto de analítica de datos.</td>
-      </tr>
-      <tr>
-        <td>Sesión 2: <a href="#class-2-data-reading-and-cleaning">Obtención de Datos</a></td>
-        <td>- Aprender a obtener y cargar datos desde diversas fuentes (CSV, Excel, SQL, APIs).<br>- Introducción a la biblioteca Pandas y sus estructuras de datos principales (Series y DataFrames).</td>
-      </tr>
-      <tr>
-        <td>Sesión 3: <a href="#class-3-machine-learning">Análisis exploratorio de Datos I</a></td>
-        <td>- Realizar análisis exploratorios de datos (EDA) para descubrir patrones, detectar anomalías y verificar supuestos.<br>- Utilizar técnicas de agrupación y agregación de datos.</td>
-      </tr>
-      <tr>
-        <td>Sesión 4: <a href="#class-4-getting-data">Visualización de Datos</a></td>
-        <td>- Conocer las herramientas y bibliotecas para la visualización de datos en Python (Matplotlib, Seaborn).<br>- Crear gráficos básicos y avanzados para representar datos.</td>
-      </tr>
-      <tr>
-        <td>Sesión 5: <a href="#class-5-basic-model-evaluation">Evaluación de modelos de pronóstico</a></td>
-        <td>- Introducción a los modelos de pronóstico y su aplicación en la analítica de datos.<br>- Entender los conceptos de regresión lineal y su uso en la predicción.</td>
-      </tr>
-      <tr>
-        <td>Sesión 6: <a href="#class-6-logistic-regression">Logistic Regression</a></td>
-        <td>- Comprender los principios de la regresión logística y su aplicación en la clasificación.<br>- Conocer los árboles de decisión y su uso en problemas de clasificación y regresión.</td>
-      </tr>
-      <tr>
-        <td>Sesión 7: <a href="#class-7-clustering">Clustering</a></td>
-        <td>- Introducción a las técnicas de clustering (agrupamiento) y su aplicación en la segmentación de datos.<br>- Evaluar la calidad y efectividad de los modelos de clustering.</td>
-      </tr>
-      <tr>
-        <td>Sesión 8: <a href="#class-8-tableau">Uso de Tableau</a></td>
-        <td>- Familiarizarse con Tableau como herramienta de visualización de datos.<br>- Crear dashboards interactivos y visualizaciones efectivas.</td>
-      </tr>
-    </tbody>
-  </table>
-
-<h3>Antes de que comience el curso</h3>
-
-<ul>
-  <li>Puedes dar una mirada al <a href="https://roadmap.sh/data-analyst">data analyst roadmap</a></li>
-  <li>Para usar <a href="https://colab.research.google.com/">google colaboratory</a> requerirás un correo de gmail para acceder. Si no dispones de uno lo puedes crear <a href="https://workspace.google.com/">sin costo acá</a></li>
-  <li>Para usar Anaconda no necesitarás algo adicional ya que es cloud, puedes crear una <a href="https://anaconda.cloud/">cuenta acá</a></li>
-  <li>Podrás usar también el notebook de Kaggle, puedes <a href="https://www.kaggle.com/#">crear una cuenta acá</a></li>
-  <li>Puedes ir familiarizándote con Jupyter Notebook en este archivo</li>
-  <li>Puedes practicar Python utilizando los recursos a continuación.</li>
-</ul>
-
-<h3>Recursos adicionales de práctica</h3>
-
-<ul>
-  <li><a href="http://www.codecademy.com/en/tracks/python">Codecademy's Python course</a>: Buen material para principiantes, incluidos toneladas de ejercicios en el navegador.</li>
-  <li><a href="https://www.dataquest.io">Dataquest</a>: Utiliza ejercicios interactivos para enseñar a Python en el contexto de la ciencia de datos.</li>
-  <li><a href="https://developers.google.com/edu/python/">Google's Python Class</a>: Un poco más avanzado, incluidas horas de videos útiles de conferencias y ejercicios descargables (con soluciones).</li>
-  <li><a href="http://introtopython.org/">Introduction to Python</a>: Una serie de cuadernos de iPython que hacen un gran trabajo explicando conceptos y estructuras de datos de Core Python.</li>
-  <li><a href="http://www.pythonlearn.com/book.php">Python for Informatics</a>: Un libro muy orientado a principiante, con asociado <a href="https://drive.google.com/folderview?id=0B7X1ycQalUnyal9yeUx3VW81VDg&usp=sharing">slides</a> and <a href="https://www.youtube.com/playlist?list=PLlRFEj9H3Oj4JXIwMwN1_ss1Tk8wZShEJ">videos</a>.</li>
-  <li><a href="http://nbviewer.ipython.org/gist/rpmuller/5920182">A Crash Course in Python for Scientists</a>: Lea la sección de descripción general para una introducción muy rápida a Python.</li>
-  <li><a href="code/00_python_beginner_workshop.py">Beginner</a> and <a href="code/00_python_intermediate_workshop.py">intermediate</a> Código de taller: útil para revisión y referencia.</li>
-  <li><a href="http://pythontutor.com/">Python Tutor</a>: Le permite visualizar la ejecución del código Python.</li>
-</ul>
-
-<hr>
-<div style="display: flex; align-items: center;">
-  <a target="_blank" href="https://anaconda.cloud/api/nbserve/launch_notebook?nb_url=https%3A%2F%2Fanaconda.cloud%2Fapi%2Fprojects%2F26bdf97e-88f5-4cb9-b9fa-5b222176f941%2Ffiles%2F01_Introduccio%CC%81n_Python_Aprendizaje.ipynb%3Fversion%3Dfd2ebbdb-2222-4d4c-a1d3-27db0ae408f2" style="text-decoration:none; margin-right: 10px;">
-    <img src="https://static.anaconda.cloud/content/a22d04e8445b700f28937ab3231b8cded505d0395c63b7a269696722196d5415" alt="Lanzar notebook sesión 1" height="25"/>
-  </a>
-  <a href="https://drive.google.com/file/d/1KMsX_mUVTS9akmcuvI8Y26Sdyj7E9X2o/view?usp=sharing" target="_blank" style="text-decoration:none;">
-    <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab" height="25"/>
-  </a>
-</div>
-
-<h3 id="class-1-introduction-to-data-analytics">Sesión 1: Introducción a Data Analytics</h3>
-
-<ul>
-  <li>Bienvenida a la formación</li>
-  <li>Resumen del curso (<a href="slides/01_course_overview.pdf">slides</a>)</li>
-  <li>Introducción a Data Analytics (<a href="slides/01_intro_to_data_analytics.pdf">slides</a>)</li>
-  <li>Discuta el proyecto del curso: <a href="project/README.md">requerimientos</a> y <a href="https://github.com/justmarkham/DAT-project-examples">proyectos de ejemplo</a></li>
-  <li>Tipos de datos (<a href="slides/01_types_of_data.pdf">slides</a>) y <a href="project/public_data.md">fuentes de datos publicos</a></li>
-</ul>
-
-<p><strong>Asignación:</strong></p>
-
-<ul>
-  <li>Leer <a href="bibliografia/Sesion%201/Introducción%20a%20Python.pdf">Introducción a la programación y al análisis de datos con Python</a></li>
-  <li>Leer la ruta de <a href="https://roadmap.sh/data-analyst">Data analytics</a></li>
-  <li>Desarrollar <a href="laboratorios/01_Laborario%20de%20la%20Sesión%201_Ejercicios.ipynb">Laboratorio de la Sesión 1 Ejercicios</a></li>
-  <li>Puedes revisar la solución al laboratorio acá: <a href="laboratorios/01_Laborario%20de%20la%20Sesión%201_con%20solucion.ipynb">Laboratorio de la Sesión 1 con solución</a></li>
-  <li>(Opcional) <a href="https://www.youtube.com/watch?v=mBYSUUnMt9M">Aprende Git y GitHub - Curso desde Cero</a>, o leer las secciones 1.1 a 2.2 de <a href="https://git-scm.com/book/es/v2">Pro Git</a>.</li>
-</ul>
-
-<p><strong>Recursos Adicionales:</strong></p>
-
-<ul>
-  <li>Si deseas continuar aprendiendo python, puedes utilizar los siguientes recursos disponibles:</li>
-  <ul>
-    <li><a href="http://introtopython.org/">Introduction to Python</a> hace un gran trabajo explicando Python Essentials e incluye toneladas de código de ejemplo.</li>
-    <li>Si te gusta aprender de un libro, <a href="http://www.pythonlearn.com/html-270/">Python for Informatics</a> tiene capítulos útiles sobre cadenas, listas y diccionarios.</li>
-    <li>Si prefiere ejercicios interactivos, pruebe estas lecciones de <a href="http://www.codecademy.com/en/tracks/python">Codecademy</a>: "Python listas y diccionarios" y "un día en el supermercado".</li>
-    <li>Si tiene más tiempo, pruebe las misiones 2 y 3 de <a href="https://www.dataquest.io/course/learning-python">DataQuest's Learning Python</a> curso.</li>
-    <li>Si ya ha dominado estos temas y quiere más desafío, intente resolver <a href="http://www.pythonchallenge.com/">Python Challenge</a> Número 1 (decodificando un mensaje)</li>
-  </ul>
-  <li>Para darle un marco para pensar en su proyecto, mire <a href="https://www.youtube.com/watch?v=elojMnjn4kk">What is machine learning, and how does it work?</a> (10 minutes). (Este es el <a href="https://github.com/justmarkham/scikit-learn-videos/blob/master/01_machine_learning_intro.ipynb">IPython notebook</a> shown en el video.) Alternativamente, lea <a href="http://www.r2d3.us/visual-intro-to-machine-learning-part-1/">A Visual Introduction to Machine Learning</a>, que se centra en un modelo de aprendizaje automático específico llamado árboles de decisión.</li>
-  <li><a href="http://blog.lerner.co.il/want-to-understand-pythons-comprehensions-think-like-an-accountant/">Want to understand Python's comprehensions? Think in Excel or SQL</a> Puede ser útil si todavía está confundido por las comprensiones de la lista.</li>
-  <li><a href="http://www.tecoed.co.uk/uploads/1/4/2/4/14249012/624506_orig.png">My code isn't working</a> es un gran diagrama de flujo que explica cómo depurar los errores de Python.</li>
-  <li><a href="https://www.python.org/dev/peps/pep-0008/">PEP 8</a> es la guía de estilo "clásica" de Python, y vale la pena leer si desea escribir un código legible que sea consistente con el resto de la comunidad de Python.</li>
-  <li>Si quieres entender a Python en un nivel más profundo, Ned Batchelder's <a href="http://nedbatchelder.com/text/iter.html">Loop Like A Native</a> y <a href="http://nedbatchelder.com/text/names1.html">Python Names and Values</a> son excelentes presentaciones.</li>
-</ul>
-
-<hr>
-<p><strong>¿Quieres ir más allá de lo aprendido?</strong></p>
-
-<p>Podrías aprender Git y Markdown que son herramientas valiosas para la analítica de datos por varias razones como:</p>
-
-<p><strong>Git</strong></p>
-
-<ul>
-  <li><strong>Control de Versiones:</strong> Git permite gestionar cambios en el código y los datos a lo largo del tiempo. Esto es esencial en proyectos de análisis de datos, donde se realizan múltiples iteraciones y ajustes en los scripts y datasets.</li>
-  <li><strong>Colaboración:</strong> Git facilita la colaboración entre equipos, permitiendo que múltiples analistas trabajen en el mismo proyecto sin conflictos. Cada miembro puede hacer cambios en su propia rama y luego fusionar los resultados.</li>
-  <li><strong>Rastreo de Historial:</strong> Con Git, puedes rastrear quién hizo qué cambios y cuándo. Esto es crucial para auditar y entender cómo y por qué evolucionó un análisis específico.</li>
-  <li><strong>Gestión de Proyectos:</strong> Git integra herramientas para gestionar proyectos de datos, como issues y pull requests, que ayudan a organizar y revisar el trabajo.</li>
-</ul>
-
-<p><strong>Markdown</strong></p>
-
-<ul>
-  <li><strong>Documentación Clara:</strong> Markdown permite crear documentación clara y estructurada, que es fácil de leer y escribir. Documentar el código y los análisis es fundamental para asegurar que los resultados sean reproducibles y comprensibles.</li>
-  <li><strong>Reportes Dinámicos:</strong> Herramientas como Jupyter Notebooks utilizan Markdown para combinar texto, código y visualizaciones en un solo documento. Esto facilita la creación de reportes dinámicos que muestran tanto el proceso como los resultados del análisis.</li>
-  <li><strong>Compatibilidad y Portabilidad:</strong> Markdown es un formato ligero y ampliamente compatible que puede ser convertido a varios formatos (HTML, PDF, etc.), lo que facilita compartir y publicar resultados.</li>
-</ul>
-
-<p><strong>Integración Práctica</strong></p>
-
-<ul>
-  <li><strong>Jupyter Notebooks:</strong> En estos entornos, el conocimiento de Git y Markdown es crucial para manejar notebooks y colaborar eficientemente. Git gestiona el versionado y la colaboración, mientras que Markdown documenta y explica los análisis.</li>
-  <li><strong>Proyectos Reproducibles:</strong> Con Git para el control de versiones y Markdown para la documentación, los proyectos de analítica de datos se vuelven más reproducibles y fáciles de entender para otros analistas o stakeholders.</li>
-  <li><strong>Comunicación de Resultados:</strong> Markdown ayuda a comunicar los resultados de forma clara y visualmente atractiva, lo cual es esencial para presentar hallazgos a equipos no técnicos o directivos.</li>
-</ul>
-
-<p><strong>Recursos Git y Markdown:</strong></p>
-
-<ul>
-  <li><a href="http://git-scm.com/book/en/v2">Pro Git</a> es un excelente libro para aprender Git lea los dos primeros capítulos para obtener una comprensión más profunda del control de versiones y los comando básicos.</li>
-  <li>Si quieres practicar mucho Git y aprender muchos más comandos, <a href="http://gitimmersion.com/">Git Immersion</a></li>
-  <li>Si quieres entender cómo contribuir en GitHub, primero tienes que entender <a href="http://www.dataschool.io/simple-guide-to-forks-in-github-and-git/">forks and pull requests</a>.</li>
-  <li><a href="http://gitref.org/">GitRef</a> es mi guía de referencia favorita para los comandos Git, y <a href="http://www.dataschool.io/git-quick-reference-for-beginners/">Git quick reference for beginners</a> es una guía más corta con comandos agrupados por flujo de trabajo</li>
-  <li><a href="https://growthhackers.com/growth-studies/github">Cracking the Code to GitHub's Growth</a> explica por qué GitHub es tan popular entre los desarrolladores</li>
-  <li><a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet">Markdown Cheatsheet</a> proporciona un conjunto exhaustivo de ejemplos de Markdown con explicaciones concisas. <a href="https://guides.github.com/features/mastering-markdown/">GitHub's Mastering Markdown</a> es una guía más simple y atractiva, pero es menos integral</li>
-</ul>
-
-<p><strong>Recursos de línea de comandos:</strong></p>
-
-<ul>
-  <li>Si quieres profundizar mucho en la línea de comando, <a href="http://shop.oreilly.com/product/0636920032823.do">Data Science at the Command Line</a> es un gran libro. El <a href="http://datascienceatthecommandline.com/">companion website</a> proporciona instrucciones de instalación para una "caja de herramientas de ciencia de datos" (una máquina virtual con muchas más herramientas de línea de comandos), así como una larga guía de referencia para las herramientas de línea de comandos populares.</li>
-  <li>Si desea hacer más en la línea de comando con archivos CSV, pruebe <a href="http://csvkit.readthedocs.org/">csvkit</a>, que se puede instalar a través de <code>pip</code>.</li>
-</ul>
-
-<hr>
-<div style="display: flex; align-items: center;">
-  <a target="_blank" href="https://anaconda.cloud/api/nbserve/launch_notebook?nb_url=https%3A%2F%2Fanaconda.cloud%2Fapi%2Fprojects%2F67155be7-64cb-494d-8f26-3fbf1e3f89c1%2Ffiles%2F02_Obtencio%CC%81nde_Datos_e_iniciacion_con_Pandas.ipynb%3Fversion%3Defd51d6a-77a2-4402-8ce6-5359e48fd1b3"><img src="https://static.anaconda.cloud/content/a22d04e8445b700f28937ab3231b8cded505d0395c63b7a269696722196d5415" alt="Lanzar notebook sesión 2" height="25"/></a>
-  <a href="https://drive.google.com/file/d/16wsQKsk28s2j9KytL9dHXkHhVJt1m1tT/view?usp=sharing" target="_blank" style="text-decoration:none;">
-    <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab" height="25"/>
-  </a>
-</div>
-
-<h3 id="class-2-data-reading-and-cleaning">Sesión 2: Obtención de datos e iniciación con Pandas</h3>
-
-<ul>
-  <li>Obtención de datos (<a href="slides/01_intro_to_data_analytics.pdf">slides</a>)</li>
-  <li>Iniciación con Pandas (slides)</li>
-</ul>
-
-<p><strong>Asignación:</strong></p>
-
-<ul>
-  <li>Leer Getting started with pandas</li>
-  <li>Leer la documentación de <a href="https://pandas.pydata.org/docs/">pandas</a></li>
-  <li>Desarrollar el <a href="laboratorios/02_Laboratorio_de_la_sesión_2.ipynb">Laboratorio de la Sesión 2</a></li>
-  <li>La solución del laboratorio está a continuación: <a href="laboratorios/02_Laboratorio_de_la_sesión_2_Soluciones.ipynb">Laboratorio de la Sesión 2 Soluciones</a></li>
-</ul>
-
-<p><strong>Recursos:</strong></p>
-
-<ul>
-  <li><a href="http://blog.lerner.co.il/want-to-understand-pythons-comprehensions-think-like-an-accountant/">Want to understand Python's comprehensions? Think in Excel or SQL</a> Puede ser útil si todavía está confundido por las comprensiones de la lista.</li>
-  <li><a href="http://www.tecoed.co.uk/uploads/1/4/2/4/14249012/624506_orig.png">My code isn't working</a> es un gran diagrama de flujo que explica cómo depurar los errores de Python.</li>
-  <li><a href="https://www.python.org/dev/peps/pep-0008/">PEP 8</a> es la guía de estilo "clásica" de Python, y vale la pena leer si desea escribir un código legible que sea consistente con el resto de la comunidad de Python.</li>
-  <li>Si quieres entender a Python en un nivel más profundo, Ned Batchelder's <a href="http://nedbatchelder.com/text/iter.html">Loop Like A Native</a> y <a href="http://nedbatchelder.com/text/names1.html">Python Names and Values</a> son excelentes presentaciones.</li>
-  <li>Pandas (<a href="code/04_pandas.py">code</a>):</li>
-  <ul>
-    <li>MOVIELENS 100K Clasificaciones de películas (<a href="data/u.user">data</a>, <a href="http://files.grouplens.org/datasets/movielens/ml-100k-README.txt">data dictionary</a>, <a href="http://grouplens.org/datasets/movielens/">website</a>)</li>
-    <li>Consumo de alcohol por país (<a href="data/drinks.csv">data</a>, <a href="http://fivethirtyeight.com/datalab/dear-mona-followup-where-do-people-drink-the-most-beer-wine-and-spirits/">article</a>)</li>
-    <li>Informes de avistamientos de ovnis (<a href="data/ufo.csv">data</a>, <a href="http://www.nuforc.org/webreports.html">website</a>)</li>
-  </ul>
-  <li>Ejercicio de preguntas del proyecto</li>
-</ul>
-
-<p><strong>Recursos adicionales:</strong></p>
-
-<ul>
-  <li>Browsing or searching the Pandas <a href="http://pandas.pydata.org/pandas-docs/stable/api.html">API Reference</a> es una excelente manera de localizar una función incluso si no sabe su nombre exacto.</li>
-  <li><a href="http://simplystatistics.org/2014/06/13/what-i-do-when-i-get-a-new-data-set-as-told-through-tweets/">What I do when I get a new data set as told through tweets</a> es una mirada divertida (pero esclarecedora) al proceso de análisis de datos exploratorios.</li>
-  <li>Recursos API: Este guión de Python para <a href="https://github.com/laurakurup/census-api">query the U.S. Census API</a> fue creado por un ex alumno de DA. Es un poco más complicado que el ejemplo que usamos en la clase, está muy bien comentado y puede proporcionar un marco útil para escribir su propio código para consultar las API.</li>
-  <li><a href="https://www.mashape.com/explore">Mashape</a> y <a href="https://apigee.com/providers">Apigee</a> Permitirle explorar toneladas de diferentes API. Alternativamente, un <a href="http://www.pythonforbeginners.com/api/list-of-python-apis">Python API wrapper</a> está disponible para muchas API populares.</li>
-  <li>the <a href="http://www.datasciencetoolkit.org/">Data Science Toolkit</a> es una colección de API basadas en la ubicación y relacionadas con el texto.</li>
-  <li><a href="https://realpython.com/blog/python/api-integration-in-python/">API Integration in Python</a> Proporciona una introducción muy legible a las API REST.</li>
-  <li>Microsoft's <a href="https://www.projectoxford.ai/demo/face#detection">Face Detection API</a>, que poderes <a href="http://how-old.net/">How-Old.net</a>, es un gran ejemplo de cómo se puede aprovechar una API de aprendizaje automático para producir una aplicación web convincente.</li>
-</ul>
-
-<hr>
-<p><strong>¿Quieres ir más allá de lo aprendido?</strong></p>
-
-<p><strong>Pandas AI</strong> es una mejora de la librería de <a href="https://pandas.pydata.org/">Pandas</a>, que ha sido combinada con la tecnología de OpenAI, con el resultado de poder ahorrarnos tiempo en tener que seleccionar los encabezados, franjas y demás. Además de eso, también puede hacer cosas que le pidamos, en relación a los csv o dataframes, que le indiquemos.</p>
-<p>Puedes obtener información si deseas llevar al siguiente nivel:</p>
-
-<ul>
-  <li><a href="https://docs.pandas-ai.com/intro">Introducción a PandasAI</a></li>
-</ul>
-
-<hr>
-<div style="display: flex; align-items: center;">
-  <a target="_blank" href="https://anaconda.cloud/api/nbserve/launch_notebook?nb_url=https%3A%2F%2Fanaconda.cloud%2Fapi%2Fprojects%2F94529ebc-682f-4c4a-84ac-8901569ae780%2Ffiles%2F03_analisis_exploratorio_de_datos%20(EDA).ipynb%3Fversion%3Dab666fed-078d-4c2d-9544-e976a369a3cc"><img src="https://static.anaconda.cloud/content/a22d04e8445b700f28937ab3231b8cded505d0395c63b7a269696722196d5415" alt="Lanzar notebook sesión 3" height="25"/></a>
-  <a href="https://drive.google.com/file/d/1eGTcAWAT5ehm6ighaDGzsIcJIxeJpUsG/view?usp=sharing" target="_blank" style="text-decoration:none;">
-    <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab" height="25"/>
-  </a>
-</div>
-
-<h3 id="class-3-machine-learning">Sesión 3: Combinación de datos y Análisis de datos exploratorios</h3>
-
-<ul>
-  <li>Análisis de datos exploratorios (slides)</li>
-  <li>Parte 2 del análisis de datos exploratorios con pandas (<a href="code/04_pandas.py">code</a>)</li>
-</ul>
-
-<p><strong>Asignación:</strong></p>
-
-<ul>
-  <li>Leer Preparing Data for EDA</li>
-  <li><a href="https://docs.google.com/document/d/10O7nB5zUSjJFKwH_cw_sCi7VPAP2jOaw1_6E05DC4RY/edit?usp=sharing">Paso a paso de un análisis exploratorio de datos</a></li>
-  <li>Desarrollar <a href="laboratorios/03_Laboratorio_de_la_sesión_3_parte1-%20API.ipynb">Laboratorio de la Sesión 3 parte 1 - API</a></li>
-  <li>Desarrollar <a href="laboratorios/03_Laboratorio_de_la_sesion_3_parte2.ipynb">Laboratorio de la Sesión 3 parte 2</a></li>
-  <li>Desarrollar <a href="laboratorios/03_Laboratorio_EDA_1.ipynb">Laboratorio EDA 1</a></li>
-  <li>Desarrollar <a href="laboratorios/03_Laboratorio_EDA_2.ipynb">Laboratorio EDA 2</a></li>
-  <li>La solución al laboratorio 3 lo encuentras aca:</li>
-  <ul>
-    <li><a href="laboratorios/03_Laboratorio_EDA_1_sol.ipynb">Laboratorio de la Sesión 3 parte 1 - API</a></li>
-    <li><a href="laboratorios/03_Laboratorio_EDA_2_sol.ipynb">Laboratorio de la Sesión 3 parte 2</a></li>
-  </ul>
-  <li><a href="http://iquantny.tumblr.com/post/107245431809/how-software-in-half-of-nyc-cabs-generates-5-2">Leer How Software in Half of NYC Cabs Generates $5.2 Million a Year in Extra Tips</a> Para un excelente ejemplo de análisis de datos exploratorios.</li>
-  <li><a href="http://data.heapanalytics.com/anscombes-quartet-and-why-summary-statistics-dont-tell-the-whole-story/">Leer Anscombe's Quartet, and Why Summary Statistics Don't Tell the Whole Story</a> Para un ejemplo clásico de por qué la visualización es útil.</li>
-</ul>
-
-<p><strong>Recursos:</strong></p>
-
-<ul>
-  <li>Para obtener más pandas, lea esto <a href="http://www.gregreda.com/2013/10/26/intro-to-pandas-data-structures/">three-part tutorial</a>, O revise estos dos cuadernos excelentes (pero largos) en Pandas: <a href="https://github.com/fonnesbeck/Bios8366/blob/master/notebooks/Section2_5-Introduction-to-Pandas.ipynb">introduction</a> and <a href="https://github.com/fonnesbeck/Bios8366/blob/master/notebooks/Section2_6-Data-Wrangling-with-Pandas.ipynb">data wrangling</a>.</li>
-  <li>Si quieres profundizar en los pandas (y numpy), lee el libro <a href="http://shop.oreilly.com/product/0636920023784.do">Python for Data Analysis</a>, Escrito por el Creador de Pandas.</li>
-  <li>Este cuaderno demuestra los diferentes tipos de <a href="notebooks/05_pandas_merge.ipynb">joins in Pandas</a>, para cuando necesite descubrir cómo fusionar dos marcos de datos.</li>
-  <li>Este es un buen tutorial breve sobre <a href="https://beta.oreilly.com/learning/pivot-tables">pivot tables</a> en pandas.</li>
-</ul>
-
-<p><strong>Recursos adicionales:</strong></p>
-
-<ul>
-  <li>Para trabajar con datos geoespaciales en Python, <a href="http://geopandas.org/index.html">GeoPandas</a> parece prometedor. Este <a href="http://michelleful.github.io/code-blog/2015/04/24/sgmap/">tutorial</a> Utiliza Geopandas (y Scikit-Learn) para construir un "mapa callejero lingüístico" de Singapur.</li>
-  <li>Browsing or searching the Pandas <a href="http://pandas.pydata.org/pandas-docs/stable/api.html">API Reference</a> es una excelente manera de localizar una función incluso si no sabe su nombre exacto.</li>
-  <li><a href="http://simplystatistics.org/2014/06/13/what-i-do-when-i-get-a-new-data-set-as-told-through-tweets/">What I do when I get a new data set as told through tweets</a> es una mirada divertida (pero esclarecedora) al proceso de análisis de datos exploratorios.</li>
-  <li><a href="http://iquantny.tumblr.com/post/107245431809/how-software-in-half-of-nyc-cabs-generates-5-2">Leer How Software in Half of NYC Cabs Generates $5.2 Million a Year in Extra Tips</a> Para un excelente ejemplo de análisis de datos exploratorios.</li>
-</ul>
-
-<hr>
-<div style="display: flex; align-items: center;">
-  <a target="_blank" href="https://anaconda.cloud/api/nbserve/launch_notebook?nb_url=https%3A%2F%2Fanaconda.cloud%2Fapi%2Fprojects%2Fb93c8453-0167-4bee-afe2-3811c4f40904%2Ffiles%2F04_Visualization_de_Datos_1.ipynb%3Fversion%3Dc94c5061-1acd-487e-9de4-1c4ee1563156"><img src="https://static.anaconda.cloud/content/a22d04e8445b700f28937ab3231b8cded505d0395c63b7a269696722196d5415" alt="Lanzar notebook sesión 4" height="25"/></a>
-  <a href="https://drive.google.com/file/d/1cye2a3l1CngwjieMLvrAHx7fB7g6bFTl/view?usp=sharing" target="_blank" style="text-decoration:none;">
-    <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab" height="25"/>
-  </a>
-</div>
-
-<h3 id="class-4-getting-data">Sesión 4: Visualización de Datos</h3>
-
-<ul>
-  <li><a href="laboratorios/04_Laboratorio_de_Visualizacion.ipynb">Laboratorio de Visualización</a></li>
-  <li>Visualización con pandas y matplotlib (<a href="notebooks/04_Visualization_I_Matplotlib.ipynb">notebook</a>)</li>
-</ul>
-
-<p><strong>Asignación:</strong></p>
-
-<ul>
-  <li>Puedes desarrollar el <a href="laboratorios/04_Laboratorio_de_Visualization_Ejercicios.ipynb">Laboratorio de Visualización Ejercicios</a></li>
-  <li>Si deseas validar la solución aca estan las soluciones: <a href="laboratorios/04_Laboratorio_de_Visualization_Soluciones.ipynb">Laboratorio de Visualización Soluciones</a></li>
-  <li>Desarrollar el 05_Laboratorio_de_Visualización (Asignación)</li>
-  <li>Obtén inspiración <a href="https://www.data-to-viz.com/">desde esta galería</a></li>
-</ul>
-
-<p><strong>Recursos:</strong></p>
-
-<ul>
-  <li><a href="https://www.youtube.com/watch?v=coNDCIMH8bk">Mirar Look at Your Data</a> (18 minutos) Para un excelente ejemplo de por qué la visualización es útil para comprender sus datos.</li>
-  <li>Dispones de más detalles de visualización en este <a href="https://github.com/fonnesbeck/Bios8366/blob/master/notebooks/Section2_7-Plotting-with-Pandas.ipynb">notebook</a> o el <a href="http://pandas.pydata.org/pandas-docs/stable/visualization.html">visualization page</a> De la documentación oficial de Pandas.</li>
-  <li>Para aprender a personalizar aún más sus lienzos, navegue por este <a href="https://github.com/fonnesbeck/Bios8366/blob/master/notebooks/Section2_4-Matplotlib.ipynb">notebook on matplotlib</a> o este <a href="https://github.com/jrjohansson/scientific-python-lectures/blob/master/Lecture-4-Matplotlib.ipynb">similar notebook</a>.</li>
-  <li><a href="http://pbpython.com/visualization-tools-1.html">Leer Overview of Python Visualization Tools</a> Para una comparación útil de matplotlib, pandas, seaborn, ggplot, bokeh, pygal y tramly.</li>
-  <li>Para explorar diferentes tipos de visualizaciones y cuándo usarlas, <a href="http://extremepresentation.typepad.com/files/choosing-a-good-chart-09.pdf">Choosing a Good Chart</a> y <a href="https://gijn.org/resource/document-of-the-day-visual-vocabulary/">The Graphic Continuum</a> son buenas referencias de una página y el interactivo <a href="http://shiny.stat.ubc.ca/r-graph-catalog/">R Graph Catalog</a> tiene prácticas capacidades de filtrado.</li>
-  <li><a href="http://cs109.github.io/2014/">Harvard's Data Science course</a> Incluye una excelente conferencia sobre <a href="http://cm.dce.harvard.edu/2015/01/14328/L03/screen_H264LargeTalkingHead-16x9.shtml">Visualization Goals, Data Types, and Statistical Graphs</a> (83 minutos), para el cual el <a href="https://docs.google.com/file/d/0B7IVstmtIvlHLTdTbXdEVENoRzQ/edit">slides</a> también están disponibles.</li>
-  <li><a href="http://data.heapanalytics.com/anscombes-quartet-and-why-summary-statistics-dont-tell-the-whole-story/">Leer Anscombe's Quartet, and Why Summary Statistics Don't Tell the Whole Story</a> Para un ejemplo clásico de por qué la visualización es útil.</li>
-</ul>
-
-<hr>
-<p><strong>¿Quieres ir más allá de lo aprendido?</strong></p>
-
-<p>En el mundo actual, la capacidad de interpretar y visualizar datos de manera efectiva se ha convertido en una habilidad esencial para profesionales de diversas disciplinas. Scimago Graphica es una aplicación innovadora que ha surgido como una herramienta poderosa para satisfacer esta necesidad. Diseñada para transformar datos complejos en visualizaciones intuitivas y significativas. Aplicaciones como Scimago Graphica, Datawraper o Graphex no sólo facilitan el análisis de datos, sino que también mejoran la comunicación de información crucial.</p>
-
-<p><strong>¿Qué son estás aplicaciones?</strong></p>
-
-<p>Son herramientas low-code de visualización de datos avanzada que permite a los usuarios crear gráficos interactivos y dinámicos de manera rápida y sencilla. Con un enfoque en la accesibilidad y la facilidad de uso, esta herramienta está diseñada para ser utilizada por una amplia variedad de profesionales, desde científicos e investigadores hasta analistas de negocios y educadores.</p>
-
-<p><strong>Motivación para su uso</strong></p>
-
-<ol>
-  <li><strong>Simplicidad y Potencia en un Solo Lugar:</strong> Combinan una interfaz de usuario intuitiva con capacidades robustas de análisis y visualización. No se requiere ser un experto en programación o en software de análisis de datos para comenzar a crear visualizaciones impactantes.</li>
-  <li><strong>Interactividad y Dinamismo:</strong> Las visualizaciones creadas son interactivas, lo que permite a los usuarios explorar los datos en profundidad y descubrir patrones y tendencias ocultas. Esta característica es especialmente valiosa para presentaciones y reportes, donde la claridad y la capacidad de respuesta son cruciales.</li>
-  <li><strong>Colaboración Efectiva:</strong> En un entorno cada vez más colaborativo, permiten compartir fácilmente visualizaciones y proyectos con colegas y equipos, facilitando la colaboración y la toma de decisiones basada en datos.</li>
-  <li><strong>Aplicaciones Multidisciplinarias:</strong> Desde la investigación académica hasta el análisis de mercado, pasando por la educación y la gestión de proyectos, Son herramientas versátiles que pueden adaptarse a las necesidades de diversos campos. Esto las convierte en una inversión valiosa para cualquier profesional que trabaje con datos.</li>
-  <li><strong>Acceso a Recursos y Soporte:</strong> ofrecen una variedad de recursos, incluyendo tutoriales y soporte técnico, para ayudar a los usuarios a maximizar su experiencia y aprovechar al máximo las capacidades de la herramienta.</li>
-</ol>
-
-<p><strong>Herramientas:</strong></p>
-
-<ul>
-  <li><a href="https://www.graphica.app/">Scimago Graphica</a></li>
-  <li><a href="https://www.datawrapper.de/">Datawrapper</a></li>
-  <li><a href="https://www.graphext.com/">Graphext</a></li>
-</ul>
-
-<hr>
-<div style="display: flex; align-items: center;">
-  <a target="_blank" href="https://anaconda.cloud/api/nbserve/launch_notebook?nb_url=https%3A%2F%2Fanaconda.cloud%2Fapi%2Fprojects%2F8ee6a43b-d310-4d19-953b-b0d3cab70f86%2Ffiles%2F05_Evaluacio%CC%81n_de_modelos_de_pronosticos.ipynb%3Fversion%3D49d2e21b-b892-4b5a-8e55-51b03a2faaf7"><img src="https://static.anaconda.cloud/content/a22d04e8445b700f28937ab3231b8cded505d0395c63b7a269696722196d5415" alt="Lanzar notebook sesión 5" height="25"/></a>
-  <a href="https://drive.google.com/file/d/1dhllWkyt11WKdYEIAjrRyS0giQ9_sQp6/view?usp=sharing" target="_blank" style="text-decoration:none;">
-    <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab" height="25"/>
-  </a>
-</div>
-
-<h3 id="class-5-basic-model-evaluation">Clase 5: Evaluación de modelos de pronósticos y regresión lineal</h3>
-
-<ul>
-  <li>Ejercicio de "aprendizaje humano":</li>
-  <ul>
-    <li><a href="http://archive.ics.uci.edu/ml/datasets/Iris">Iris dataset</a> Organizado por el repositorio de aprendizaje automático de UCI</li>
-    <li><a href="http://sebastianraschka.com/Images/2014_python_lda/iris_petal_sepal.png">Iris photo</a></li>
-    <li><a href="notebooks/05_Evaluación_de_modelos_de_pronosticos.ipynb">Evaluación de modelos de pronósticos</a></li>
-    <li><a href="notebooks/05_Regresión_Lineal_con_Python_y_scikit-learn.ipynb">Regresión Lineal con Python y scikit-learn</a></li>
-  </ul>
-  <li>Introducción al aprendizaje automático (<a href="slides/06_machine_learning.pdf">slides</a>)</li>
-  <li>Ejercicio de aprendizaje automático (<a href="https://www.turing.com/kb/regression-analysis-techniques-in-data-science">article</a>)</li>
-  <li>Ejemplo de ingeniería de características: <a href="https://github.com/mikeyea/DAT7_project/blob/master/final%20project/Class_Presention_MYea.ipynb">Predicting User Engagement in Corporate Collaboration Network</a></li>
-</ul>
-
-<p><strong>Asignación:</strong></p>
-
-<ul>
-  <li>Leer Data Manipulation and visualization in python</li>
-  <li>Desarrollar el 05_Laboratorio_de_Visualización (Asignación)</li>
-  <li>Obtén inspiración <a href="https://www.data-to-viz.com/">desde esta galería</a></li>
-</ul>
-
-<p><strong>Recursos de aprendizaje automático:</strong></p>
-
-<ul>
-  <li>Para un resumen muy rápido de los puntos clave sobre el aprendizaje automático, mire <a href="https://www.youtube.com/watch?v=elojMnjn4kk">What is machine learning, and how does it work?</a> (10 minutos) o leer el <a href="https://github.com/justmarkham/scikit-learn-videos/blob/master/01_machine_learning_intro.ipynb">associated notebook</a>.</li>
-  <li>Para una introducción más profunda al aprendizaje automático, lea la Sección 2.1 (14 páginas) del excelente libro de Hastie y Tibshirani, <a href="https://www.stat.berkeley.edu/users/rabbee/s154/ISLR_First_Printing.pdf">An Introduction to Statistical Learning</a>. (¡Es una descarga gratuita de PDF!)</li>
-  <li><a href="http://work.caltech.edu/library/014.html">La Learning Paradigms</a> Video (13 minutos) de <a href="http://work.caltech.edu/telecourse.html">Caltech's Learning From Data course</a> Proporciona una buena comparación del aprendizaje supervisado versus no supervisado, así como una introducción al "aprendizaje de refuerzo".</li>
-  <li><a href="https://beta.oreilly.com/ideas/real-world-active-learning">Real-World Active Learning</a> es una introducción legible y exhaustiva al "aprendizaje activo", una variación del aprendizaje automático en la que los humanos etiquetan solo las observaciones más "importantes".</li>
-  <li>Para obtener una vista previa de parte del contenido de aprendizaje automático que cubriremos durante el curso, lea Sebastian Raschka's <a href="https://github.com/rasbt/pattern_classification/blob/master/machine_learning/supervised_intro/introduction_to_supervised_machine_learning.md">overview of the supervised learning process</a>.</li>
-  <li><a href="http://www.win-vector.com/blog/2013/04/data-science-machine-learning-and-statistics-what-is-in-a-name/">Data Science, Machine Learning, and Statistics: What is in a Name?</a> Discute las diferencias entre estos (y otros) términos.</li>
-  <li><a href="https://www.kickstarter.com/projects/fred/the-emoji-translation-project">The Emoji Translation Project</a> es una aplicación realmente divertida del aprendizaje automático.</li>
-  <li>Busque el <a href="http://www.esri.com/landing-pages/tapestry/">characteristics of your zip code</a>, y luego lee sobre el <a href="http://doc.arcgis.com/en/esri-demographics/data/tapestry-segmentation.htm">67 distinct segments</a> en detalle.</li>
-</ul>
-
-<p><strong>Recursos de cuaderno de iPython:</strong></p>
-
-<ul>
-  <li>Para un resumen de la introducción del cuaderno de iPython (y una vista previa de Scikit-Learn), mire <a href="https://www.youtube.com/watch?v=IsXXlYVBt1M">scikit-learn and the IPython Notebook</a> (15 minutos) o leer el <a href="https://github.com/justmarkham/scikit-learn-videos/blob/master/02_machine_learning_setup.ipynb">associated notebook</a>.</li>
-  <li>Si desea aprender el cuaderno de iPython, el oficial <a href="https://github.com/jupyter/notebook/blob/master/docs/source/examples/Notebook/Examples%20and%20Tutorials%20Index.ipynb">Notebook tutorials</a> Son útiles.</li>
-  <li>Esta <a href="https://www.reddit.com/r/Python/comments/3be5z2/do_you_prefer_ipython_notebook_over_ipython/">Reddit discussion</a> Compara las fortalezas relativas del cuaderno de Ipython y Spyder.</li>
-  <li>Ejercicio de aprendizaje automático (<a href="http://blog.dominodatalab.com/10-interesting-uses-of-data-science/">article</a>)</li>
-  <li>Regresión lineal (<a href="notebooks/10_linear_regression.ipynb">notebook</a>)</li>
-  <ul>
-    <li><a href="data/bikeshare.csv">Capital Bikeshare dataset</a> used in a Kaggle competition</li>
-    <li><a href="https://www.kaggle.com/c/bike-sharing-demand/data">Data dictionary</a></li>
-  </ul>
-  <li>Ejemplo de ingeniería de características: <a href="https://github.com/mikeyea/DAT7_project/blob/master/final%20project/Class_Presention_MYea.ipynb">Predicting User Engagement in Corporate Collaboration Network</a></li>
-</ul>
-
-<p><strong>Recursos de regresión lineal:</strong></p>
-
-<ul>
-  <li>Para ir mucho más en profundidad sobre la regresión lineal, lea el Capítulo 3 de <a href="http://www-bcf.usc.edu/~gareth/ISL/">An Introduction to Statistical Learning</a>. Alternativamente, mira el <a href="http://www.dataschool.io/15-hours-of-expert-machine-learning-videos/">related videos</a> o leer mi <a href="http://www.dataschool.io/applying-and-interpreting-linear-regression/">quick reference guide</a> a los puntos clave en ese capítulo.</li>
-  <li>Esta <a href="http://people.duke.edu/~rnau/regintro.htm">introduction to linear regression</a> es más detallado y matemáticamente minucioso, e incluye muchos buenos consejos.</li>
-  <li>Esta es una publicación relativamente rápida en el <a href="http://pareonline.net/getvn.asp?n=2&v=8">assumptions of linear regression</a>.</li>
-  <li>Setosa tiene un <a href="http://setosa.io/ev/ordinary-least-squares-regression/">interactive visualization</a> of regresión lineal.</li>
-  <li>Para una breve introducción a los intervalos de confianza, las pruebas de hipótesis, los valores P y el R-cuadrado, así como una comparación entre el código de Scikit-Learn y <a href="http://statsmodels.sourceforge.net/">Statsmodels</a> code, leer mi <a href="https://github.com/justmarkham/DAT7/blob/master/notebooks/10_linear_regression.ipynb">DAT7 lesson on linear regression</a>.</li>
-  <li>Aquí hay una explicación útil de <a href="http://www.quora.com/What-is-a-confidence-interval-in-laymans-terms/answer/Michael-Hochster">confidence intervals</a> de Quora.</li>
-  <li><a href="http://20bits.com/article/hypothesis-testing-the-basics">Hypothesis Testing: The Basics</a> proporciona una buena visión general del tema, y ​​la charla de John Rauser en <a href="https://www.youtube.com/watch?v=5Dnw46eC-0o">Statistics Without the Agonizing Pain</a> (12 minutos) da una gran explicación de cómo se rechaza la hipótesis nula.</li>
-  <li>A principios de este año, una importante revista científica prohibió el uso de valores P:</li>
-  <ul>
-    <li>Scientific American tiene un buen <a href="http://www.scientificamerican.com/article/scientists-perturbed-by-loss-of-stat-tools-to-sift-research-fudge-from-fact/">summary</a> of the ban.</li>
-    <li>Esta <a href="http://www.nature.com/news/statistics-p-values-are-just-the-tip-of-the-iceberg-1.17412">response</a> A la prohibición de la naturaleza argumenta que "las decisiones que se toman anteriormente en el análisis de datos tienen un impacto mucho mayor en los resultados".</li>
-    <li>Andrew Gelman tiene un legible <a href="http://www.stat.columbia.edu/~gelman/research/unpublished/p_hacking.pdf">paper</a> en el que argumenta que "es fácil encontrar una comparación P <.05 incluso si no está sucediendo nada, si miras lo suficiente".</li>
-    <li><a href="http://fivethirtyeight.com/features/science-isnt-broken/">Science Isn't Broken</a> incluye una herramienta ordenada que le permite "P-Hack" su camino hacia los resultados "estadísticamente significativos".</li>
-  </ul>
-  <li><a href="http://scott.fortmann-roe.com/docs/MeasuringError.html">Accurately Measuring Model Prediction Error</a> Compara R-cuadrado ajustado, AIC y BIC, división de tren/prueba y validación cruzada.</li>
-  <li>Sección 3.3.1 de <a href="http://www-bcf.usc.edu/~gareth/ISL/">An Introduction to Statistical Learning</a> (4 pages) Tiene una gran explicación de la codificación ficticia para características categóricas.</li>
-</ul>
-
-<hr>
-<h3 id="class-6-logistic-regression">Clase 6: Regresión logística y árboles de decisión</h3>
-
-<div style="display: flex; align-items: center;">
-  <a target="_blank" href="https://anaconda.cloud/api/nbserve/launch_notebook?nb_url=https%3A%2F%2Fanaconda.cloud%2Fapi%2Fprojects%2F1dfd06f2-1f99-4e0e-a208-0f7e118f1363%2Ffiles%2F06_logistic_regression.ipynb%3Fversion%3D0464a05a-9f77-487f-abbf-3c8622a2cf16"><img src="https://static.anaconda.cloud/content/a22d04e8445b700f28937ab3231b8cded505d0395c63b7a269696722196d5415" alt="Lanzar notebook sesión 6" height="25"/></a>
-  <a href="https://drive.google.com/file/d/1ZnqQ_c6i1Z2BcycWmGUVjhzExS13M63l/view?usp=sharing" target="_blank" style="text-decoration:none;">
-    <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab" height="25"/>
-  </a>
-</div>
-
-<ul>
-  <li><a href="notebooks/06_logistic_regression.ipynb">Regresión logística</a></li>
-  <li><a href="notebooks/06_Metricas_matriz_confusion.ipynb">Confusion Matrix</a></li>
-  <li><a href="notebooks/06_decision_trees.ipynb">Árboles de decisión</a></li>
-</ul>
-
-<p><strong>Tarea:</strong></p>
-
-<ul>
-  <li>Si aún no se siente cómodo con toda la terminología de la matriz de confusión, mire los videos de Rahul Patwari en <a href="https://www.youtube.com/watch?v=U4_3fditnwg">Sensibilidad y especificidad intuitiva</a> (9 minutos) y <a href="https://www.youtube.com/watch?v=vtydyggeqyo">La compensación entre sensibilidad y especificidad</a> (13 minutos).</li>
-  <li>Asignación de video/lectura en <a href="tarea/13_roc_auc.md">curvas ROC y AUC</a></li>
-  <li>Asignación de video/lectura en <a href="tarea/13_cross_validation.md">Validación cruzada</a></li>
-</ul>
-
-<p><strong>Recursos de regresión logística:</strong></p>
-
-<ul>
-  <li>Para profundizar en la regresión logística, lea las primeras tres secciones del Capítulo 4 de <a href="http://www-bcf.usc.edu/~gareth/ISL/">An Introduction to Statistical Learning</a>, O mira el <a href="http://www.dataschool.io/15-hours-of-expert-machine-learning-videos/">first three videos</a> (30 minutos) de ese capítulo.</li>
-  <li>Para una explicación matemática de la regresión logística, mire los primeros siete videos (71 minutos) de la semana 3 de Andrew Ng's <a href="https://www.coursera.org/learn/machine-learning/home/info">machine learning course</a>, o leer el <a href="http://www.holehouse.org/mlclass/06_Logistic_Regression.html">related lecture notes</a> compilado por un estudiante.</li>
-  <li>Para obtener más información sobre la interpretación de los coeficientes de regresión logística, lea este excelente <a href="http://www.ats.ucla.edu/stat/mult_pkg/faq/general/odds_ratio.htm">guide</a> por el idre de UCLA y estos <a href="http://www.unm.edu/~schrader/biostat/bio2/Spr06/lec11.pdf">lecture notes</a> de la Universidad de Nuevo México.</li>
-  <li>La documentación de Scikit-Learn tiene una buena <a href="http://scikit-learn.org/stable/modules/calibration.html">explanation</a> de lo que significa para una probabilidad prevista para ser calibrada.</li>
-  <li><a href="http://ryancompton.net/assets/ml_cheat_sheet/supervised_learning.html">Supervised learning superstitions cheat sheet</a> es una muy buena comparación de cuatro clasificadores que cubrimos en el curso (regresión logística, árboles de decisión, KNN, Naive Bayes) y un clasificador que no cubrimos (Máquinas de vectores de soporte).</li>
-</ul>
-
-<p><strong>Recursos de matriz de confusión:</strong></p>
-
-<ul>
-  <li>Mi <a href="http://www.dataschool.io/simple-guide-to-confusion-matrix-terminology/">simple guide to confusion matrix terminology</a> Puede ser útil para usted como referencia.</li>
-  <li>Esta publicación de blog sobre <a href="https://aws.amazon.com/blogs/aws/amazon-machine-learning-make-data-driven-decisions-at-scale/">Amazon Machine Learning</a> Contiene un ordenado <a href="https://media.amazonwebservices.com/blog/2015/ml_adjust_model_1.png">graphic</a> Mostrar cómo el umbral de clasificación afecta diferentes métricas de evaluación.</li>
-  <li>Este cuaderno (de otro curso de datos) explica <a href="https://github.com/podopie/DAT18NYC/blob/master/classes/13-expected_value_cost_benefit_analysis.ipynb">how to calculate "expected value"</a> FROM una matriz de confusión tratándola como una matriz de costo-beneficio.</li>
-</ul>
-
-<ul>
-  <li><a href="notebooks/17_decision_trees.ipynb">Árboles de decisión</a></li>
-  <li>Ejercicio con los datos de Bikeshare de Capital (<a href="notebooks/17_bikeshare_exercise.ipynb">notebook</a>, <a href="data/bikeshare.csv">data</a>, <a href="https://www.kaggle.com/c/bike-sharing-demand/data">data dictionary</a>)</li>
-</ul>
-
-<p><strong>Tarea:</strong></p>
-
-<ul>
-  <li>Lea la sección "Sabiduría de las multitudes" de la publicación de Mlwave en <a href="http://mlwave.com/human-ensemble-learning/">Human Ensemble Learning</a>.</li>
-  <li><strong>Optional:</strong> Leer el resumen de <a href="http://jmlr.csail.mit.edu/papers/volume15/delgado14a/delgado14a.pdf">Do We Need Hundreds of Classifiers to Solve Real World Classification Problems?</a>, aS como Kaggle CTO Ben Namner's <a href="https://news.ycombinator.com/item?id=8719723">comment</a> sobre el documento, prestando atención a las menciones de "bosques aleatorios".</li>
-</ul>
-
-<p><strong>Recursos:</strong></p>
-
-<ul>
-  <li>La documentación de Scikit-Learn en <a href="http://scikit-learn.org/stable/modules/tree.html">decision trees</a> Incluye una buena descripción de los árboles, así como consejos para el uso adecuado.</li>
-  <li>Para una introducción más exhaustiva a los árboles de decisión, lea la Sección 4.3 (23 páginas) de <a href="http://www-users.cs.umn.edu/~kumar/dmbook/index.php">Introduction to Data Mining</a>. (El Capítulo 4 está disponible como descarga gratuita).</li>
-  <li>Si quieres profundizar en los diferentes algoritmos de árbol de decisión, este mazo de diapositivas contiene <a href="https://drive.google.com/file/d/0B-BKohKl-jUYQ3RpMEF0OGRUU3RHVGpHY203NFd3Z19Nc1ZF/view">A Brief History of Classification and Regression Trees</a>.</li>
-  <li><a href="http://www.doc.gold.ac.uk/~mas03dm/papers/PawleyMullensiefen_Singalong_2012.pdf">The Science of Singing Along</a> Contiene un árbol de regresión ordenado (página 136) para predecir el porcentaje de una audiencia en un lugar de música que cantará junto con una canción pop.</li>
-  <li>Los árboles de decisión son comunes en el campo de la medicina para el diagnóstico diferencial, como este árbol de clasificación para <a href="http://www.psychcongress.com/sites/naccme.com/files/images/pcn/saundras/psychosis_decision_tree.pdf">identifying psychosis</a>.</li>
-</ul>
-
-<hr>
-<h3 id="class-7-clustering">Clase 7: Clustering y Evaluación de modelos</h3>
-
-<div style="display: flex; align-items: center;">
-  <a target="_blank" href="https://anaconda.cloud/api/nbserve/launch_notebook?nb_url=https%3A%2F%2Fanaconda.cloud%2Fapi%2Fprojects%2Fe962544b-ba6a-48ff-bdd8-4f67b95eca5a%2Ffiles%2F07_knn_sklearn.ipynb%3Fversion%3D26f07033-9e1c-4eec-8255-9d1e073e11bf"><img src="https://static.anaconda.cloud/content/a22d04e8445b700f28937ab3231b8cded505d0395c63b7a269696722196d5415" alt="Lanzar notebook sesión 7" height="25"/></a>
-  <a href="https://drive.google.com/file/d/12as9KUU-2hM55GLt3YHAqR_wbxzxCK97/view?usp=sharing" target="_blank" style="text-decoration:none;">
-    <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab" height="25"/>
-  </a>
-</div>
-
-<ul>
-  <li><a href="notebooks/07_model_evaluation.ipynb">Evaluación de modelos</a></li>
-  <li><a href="notebooks/07_knn_sklearn.ipynb">K-Near más vecinos y scikit-learn</a></li>
-  <li><a href="notebooks/07_clustering.ipynb">Explorando la compensación de varianza de sesgo</a></li>
-</ul>
-
-<p><strong>Asignación:</strong></p>
-
-<ul>
-  <li>Lea la <a href="http://www.dataschool.io/reproducibilidad-is-not-just-for-researchers/">Introducción a la reproducibilidad</a></li>
-  <li>Lea la guía de Jeff Leek para <a href="https://github.com/jtleek/dataSharing">crear un análisis reproducible</a>, y vea este video relacionado <a href="http://thecolbertreport.cc.com/videos/dcyvro/austerity-s-spreadsheet-error">Video de Informe de Colbert</a> (8 minutos).</li>
-</ul>
-
-<p><strong>RECURSOS KNN</strong></p>
-
-<ul>
-  <li>Para un resumen de los puntos clave sobre Knn y Scikit-Learn, mira <a href="https://www.youtube.com/watch?v=hd1W4CyPX58">Getting started in scikit-learn with the famous iris dataset</a> (15 minutos) y <a href="https://www.youtube.com/watch?v=RlQuVL6-qe8">Training a machine learning model with scikit-learn</a> (20 minutes).</li>
-  <li>KNN soporta <a href="http://scikit-learn.org/stable/modules/generated/sklearn.neighbors.DistanceMetric.html">distance metrics</a> aparte de la distancia euclidiana, como <a href="http://stats.stackexchange.com/questions/62092/bottom-to-top-explanation-of-the-mahalanobis-distance">Mahalanobis distance</a>, cual <a href="http://blogs.sas.com/content/iml/2012/02/15/what-is-mahalanobis-distance.html">takes the scale of the data into account</a>.</li>
-  <li><a href="https://saravananthirumuruganathan.wordpress.com/2010/05/17/a-detailed-introduction-to-k-nearest-neighbor-knn-algorithm/">A Detailed Introduction to KNN</a> es un poco denso, pero proporciona una introducción más exhaustiva a KNN y sus aplicaciones.</li>
-  <li>Esta conferencia en <a href="http://cs231n.github.io/classification/">Image Classification</a> Cómo se podría utilizar cómo se podría usar KNN para detectar imágenes similares, y también toca temas que cubriremos en clases futuras (ajuste de hiperparámetro y validación cruzada).</li>
-  <li>Algunas aplicaciones para las cuales KNN es muy adecuada son <a href="http://vlm1.uta.edu/~athitsos/nearest_neighbors/">object recognition</a>, <a href="http://land.umn.edu/documents/FS6.pdf">satellite image enhancement</a>, <a href="http://www.ceng.metu.edu.tr/~e120321/paper.pdf">document categorization</a>, y <a href="http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.208.993">gene expression analysis</a>.</li>
-</ul>
-
-<p><strong>Recursos Seaborn:</strong></p>
-
-<ul>
-  <li>Para comenzar con Seaborn para la visualización, el sitio web oficial tiene una serie de <a href="http://web.stanford.edu/~mwaskom/software/seaborn/tutorial.html">tutoriales detallados</a> y un <a href="http://web.stanford.edu/~mwaskom/software/seaborn/examples/index.html">example gallery</a>.</li>
-  <li><a href="https://beta.oreilly.com/learning/data-visualization-with-seaborn">Data visualization with Seaborn</a> es un recorrido rápido por algunos de los tipos populares de parcelas marinas.</li>
-  <li><a href="http://pbpython.com/pandas-google-forms-part2.html">Visualizing Google Forms Data with Seaborn</a> y <a href="http://savvastjortjoglou.com/nba-shot-sharts.html">How to Create NBA Shot Charts in Python</a> son buenos ejemplos de uso de marinas sobre datos del mundo real.</li>
-</ul>
-
-<p><strong>Recursos de Clustering:</strong></p>
-
-<ul>
-  <li>Para una introducción muy exhaustiva a la agrupación, lea el Capítulo 8 (69 páginas) de <a href="http://www-users.cs.umn.edu/~kumar/dmbook/index.php">Introduction to Data Mining</a> (Disponible como descarga gratuita), o navegar a través de las diapositivas del Capítulo 8.</li>
-  <li>Guía del usuario de Scikit-Learn compara muchos diferentes <a href="http://scikit-learn.org/stable/modules/clustering.html">types of clustering</a>.</li>
-  <li>Esta <a href="http://www2.research.att.com/~volinsky/DataMining/Columbia2011/Slides/Topic6-Clustering.ppt">PowerPoint presentation</a> De la clase de minería de datos de Columbia proporciona una buena introducción a la agrupación, incluida la agrupación jerárquica y las métricas de distancia alternativa.</li>
-  <li>Una introducción al aprendizaje estadístico tiene videos útiles sobre <a href="https://www.youtube.com/watch?v=aIybuNt9ps4&list=PL5-da3qGB5IBC-MneTc9oBZz0C6kNJ-f2">K-means clustering</a> (17 minutos) y <a href="https://www.youtube.com/watch?v=Tuuc9Y06tAc&list=PL5-da3qGB5IBC-MneTc9oBZz0C6kNJ-f2">hierarchical clustering</a> (15 minutos).</li>
-  <li>Esta es una excelente visualización interactiva de <a href="https://joyofdata.shinyapps.io/hclust-shiny/">hierarchical clustering</a>.</li>
-  <li>Esta es una buena explicación animada de <a href="http://spin.atomicobject.com/2015/05/26/mean-shift-clustering/">mean shift clustering</a>.</li>
-  <li>La <a href="http://www.cs.ust.hk/~qyang/Teaching/537/Papers/huang98extensions.pdf">K-modes algorithm</a> Se puede utilizar para agrupar conjuntos de datos de características categóricas sin convertirlos en valores numéricos. Aquí hay una <a href="https://github.com/nicodv/kmodes">implementación de Python</a>.</li>
-  <li>Aquí hay algunos ejemplos divertidos de agrupación: <a href="http://fivethirtyeight.com/features/a-statistical-analysis-of-the-work-of-bob-ross/">A Statistical Analysis of the Work of Bob Ross</a> (with <a href="https://github.com/fivethirtyeight/data/tree/master/bob-ross">data and Python code</a>), <a href="http://www.wired.com/2014/01/how-to-hack-okcupid/all/">How a Math Genius Hacked OkCupid to Find True Love</a>, and <a href="http://www.esri.com/landing-pages/tapestry/">characteristics of your zip code</a>.</li>
-</ul>
-
-<h3>Evaluación básica del modelo</h3>
-
-<ul>
-  <li>Reproducibilidad</li>
-  <ul>
-    <li>Discuta las lecturas asignadas: <a href="http://www.dataschool.io/reproducibility-is-not-just-for-researchers/">introduction</a>, <a href="http://thecolbertreport.cc.com/videos/dcyvro/austerity-s-spreadsheet-error">Colbert Report video</a>, <a href="http://iquantny.tumblr.com/post/107245431809/how-software-in-half-of-nyc-cabs-generates-5-2">cabs article</a>, <a href="https://twitter.com/jakevdp/status/519563939177197571">Tweet</a>, <a href="https://github.com/jtleek/datasharing">creating a reproducible analysis</a></li>
-    <li>Examples: <a href="https://github.com/fivethirtyeight/data/tree/master/classic-rock">Classic rock</a>, <a href="https://github.com/jwknobloch/DAT4_final_project">student project 1</a>, <a href="https://github.com/justmarkham/DAT4-students/tree/master/Jonathan_Bryan/Project_Files">student project 2</a></li>
-  </ul>
-  <li>Discuta la tarea de lectura en el <a href="homework/09_bias_variance.md">bias-variance tradeoff</a></li>
-  <li>Evaluación del modelo utilizando la división de trenes/pruebas (<a href="notebooks/09_model_evaluation.ipynb">notebook</a>)</li>
-  <li>Explorando la documentación de Scikit-Learn: <a href="http://scikit-learn.org/stable/modules/classes.html">module reference</a>, <a href="http://scikit-learn.org/stable/user_guide.html">user guide</a>, Documentación de clase y función</li>
-</ul>
-
-<ul>
-  <li><a href="https://www.youtube.com/watch?v=3ZWuPVWq7p4">Data science in Python</a> <a href="https://github.com/justmarkham/scikit-learn-videos/blob/master/06_linear_regression.ipynb">associated notebook</a>.</li>
-  <li><strong>Optional:</strong> <a href="https://www.youtube.com/watch?v=k_OB1tWX9PM">The Easiest Introduction to Regression Analysis</a></li>
-</ul>
-
-<p><strong>Recursos de evaluación del modelo</strong></p>
-
-<ul>
-  <li>Para un resumen de algunos de los puntos clave de la lección de hoy, mira <a href="https://www.youtube.com/watch?v=0pP4EwWJgIU">Comparing machine learning models in scikit-learn</a> (27 minutos).</li>
-  <li>Para Otra explicación del error de entrenamiento versus el error de prueba, la compensación de varianza de sesgo y la división de trenes/pruebas (también conocido como "enfoque de conjunto de validación"), mira el video de Hastie y Tibshirani en <a href="https://www.youtube.com/watch?v=_2ij6eaaSl0&t=2m34s">estimating prediction error</a> (12 minutos, comenzando a las 2:34).</li>
-  <li>El aprendizaje de Caltech de los datos incluye un video fantástico en <a href="http://work.caltech.edu/library/081.html">visualizing bias and variance</a> (15 minutos).</li>
-  <li><a href="http://www.win-vector.com/blog/2015/01/random-testtrain-split-is-not-always-enough/">Random Test/Train Split is Not Always Enough</a> Explica por qué la división aleatoria de trenes/pruebas puede no ser un procedimiento de evaluación de modelo adecuado si sus datos tienen un elemento de tiempo significativo.</li>
-</ul>
-
-<p><strong>Recursos de reproducibilidad</strong></p>
-
-<ul>
-  <li><a href="https://source.opennews.org/en-US/articles/what-weve-learned-about-sharing-our-data-analysis/">What We've Learned About Sharing Our Data Analysis</a> Incluye consejos de BuzzFeed News sobre cómo publicar un análisis reproducible.</li>
-  <li><a href="http://treycausey.com/software_dev_skills.html">Software development skills for data scientists</a> Discute la importancia de escribir funciones y comentarios de código adecuados (entre otras habilidades), que son muy útiles para crear un análisis reproducible.</li>
-  <li><a href="http://simplystatistics.org/2015/03/17/data-science-done-well-looks-easy-and-that-is-a-big-problem-for-data-scientists/">Data science done well looks easy - and that is a big problem for data scientists</a> Explica cómo un análisis reproducible demuestra todo el trabajo que entra en la ciencia de datos adecuada.</li>
-</ul>
-
-<hr>
-<h3 id="class-8-tableau">Clase 8: Introducción a Tableau</h3>
-
-<hr>
-<h3>Revisión del curso y recursos adicionales</h3>
-
-<p><a href="https://tally.so/r/wkZ62o"><strong>Evaluación del curso de Data Analytics</strong></a></p>
-
-<p><strong>Recursos:</strong></p>
-
-<ul>
-  <li>ScikitLearn's <a href="http://scikit-learn.org/stable/tutorial/machine_learning_map/">machine learning map</a> Puede ayudarlo a elegir el "mejor" modelo para su tarea.</li>
-  <li><a href="http://blog.echen.me/2011/04/27/choosing-a-machine-learning-classifier/">Choosing a Machine Learning Classifier</a> es una comparación corta y muy legible de varios modelos de clasificación, <a href="http://scikit-learn.org/stable/auto_examples/classification/plot_classifier_comparison.html">Classifier comparison</a> es la visualización de Scikit-Learn de los límites de decisión del clasificador, <a href="http://www.dataschool.io/comparing-supervised-learning-algorithms/">Comparing supervised learning algorithms</a> es una tabla de comparación de modelos que creé, y <a href="http://ryancompton.net/assets/ml_cheat_sheet/supervised_learning.html">Supervised learning superstitions cheat sheet</a> is a more thorough comparison (with links to lots of useful resources).</li>
-  <li><a href="http://ml.posthaven.com/machine-learning-done-wrong">Machine Learning Done Wrong</a>, <a href="https://www.youtube.com/watch?v=tleeC-KlsKA">Machine Learning Gremlins</a> (31 minutos), <a href="http://hunch.net/?p=22">Clever Methods of Overfitting</a>, and <a href="http://danielnee.com/?p=155">Common Pitfalls in Machine Learning</a> Todos ofrecen consejos reflexivos sobre cómo evitar errores comunes en el aprendizaje automático.</li>
-  <li><a href="http://blog.david-andrzejewski.com/machine-learning/practical-machine-learning-tricks-from-the-kdd-2011-best-industry-paper/">Practical machine learning tricks from the KDD 2011 best industry paper</a> y Andrew Ng's <a href="http://cs229.stanford.edu/materials/ML-advice.pdf">Advice for applying machine learning</a> Incluya consejos un poco más avanzados que los recursos anteriores.</li>
-  <li><a href="http://www.cs.cornell.edu/~caruana/ctp/ct.papers/caruana.icml06.pdf">An Empirical Comparison of Supervised Learning Algorithms</a> es un trabajo de investigación legible de 2006, que también se presentó como un <a href="http://videolectures.net/solomon_caruana_wslmw/">talk</a> (77 minutos).</li>
-</ul>
-
-<hr>
-<h3>Datos ordenados</h3>
-
-<ul>
-  <li><a href="https://www.prometheusresearch.com/good-data-management-practices-for-data-analysis-tidy-data-part-2/">Good Data Management Practices for Data Analysis</a> Resume brevemente los principios de "Datos ordenados".</li>
-  <li><a href="http://www.jstatsoft.org/article/view/v059i10">Hadley Wickham's paper</a> explica los datos ordenados en detalle e incluye muchos buenos ejemplos.</li>
-  <li>Ejemplo de un conjunto de datos ordenado: <a href="https://github.com/fivethirtyeight/data/blob/master/bob-ross/elements-by-episode.csv">Bob Ross</a></li>
-  <li>Ejemplos de conjuntos de datos desordenados: <a href="https://github.com/fivethirtyeight/data/blob/master/nfl-ticket-prices/2014-average-ticket-price.csv">NFL ticket prices</a>, <a href="https://github.com/fivethirtyeight/data/blob/master/airline-safety/airline-safety.csv">airline safety</a>, <a href="https://github.com/fivethirtyeight/data/blob/master/nfl-ticket-prices/jets-buyer.csv">Jets ticket prices</a>, <a href="https://github.com/TheUpshot/chipotle/blob/master/orders.tsv">Chipotle orders</a></li>
-  <li>Si sus compañeros de trabajo tienden a crear hojas de cálculo que son <a href="https://bosker.wordpress.com/2014/12/05/the-government-statistical-services-terrible-spreadsheet-advice/">unreadable by computers</a>, pueden beneficiarse de leer estos <a href="http://www.clean-sheet.org/">tips for releasing data in spreadsheets</a>. (Hay algunas sugerencias adicionales en este <a href="http://stats.stackexchange.com/questions/83614/best-practices-for-creating-tidy-data/83711#83711">answer</a> de cruzado validado.)</li>
-</ul>
-
-<h3>Databases y SQL</h3>
-
-<ul>
-  <li>Esta <a href="https://github.com/justmarkham/DAT5/blob/master/slides/20_sql.pdf">GA slide deck</a> Proporciona una breve introducción a las bases de datos y SQL. The <a href="https://github.com/justmarkham/DAT5/blob/master/code/20_sql.py">Python script</a> De esa lección demuestra consultas básicas de SQL, así como cómo conectarse a una base de datos SQLite de Python y cómo consultarla usando pandas.</li>
-  <li>El repositorio de esto <a href="https://github.com/brandonmburroughs/sql_bootcamp">SQL Bootcamp</a> Contiene un script SQL extremadamente bien comencionado que es adecuado para caminar por su cuenta.</li>
-  <li>Esta <a href="https://github.com/podopie/DAT18NYC/blob/master/classes/17-relational_databases.ipynb">GA notebook</a> Proporciona una introducción más corta a las bases de datos y SQL que contrasta útilmente las consultas SQL con la sintaxis PANDAS.</li>
-  <li><a href="http://sqlzoo.net/wiki/SQL_Tutorial">SQLZOO</a>, <a href="http://sqlschool.modeanalytics.com/">Mode Analytics</a>, <a href="https://www.khanacademy.org/computing/computer-programming/sql">Khan Academy</a>, <a href="https://www.codecademy.com/courses/learn-sql">Codecademy</a>, <a href="http://datamonkey.pro/guess_sql/lessons/">Datamonkey</a>, and <a href="http://campus.codeschool.com/courses/try-sql/contents">Code School</a> Todos tienen tutoriales SQL para principiantes en línea que parecen prometedores. Code School también ofrece un <a href="https://www.codeschool.com/courses/the-sequel-to-sql/">advanced tutorial</a>, aunque no es gratis.</li>
-  <li><a href="http://www.w3schools.com/sql/trysql.asp?filename=trysql_select_all">w3schools</a> Tiene una base de datos de muestra que le permite practicar SQL desde su navegador. Del mismo modo, Kaggle le permite consultar una gran base de datos SQLite de <a href="https://www.kaggle.com/c/reddit-comments-may-2015/data">Reddit Comments</a> Uso de su aplicación en línea "Scripts".</li>
-  <li><a href="http://joshualande.com/data-science-sql/">What Every Data Scientist Needs to Know about SQL</a> es una breve serie de publicaciones sobre los conceptos básicos de SQL, y <a href="http://bensresearch.com/downloads/SQL.pdf">Introduction to SQL for Data Scientists</a> es un artículo con objetivos similares.</li>
-  <li><a href="https://web.archive.org/web/20150402234726/http://tech.pro/tutorial/1555/10-easy-steps-to-a-complete-understanding-of-sql">10 Easy Steps to a Complete Understanding of SQL</a> es un buen artículo para aquellos que tienen alguna experiencia SQL y quieren entenderlo en un nivel más profundo.</li>
-  <li>SArtículo de Qlite en <a href="http://www.sqlite.org/queryplanner.html">Query Planning</a> Explica cómo las consultas SQL "funcionan".</li>
-  <li><a href="https://www.digitalocean.com/community/tutorials/sqlite-vs-mysql-vs-postgresql-a-comparison-of-relational-database-management-systems">A Comparison Of Relational Database Management Systems</a> Da los pros y los contras de SQLite, MySQL y PostgreSQL.</li>
-  <li>Si desea profundizar en bases de datos y SQL, Stanford tiene una serie muy respetada de <a href="https://lagunita.stanford.edu/courses/DB/2014/SelfPaced/about">14 mini-courses</a>.</li>
-  <li><a href="http://blaze.pydata.org">Blaze</a> es un paquete de Python que le permite usar una sintaxis similar a Pandas para consultar datos que viven en una variedad de sistemas de almacenamiento de datos.</li>
-</ul>
-
-<p><strong>Recursos ROC:</strong></p>
-
-<ul>
-  <li>Rahul Patwari tiene un gran video <a href="https://www.youtube.com/watch?v=21Igj5Pr6u4">ROC Curves</a> (12 minutos).</li>
-  <li><a href="http://people.inf.elte.hu/kiss/13dwhdm/roc.pdf">An introduction to ROC analysis</a> es un artículo muy legible sobre el tema.</li>
-  <li>Las curvas ROC se pueden usar en una amplia variedad de aplicaciones, como <a href="http://research.microsoft.com/pubs/205472/aisec10-leontjeva.pdf">comparing different feature sets</a> para detectar usuarios fraudulentos de Skype, y <a href="http://www.cse.ust.hk/nevinZhangGroup/readings/yi/Bradley_PR97.pdf">comparing different classifiers</a> en varios conjuntos de datos populares.</li>
-</ul>
-
-<p><strong>Recursos de validación cruzada:</strong></p>
-
-<ul>
-  <li>Para obtener más información sobre la validación cruzada, lea la sección 5.1 de <a href="http://www-bcf.usc.edu/~gareth/ISL/">An Introduction to Statistical Learning</a> (11 páginas) o ver los videos relacionados: <a href="https://www.youtube.com/watch?v=nZAM5OXrktY">K-fold and leave-one-out cross-validation</a> (14 minutos), <a href="https://www.youtube.com/watch?v=S06JpVoNaA0">cross-validation the right and wrong ways</a> (10 minutos).</li>
-  <li>Si desea comprender las diferentes variaciones de validación cruzada, esto <a href="http://www.jcheminf.com/content/pdf/1758-2946-6-10.pdf">paper</a> Los examina y los compara en detalle.</li>
-  <li>Para aprender a usar <a href="http://scikit-learn.org/stable/modules/grid_search.html">GridSearchCV and RandomizedSearchCV</a> Para el ajuste de los parámetros, mira <a href="https://www.youtube.com/watch?v=Gol_qOgRqfA">How to find the best model parameters in scikit-learn</a> (28 minutos) o lea el <a href="https://github.com/justmarkham/scikit-learn-videos/blob/master/08_grid_search.ipynb">associated notebook</a>.</li>
-</ul>
-
-<p><strong>Otros recursos:</strong></p>
-
-<ul>
-  <li>Scikit-Learn tiene una amplia documentación en <a href="http://scikit-learn.org/stable/modules/model_evaluation.html">model evaluation</a>.</li>
-  <li><a href="https://www.youtube.com/watch?v=QWCSxAKR-h0">Evaluación contrafactual de modelos de aprendizaje automático</a> (45 minutos) es una excelente charla sobre la forma sofisticada en que Stripe evalúa su modelo de detección de fraude. (Estos son los asociados <a href="http://www.slideshare.net/MichaelManapat/counterfactual-evaluation-of-machine-learning-models">slides</a>.)</li>
-  <li><a href="http://blog.insightdatalabs.com/visualizing-classifier-thresholds/">Visualizar los umbrales de aprendizaje automático para tomar mejores decisiones comerciales</a> demuestra cómo la visualización de la precisión, el retiro y la "tasa de cola" en diferentes umbrales pueden ayudarlo a maximizar el valor comercial de su clasificador.</li>
-</ul>
-
-<h3>Regularización y expresiones regulares</h3>
-
-<ul>
-  <li><a href="notebooks/20_regularization.ipynb">Regularización</a></li>
-  <ul>
-    <li>Regresión: <a href="http://scikit-learn.org/stable/modules/generated/sklearn.linear_model.Ridge.html">Ridge</a>, <a href="http://scikit-learn.org/stable/modules/generated/sklearn.linear_model.RidgeCV.html">RidgeCV</a>, <a href="http://scikit-learn.org/stable/modules/generated/sklearn.linear_model.Lasso.html">Lasso</a>, <a href="http://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LassoCV.html">LassoCV</a></li>
-    <li>Clasificación: <a href="http://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html">LogisticRegression</a></li>
-    <li>Funciones de ayudante: <a href="http://scikit-learn.org/stable/modules/pipeline.html">Pipeline</a>, <a href="http://scikit-learn.org/stable/modules/grid_search.html">GridSearchCV</a></li>
-  </ul>
-  <li>Expresiones regulares</li>
-  <ul>
-    <li><a href="data/homicides.txt">Baltimore homicide data</a></li>
-    <li><a href="https://regex101.com/#python">Regular expressions 101</a>: real-time testing of regular expressions</li>
-    <li><a href="code/20_regex_reference.py">Reference guide</a></li>
-    <li><a href="code/20_regex_exercise.py">Exercise</a></li>
-  </ul>
-</ul>
-
-<p><strong>Recurso de regularizacións:</strong></p>
-
-<ul>
-  <li>La guía del usuario de Scikit-Learn para <a href="http://scikit-learn.org/stable/modules/linear_model.html">Generalized Linear Models</a> explica diferentes variaciones de regularización.</li>
-  <li>Sección 6.2 de <a href="http://www-bcf.usc.edu/~gareth/ISL/">An Introduction to Statistical Learning</a> (14 páginas) introduces both lasso and ridge regression. Or, watch the related videos on <a href="https://www.youtube.com/watch?v=cSKzqb0EKS0&list=PL5-da3qGB5IB-Xdpj_uXJpLGiRfv9UVXI&index=6">ridge regression</a> (13 minutos) and <a href="https://www.youtube.com/watch?v=A5I1G1MfUmA&index=7&list=PL5-da3qGB5IB-Xdpj_uXJpLGiRfv9UVXI">lasso regression</a> (15 minutos).</li>
-  <li>Para más detalles sobre la regresión de Lasso, lea Tibshirani <a href="http://statweb.stanford.edu/~tibs/lasso/lasso.pdf">original paper</a>.</li>
-  <li>Para una explicación matemática de regularización, mire los últimos cuatro videos (30 minutos) de la semana 3 de Andrew Ng's <a href="https://www.coursera.org/learn/machine-learning/">machine learning course</a>, o leer el <a href="http://www.holehouse.org/mlclass/07_Regularization.html">related lecture notes</a> compilado por un estudiante.</li>
-  <li>Esta <a href="https://github.com/luispedro/PenalizedRegression/blob/master/PenalizedRegression.ipynb">notebook</a> Del capítulo 7 de <a href="https://www.packtpub.com/big-data-and-business-intelligence/building-machine-learning-systems-python">Building Machine Learning Systems with Python</a> Tiene un buen ejemplo largo de regresión lineal regularizada.</li>
-  <li>Hay algunas consideraciones especiales al usar la codificación ficticia para características categóricas con un modelo regularizado. Este <a href="https://stats.stackexchange.com/questions/69568/whether-to-rescale-indicator-binary-dummy-predictors-for-lasso">Cross Validated Q&A</a> debates si las variables ficticias deben estandarizarse (junto con el resto de las características), y un comentario sobre esto <a href="http://appliedpredictivemodeling.com/blog/2013/10/23/the-basics-of-encoding-categorical-data-for-predictive-models">blog post</a> Recomienda que el nivel de referencia no se elimine.</li>
-</ul>
-
-<p><strong>Regular Expressions Resources:</strong></p>
-
-<ul>
-  <li>Google's Python Class includes an excellent <a href="https://developers.google.com/edu/python/regular-expressions">introductory lesson</a> on regular expressions (which also has an associated <a href="https://www.youtube.com/watch?v=kWyoYtvJpe4&index=4&list=PL5-da3qGB5IA5NwDxcEJ5dvt8F9OQP7q5">video</a>).</li>
-  <li>Python for Informatics has a nice <a href="http://www.pythonlearn.com/html-270/book012.html">chapter</a> on regular expressions. (If you want to run the examples, you'll need to download <a href="http://www.py4inf.com/code/mbox.txt">mbox.txt</a> and <a href="http://www.py4inf.com/code/mbox-short.txt">mbox-short.txt</a>.)</li>
-  <li><a href="https://www.codeschool.com/courses/breaking-the-ice-with-regular-expressions/">Breaking the Ice with Regular Expressions</a> is an interactive Code School course, though only the first "level" is free.</li>
-  <li>If you want to go really deep with regular expressions, <a href="http://www.rexegg.com/">RexEgg</a> includes endless articles and tutorials.</li>
-  <li><a href="http://blog.codeschool.io/2015/07/30/5-tools-you-didnt-know-that-use-regular-expressions/">5 Tools You Didn't Know That Use Regular Expressions</a> demonstrates how regular expressions can be used with Excel, Word, Google Spreadsheets, Google Forms, text editors, and other tools.</li>
-  <li><a href="http://geeksta.net/geeklog/exploring-expressions-emotions-github-commit-messages/">Exploring Expressions of Emotions in GitHub Commit Messages</a> is a fun example of how regular expressions can be used for data analysis, and <a href="http://instagram-engineering.tumblr.com/post/118304328152/emojineering-part-2-implementing-hashtag-emoji">Emojineering</a> explains how Instagram uses regular expressions to detect emoji in hashtags.</li>
-</ul>
-
-<h3>Scikit-learn y Clustering avanzado</h3>
-
-<ul>
-  <li><a href="notebooks/19_advanced_sklearn.ipynb">Advanced scikit-learn</a></li>
-  <ul>
-    <li><a href="http://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.StandardScaler.html">StandardScaler</a>: standardizing features</li>
-    <li><a href="http://scikit-learn.org/stable/modules/pipeline.html">Pipeline</a>: chaining steps</li>
-  </ul>
-  <li><a href="slides/19_clustering.pdf">Clustering</a>, <a href="notebooks/19_clustering.ipynb">notebook</a></li>
-  <ul>
-    <li>K-means: <a href="http://scikit-learn.org/stable/modules/generated/sklearn.cluster.KMeans.html">documentation</a>, <a href="http://tech.nitoyon.com/en/blog/2013/11/07/k-means/">visualization 1</a>, <a href="http://www.naftaliharris.com/blog/visualizing-k-means-clustering/">visualization 2</a></li>
-    <li>DBSCAN: <a href="http://scikit-learn.org/stable/modules/generated/sklearn.cluster.DBSCAN.html">documentation</a>, <a href="http://www.naftaliharris.com/blog/visualizing-dbscan-clustering/">visualization</a></li>
-  </ul>
-</ul>
-
-<p><strong>recursos de Scikit-Learn:</strong></p>
-
-<ul>
-  <li>Este es un ejemplo más largo de <a href="https://github.com/rasbt/pattern_classification/blob/master/preprocessing/about_standardization_normalization.ipynb">feature scaling</a> En Scikit-Learn, con una discusión adicional de los tipos de escala que puede usar.</li>
-  <li><a href="http://radimrehurek.com/data_science_python/">Practical Data Science in Python</a> iS un cuaderno largo y bien escrito que utiliza algunas características avanzadas de Scikit-Learn: tuberías, trazar una curva de aprendizaje y encurtir un modelo.</li>
-  <li>Para aprender a usar <a href="http://scikit-learn.org/stable/modules/grid_search.html">GridSearchCV and RandomizedSearchCV</a> Para el ajuste de los parámetros, mira <a href="https://www.youtube.com/watch?v=Gol_qOgRqfA">How to find the best model parameters in scikit-learn</a> (28 minutos) o lea el <a href="https://github.com/justmarkham/scikit-learn-videos/blob/master/08_grid_search.ipynb">associated notebook</a>.</li>
-  <li>Sebastian Raschka tiene una serie de excelentes recursos para los usuarios de Scikit-Learn, incluido un repositorio de <a href="https://github.com/rasbt/pattern_classification">tutorials and examples</a>, Una biblioteca de aprendizaje automático <a href="http://rasbt.github.io/mlxtend/">tools and extensions</a>, a new <a href="https://github.com/rasbt/python-machine-learning-book">book</a>, y un semi-activo <a href="http://sebastianraschka.com/blog/">blog</a>.</li>
-  <li>Scikit-Learn tiene un increíblemente activo <a href="https://www.mail-archive.com/scikit-learn-general@lists.sourceforge.net/index.html">mailing list</a> Eso a menudo es mucho más útil que el desbordamiento de la pila para investigar las funciones y hacer preguntas.</li>
-</ul>
-
-</body>
-</html>
-
-
