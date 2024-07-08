@@ -325,11 +325,10 @@ Son herramientas low-code de visualización de datos avanzada que permite a los 
 
 <a target="_blank" href="https://anaconda.cloud/api/nbserve/launch_notebook?nb_url=https%3A%2F%2Fanaconda.cloud%2Fapi%2Fprojects%2F1dfd06f2-1f99-4e0e-a208-0f7e118f1363%2Ffiles%2F06_logistic_regression.ipynb%3Fversion%3D0464a05a-9f77-487f-abbf-3c8622a2cf16"><img src="https://static.anaconda.cloud/content/a22d04e8445b700f28937ab3231b8cded505d0395c63b7a269696722196d5415"/></a>
 
-* Yelp Votes Tarea Due ([Solución] (cuadernos/10_yelp_votes_homework.ipynb))
-* Regresión logística ([cuaderno] (cuadernos/12_logistic_regression.ipynb))
-* [Conjunto de datos de identificación de vidrio] (<https://archive.ics.uci.edu/ml/datasets/glass+identification>)
-* Ejercicio con Titanic Data ([cuaderno] (cuaderno/12_titanic_confusion.ipynb), [data] (data/titanic.csv), [Data Dictionary] (<https://www.kaggle.com/c/titanic/data>)))
-* Confusion Matrix ([diapositivas] (diapositivas/12_confusion_matrix.pdf), [cuaderno] (cuaderno/12_titanic_confusion.ipynb)))
+
+* Regresión logística ([notebook] (notebooks/06_logistic_regression.ipynb)
+* Confusion Matrix ([notebook] (notebooks/06_Metricas_matriz_confusion.ipynb)
+* Árboles de decisión ([notebook](notebooks/06_decision_trees.ipynb))
 
 **Tarea:**
 
@@ -373,17 +372,14 @@ Son herramientas low-code de visualización de datos avanzada que permite a los 
 
 <a target="_blank" href="https://anaconda.cloud/api/nbserve/launch_notebook?nb_url=https%3A%2F%2Fanaconda.cloud%2Fapi%2Fprojects%2Fe962544b-ba6a-48ff-bdd8-4f67b95eca5a%2Ffiles%2F07_knn_sklearn.ipynb%3Fversion%3D26f07033-9e1c-4eec-8255-9d1e073e11bf"><img src="https://static.anaconda.cloud/content/a22d04e8445b700f28937ab3231b8cded505d0395c63b7a269696722196d5415"/></a>
 
-
-* Breve revisión de pandas ([cuaderno] (cuadernos/08_pandas_review.ipynb)))
-* K-Near más vecinos y scikit-learn ([cuaderno] (cuadernos/08_knn_sklearn.ipynb))
-* Ejercicio con los datos del jugador de la NBA ([cuaderno] (cuaderno/08_nba_knn.ipynb), [data] (<https://github.com/justmarkham/dat4-students/blob/master/kerry/final/nba_players_2015.csv>), [Dicción de datos] (<https://github.com/justmarkham/dat-project-examples/blob/master/pdf/nba_paper.pdf>)))
-* Explorando la compensación de varianza de sesgo ([cuaderno] (cuadernos/08_bias_variance.ipynb))
+* Evaluación de modelos ([notebook](notebooks/07_model_evaluation.ipynb))
+* K-Near más vecinos y scikit-learn ([notebook] (notebooks/07_knn_sklearn.ipynb))
+* Explorando la compensación de varianza de sesgo ([notebook] (notebooks/07_clustering.ipynb))
 
 **Tarea:**
 
-* Asignación de lectura en la [compensación de varianza de sesgo] (tarea/09_bias_variance.md)
 * Lea la [Introducción a la reproducibilidad] de Kevin (<http://www.dataschool.io/reproducibilidad-is-not-just-for-researchers/>), lea la guía de Jeff Leek para crear un análisis reproducible] (https: // github.com/jtleek/dataHaring), y vea este video relacionado [Video de Informe de Colbert] (<http://thecolberstreport.cc.com/videos/dcyvro/austerity-s-sepersheet-error>) (8 minutos).
-* Trabaje en su proyecto ... ¡su primera presentación del proyecto está en menos de dos semanas!
+
 
 **RECURSOS KNN**
 
@@ -395,7 +391,7 @@ Son herramientas low-code de visualización de datos avanzada que permite a los 
 
 **Recursos Seaborn:**
 
-* Para comenzar con Seaborn para la visualización, el sitio web oficial tiene una serie de [detailed tutorials](http://web.stanford.edu/~mwaskom/software/seaborn/tutorial.html) y un [example gallery](http://web.stanford.edu/~mwaskom/software/seaborn/examples/index.html).
+* Para comenzar con Seaborn para la visualización, el sitio web oficial tiene una serie de [tutoriales detallados](http://web.stanford.edu/~mwaskom/software/seaborn/tutorial.html) y un [example gallery](http://web.stanford.edu/~mwaskom/software/seaborn/examples/index.html).
 * [Data visualization with Seaborn](https://beta.oreilly.com/learning/data-visualization-with-seaborn) es un recorrido rápido por algunos de los tipos populares de parcelas marinas.
 * [Visualizing Google Forms Data with Seaborn](http://pbpython.com/pandas-google-forms-part2.html) y [How to Create NBA Shot Charts in Python](http://savvastjortjoglou.com/nba-shot-sharts.html) son buenos ejemplos de uso de marinas sobre datos del mundo real.
 
@@ -412,7 +408,6 @@ Son herramientas low-code de visualización de datos avanzada que permite a los 
 
 ### Evaluación básica del modelo
 
-* Tarea de raspado web opcional adeudado ([solution](code/07_web_scraping.py#L136))
 * Reproducibilidad
   * Discuta las lecturas asignadas:[introduction](http://www.dataschool.io/reproducibility-is-not-just-for-researchers/), [Colbert Report video](http://thecolbertreport.cc.com/videos/dcyvro/austerity-s-spreadsheet-error), [cabs article](http://iquantny.tumblr.com/post/107245431809/how-software-in-half-of-nyc-cabs-generates-5-2), [Tweet](https://twitter.com/jakevdp/status/519563939177197571), [creating a reproducible analysis](https://github.com/jtleek/datasharing)
   * Examples: [Classic rock](https://github.com/fivethirtyeight/data/tree/master/classic-rock), [student project 1](https://github.com/jwknobloch/DAT4_final_project), [student project 2](https://github.com/justmarkham/DAT4-students/tree/master/Jonathan_Bryan/Project_Files)
