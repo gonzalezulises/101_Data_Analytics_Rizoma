@@ -1,6 +1,18 @@
 ## Repositorio de curso sobre Data Analytics
 
-Data Analytics (DA) consiste en explorar y analizar grandes cantidades de datos para obtener información sobre el desempeño empresarial pasado con el fin de guiar la planificación empresarial futura. Este curso presenta un conjunto de métodos avanzados centrados en datos que cubren las tres direcciones principales de BA: descriptivo (“¿qué pasó?”), predictivo (“¿qué pasará?”) y prescriptivo (“¿qué debería pasar?”). Los métodos se aplicarán a varios casos de negocios con el objetivo de demostrar cómo extraer valor comercial de los datos, brindar soporte para la toma de decisiones basada en datos junto con principios efectivos de gestión de datos.
+Data Analytics (DA) es un campo fundamental que se dedica a la exploración y el análisis de grandes volúmenes de datos para extraer información valiosa sobre el desempeño empresarial pasado. Este análisis permite a las organizaciones obtener una visión clara de sus operaciones históricas, identificar patrones y tendencias, y utilizar estos conocimientos para guiar la planificación y la toma de decisiones estratégicas futuras.
+
+El curso de Data Analytics que presentamos está diseñado para proporcionar una comprensión profunda de los métodos avanzados centrados en datos. Estos métodos abarcan las tres direcciones principales de la Business Analytics (BA):
+
+- Análisis Descriptivo: Responde a la pregunta "¿Qué pasó?". Se centra en la interpretación de datos históricos para identificar patrones, tendencias y anomalías. Este tipo de análisis es fundamental para entender el contexto y el desempeño pasado de una organización. Utiliza técnicas como la estadística descriptiva, visualización de datos y la elaboración de informes para transformar datos en información comprensible.
+
+- Análisis Predictivo: Responde a la pregunta "¿Qué pasará?". Utiliza técnicas estadísticas y de machine learning para hacer predicciones sobre futuros eventos basándose en datos históricos y actuales. Este análisis permite a las organizaciones anticipar tendencias, comportamientos y resultados futuros. Herramientas como modelos de regresión, análisis de series temporales y algoritmos de clasificación son cruciales en esta etapa.
+
+- Análisis Prescriptivo: Responde a la pregunta "¿Qué debería pasar?". Va un paso más allá del análisis predictivo al no solo prever lo que podría suceder, sino también recomendar acciones específicas que podrían afectar esos resultados futuros. Este análisis utiliza técnicas avanzadas de optimización y simulación para proporcionar recomendaciones sobre la mejor manera de manejar posibles escenarios futuros.
+
+El curso aplica estos métodos a diversos casos de negocios para demostrar cómo se puede extraer valor comercial de los datos. Los estudiantes aprenderán a brindar soporte para la toma de decisiones basada en datos y a implementar principios efectivos de gestión de datos. Los casos de estudio abarcarán una variedad de industrias y situaciones, ofreciendo una perspectiva amplia y aplicada del análisis de datos.
+
+Los participantes adquirirán habilidades prácticas en el uso de herramientas y software de análisis de datos, desarrollando la capacidad de aplicar estos conocimientos en contextos reales. El curso también abordará temas críticos como la calidad de los datos, la ética en el análisis de datos y las mejores prácticas para la visualización de datos, asegurando que los estudiantes no solo puedan realizar análisis precisos, sino también comunicar sus hallazgos de manera efectiva.
 
 **Instructor:** Ulises Gonzalez ([Rizoma](http://www.rizo.ma/), [Linkedin](https://www.linkedin.com/in/ulisesgonzalez/))
 
