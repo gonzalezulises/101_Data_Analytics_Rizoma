@@ -16,8 +16,9 @@
         body {
             font-family: 'Roboto', Arial, sans-serif;
             line-height: 1.6;
-            margin: 0;
-            padding: 0;
+            margin: 0 auto;
+            padding: 0 20px;
+            max-width: 1200px;
             color: #333;
             background-color: var(--background-color);
             background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%239C92AC' fill-opacity='0.1'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
@@ -26,9 +27,19 @@
         .contenedor-principal {
             max-width: 1200px;
             margin: 0 auto;
-            padding: 20px 5%;
+            padding: 20px 5%; /* Cambiado de 50px a 5% */
             background-color: white;
             box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+    
+        .contenedor-principal > * {
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+    
+        .curso-tabla {
+            padding-left: 0;
+            padding-right: 0;
         }
     
         nav {
@@ -39,22 +50,16 @@
             z-index: 1000;
         }
     
-        nav h2 {
-            color: white;
-            margin-bottom: 1rem;
-        }
-    
         nav ul {
             list-style-type: none;
             padding: 0;
             margin: 0;
             display: flex;
-            flex-wrap: wrap;
             justify-content: center;
         }
     
         nav ul li {
-            margin: 0 15px 10px 0;
+            margin: 0 15px;
         }
     
         nav ul li a {
@@ -68,77 +73,128 @@
             color: var(--primary-color);
         }
     
-        .menu-toggle {
-            display: none;
-            background: none;
-            border: none;
+        h1, h2, h3 {
+            color: var(--secondary-color);
+        }
+    
+        p {
+            text-align: justify;
+            margin-bottom: 20px;
+        }
+    
+        ul, ol {
+            margin-left: 20px;
+        }
+    
+        li {
+            margin-bottom: 10px;
+        }
+    
+        a {
+            color: var(--primary-color);
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+    
+        a:hover {
+            color: var(--secondary-color);
+        }
+    
+        .button {
+            display: inline-block;
+            padding: 10px 15px;
+            background-color: var(--primary-color);
             color: white;
-            font-size: 1.5rem;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+        }
+    
+        .button:hover {
+            background-color: var(--secondary-color);
+        }
+    
+        .curso-tabla {
+            border-collapse: collapse;
+            width: 100%;
+            margin: 20px 0;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+        }
+    
+        .curso-tabla td {
+            text-align: center;
+            padding: 12px;
+        }
+
+        .curso-tabla td ul {
+            text-align: left;
+            display: inline-block;
+        }
+
+        .curso-tabla th, .curso-tabla td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: left;
+            transition: background-color 0.3s ease;
+        }
+    
+        .curso-tabla th {
+            text-align: center;
+            background-color: var(--primary-color);
+            color: black;
+            padding: 12px;
+        }
+    
+        .curso-tabla tr:nth-child(even) {
+            background-color: #f8f8f8;
+        }
+    
+        .curso-tabla tr:hover {
+            background-color: #f1f1f1;
+        }
+    
+        footer {
+            background-color: var(--secondary-color);
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            margin-top: 2rem;
+        }
+    
+        .volver-arriba {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: var(--primary-color);
+            color: white;
+            width: 40px;
+            height: 40px;
+            text-align: center;
+            line-height: 40px;
+            border-radius: 50%;
             cursor: pointer;
+            display: none;
+            transition: background-color 0.3s ease;
+        }
+    
+        .volver-arriba:hover {
+            background-color: var(--secondary-color);
         }
     
         @media (max-width: 768px) {
-            .menu-toggle {
-                display: block;
-            }
-    
-            nav ul {
-                display: none;
-                flex-direction: column;
-            }
-    
-            nav ul.show {
-                display: flex;
-            }
-    
-            nav ul li {
-                margin: 10px 0;
-            }
-    
             .contenedor-principal {
-                padding: 20px 3%;
+                padding: 0 15px;
             }
         }
-    
-        /* Resto de los estilos... */
     </style>
-    
-    <body>
-        <div class="contenedor-principal">
-            <header>
-                <!-- Tu iframe de Canva aquí -->
-            </header>
-    
-            <nav>
-                <h2>Contenido del curso</h2>
-                <button class="menu-toggle" aria-label="Toggle menu">☰</button>
-                <ul>
-                    <li><a href="#introduccion">Introducción</a></li>
-                    <li><a href="#contenido">Contenido del curso</a></li>
-                    <li><a href="#antes-del-curso">Antes de que comiences el curso</a></li>
-                    <li><a href="#recursos-adicionales">Recursos adicionales</a></li>
-                </ul>
-            </nav>
-    
-            <!-- Resto del contenido... -->
-        </div>
-    
-        <script>
-            document.querySelector('.menu-toggle').addEventListener('click', function() {
-                document.querySelector('nav ul').classList.toggle('show');
-            });
-    
-            const links = document.querySelectorAll('a');
-            links.forEach(link => {
-                if (link.getAttribute('href').startsWith('#')) {
-                    link.setAttribute('target', '_self');
-                } else {
-                    link.setAttribute('target', '_blank');
-                }
-            });
-        </script>
-    </body>
-
+</head>
+<script>
+    const links = document.querySelectorAll('a');
+    links.forEach(link => {
+        link.setAttribute('target', '_blank');
+    });
+</script>
+<body>
     <header>
         <div style="position: relative; width: 100%; height: 0; padding-top: 25.0000%;
  padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
@@ -150,22 +206,22 @@
 <a href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAGKVSPBs6g&#x2F;dSQm7sNlSotAnazADwzYfw&#x2F;view?utm_content=DAGKVSPBs6g&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link" target="_blank" rel="noopener"></a>
     </header>
 
-    <nav>
-        <h2>Contenido del curso</h2>
-        <button class="menu-toggle" aria-label="Toggle menu">☰</button>
-        <ul>
-            <li><a href="#introduccion">Introducción</a></li>
-            <li><a href="#contenido">Contenido del curso</a></li>
-            <li><a href="#antes-del-curso">Antes de que comiences el curso</a></li>
-            <li><a href="#recursos-adicionales">Recursos adicionales</a></li>
-        </ul>
-    </nav>
-    
-    <script>
-        document.querySelector('.menu-toggle').addEventListener('click', function() {
-            document.querySelector('nav ul').classList.toggle('show');
-        });
-    </script>
+<nav>
+    <h2>Contenido del curso</h2>
+    <button class="menu-toggle" aria-label="Toggle menu">☰</button>
+    <ul>
+        <li><a href="#introduccion">Introducción</a></li>
+        <li><a href="#contenido">Contenido del curso</a></li>
+        <li><a href="#antes-del-curso">Antes de que comiences el curso</a></li>
+        <li><a href="#recursos-adicionales">Recursos adicionales</a></li>
+    </ul>
+</nav>
+
+<script>
+    document.querySelector('.menu-toggle').addEventListener('click', function() {
+        document.querySelector('nav ul').classList.toggle('show');
+    });
+</script>
 
     <main>
         <section id="introduccion">
