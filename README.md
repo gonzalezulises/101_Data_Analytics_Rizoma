@@ -65,8 +65,7 @@ Los participantes adquirirán habilidades prácticas en el uso de herramientas y
 * Bienvenida a la formación
 * Resumen del curso([slides](slides/01_course_overview.pdf))
 * Introducción a Data Analytics ([slides](slides/01_intro_to_data_analytics.pdf))
-* Discuta el proyecto del curso: [requerimientos](project/README.md) and [proyectos de ejemplo](https://github.com/justmarkham/DAT-project-examples)
-* Tipos de datos([slides](slides/01_types_of_data.pdf)) and [fuentes de datos publicos](project/public_data.md)
+* Tipos de datos([slides](https://medium.com/@diego.coder/variables-y-tipos-de-datos-en-python-str-int-bool-etc-45ac17e6acc7)) and [fuentes de datos publicos](project/public_data.md)
 
 **Asignación:**
 
@@ -84,11 +83,11 @@ Los participantes adquirirán habilidades prácticas en el uso de herramientas y
   * Si prefiere ejercicios interactivos, pruebe estas lecciones de [Codecademy](http://www.codecademy.com/en/tracks/python): "Python listas y diccionarios" y "un día en el supermercado".
   * Si tiene más tiempo, pruebe las misiones 2 y 3 de [DataQuest's Learning Python](https://www.dataquest.io/course/learning-python) curso.
   * Si ya ha dominado estos temas y quiere más desafío, intente resolver [Python Challenge](http://www.pythonchallenge.com/) Número 1 (decodificando un mensaje)
-* Para darle un marco para pensar en su proyecto, mire [What is machine learning, and how does it work?](https://www.youtube.com/watch?v=elojMnjn4kk) (10 minutes). (Este es el [IPython notebook](https://github.com/justmarkham/scikit-learn-videos/blob/master/01_machine_learning_intro.ipynb) shown en el video.) Alternativamente, lea [A Visual Introduction to Machine Learning](http://www.r2d3.us/visual-intro-to-machine-learning-part-1/), que se centra en un modelo de aprendizaje automático específico llamado árboles de decisión.
+* Para darle un marco para pensar en sus potenciales proyectos, puedes mirar [What is machine learning, and how does it work?](https://www.youtube.com/watch?v=elojMnjn4kk) (10 minutes). (Este es el [IPython notebook](https://github.com/justmarkham/scikit-learn-videos/blob/master/01_machine_learning_intro.ipynb) shown en el video.) Alternativamente, lea [A Visual Introduction to Machine Learning](http://www.r2d3.us/visual-intro-to-machine-learning-part-1/), que se centra en un modelo de aprendizaje automático específico llamado árboles de decisión.
 * [Want to understand Python's comprehensions? Think in Excel or SQL](http://blog.lerner.co.il/want-to-understand-pythons-comprehensions-think-like-an-accountant/) Puede ser útil si todavía está confundido por las comprensiones de la lista.
 * [My code isn't working](http://www.tecoed.co.uk/uploads/1/4/2/4/14249012/624506_orig.png) es un gran diagrama de flujo que explica cómo depurar los errores de Python.
 * [PEP 8](https://www.python.org/dev/peps/pep-0008/) es la guía de estilo "clásica" de Python, y vale la pena leer si desea escribir un código legible que sea consistente con el resto de la comunidad de Python.
-* Si quieres entender a Python en un nivel más profundo, Ned Batchelder's [Loop Like A Native](http://nedbatchelder.com/text/iter.html)y [Python Names and Values](http://nedbatchelder.com/text/names1.html)son excelentes presentaciones.
+* Si quieres entender a Python en un nivel más profundo, Ned Batchelder's [Loop Like A Native](http://nedbatchelder.com/text/iter.html) y [Python Names and Values](http://nedbatchelder.com/text/names1.html)son excelentes presentaciones.
 
 -----
 **¿Quieres ir más allá de lo aprendido?**
@@ -128,13 +127,15 @@ Podrías aprender  Git y Markdown que son herramientas valiosas para la analíti
 * Si quieres profundizar mucho en la línea de comando, [Data Science at the Command Line](http://shop.oreilly.com/product/0636920032823.do) es un gran libro.El [companion website](http://datascienceatthecommandline.com/) Proporciona instrucciones de instalación para una "caja de herramientas de ciencia de datos" (una máquina virtual con muchas más herramientas de línea de comandos), así como una larga guía de referencia para las herramientas de línea de comandos populares.
 * Si desea hacer más en la línea de comando con archivos CSV, pruebe [csvkit](http://csvkit.readthedocs.org/), que se puede instalar a través de `pip`.
 
------
+
 <div style="display: flex; align-items: center;">
     <a target="_blank" href="https://anaconda.cloud/api/nbserve/launch_notebook?nb_url=https%3A%2F%2Fanaconda.cloud%2Fapi%2Fprojects%2F67155be7-64cb-494d-8f26-3fbf1e3f89c1%2Ffiles%2F02_Obtencio%CC%81nde_Datos_e_iniciacion_con_Pandas.ipynb%3Fversion%3Defd51d6a-77a2-4402-8ce6-5359e48fd1b3"><img src="https://static.anaconda.cloud/content/a22d04e8445b700f28937ab3231b8cded505d0395c63b7a269696722196d5415"/></a>
     <a href="https://drive.google.com/file/d/16wsQKsk28s2j9KytL9dHXkHhVJt1m1tT/view?usp=sharing" target="_blank" style="text-decoration:none;">
         <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab" height="25"/>
     </a>
 </div>
+
+-----
 
 ### Sesión 2: Obtención de datos e iniciación con Pandas
 
