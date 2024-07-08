@@ -169,7 +169,12 @@ Puedes obtener información si deseas llevar al siguiente nivel:
 * [Introducción a PandasAI](https://docs.pandas-ai.com/intro)
 
 -----
-<a target="_blank" href="https://anaconda.cloud/api/nbserve/launch_notebook?nb_url=https%3A%2F%2Fanaconda.cloud%2Fapi%2Fprojects%2F94529ebc-682f-4c4a-84ac-8901569ae780%2Ffiles%2F03_analisis_exploratorio_de_datos%20(EDA).ipynb%3Fversion%3Dab666fed-078d-4c2d-9544-e976a369a3cc"><img src="https://static.anaconda.cloud/content/a22d04e8445b700f28937ab3231b8cded505d0395c63b7a269696722196d5415"/></a>
+<div style="display: flex; align-items: center;">
+   <a target="_blank" href="https://anaconda.cloud/api/nbserve/launch_notebook?nb_url=https%3A%2F%2Fanaconda.cloud%2Fapi%2Fprojects%2F94529ebc-682f-4c4a-84ac-8901569ae780%2Ffiles%2F03_analisis_exploratorio_de_datos%20(EDA).ipynb%3Fversion%3Dab666fed-078d-4c2d-9544-e976a369a3cc"><img src="https://static.anaconda.cloud/content/a22d04e8445b700f28937ab3231b8cded505d0395c63b7a269696722196d5415"/></a>
+    <a href="https://drive.google.com/file/d/1eGTcAWAT5ehm6ighaDGzsIcJIxeJpUsG/view?usp=sharing" target="_blank" style="text-decoration:none;">
+        <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab" height="25"/>
+    </a>
+</div>
 
 ### Sesión 3: Combinación de datos y Análisis de datos exploratorios
 
@@ -205,7 +210,13 @@ Puedes obtener información si deseas llevar al siguiente nivel:
 * Leer [How Software in Half of NYC Cabs Generates $5.2 Million a Year in Extra Tips](http://iquantny.tumblr.com/post/107245431809/how-software-in-half-of-nyc-cabs-generates-5-2) Para un excelente ejemplo de análisis de datos exploratorios.
 
 -----
-<a target="_blank" href="https://anaconda.cloud/api/nbserve/launch_notebook?nb_url=https%3A%2F%2Fanaconda.cloud%2Fapi%2Fprojects%2Fb93c8453-0167-4bee-afe2-3811c4f40904%2Ffiles%2F04_Visualization_de_Datos_1.ipynb%3Fversion%3Dc94c5061-1acd-487e-9de4-1c4ee1563156"><img src="https://static.anaconda.cloud/content/a22d04e8445b700f28937ab3231b8cded505d0395c63b7a269696722196d5415"/></a>
+
+<div style="display: flex; align-items: center;">
+   <a target="_blank" href="https://anaconda.cloud/api/nbserve/launch_notebook?nb_url=https%3A%2F%2Fanaconda.cloud%2Fapi%2Fprojects%2Fb93c8453-0167-4bee-afe2-3811c4f40904%2Ffiles%2F04_Visualization_de_Datos_1.ipynb%3Fversion%3Dc94c5061-1acd-487e-9de4-1c4ee1563156"><img src="https://static.anaconda.cloud/content/a22d04e8445b700f28937ab3231b8cded505d0395c63b7a269696722196d5415"/></a>
+    <a href="https://drive.google.com/file/d/1cye2a3l1CngwjieMLvrAHx7fB7g6bFTl/view?usp=sharing" target="_blank" style="text-decoration:none;">
+        <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab" height="25"/>
+    </a>
+</div>
 
 ### Sesión 4: Visualización de Datos
 
@@ -257,10 +268,14 @@ Son herramientas low-code de visualización de datos avanzada que permite a los 
 * [Graphext](https://www.graphext.com/)
 
 -----
+<div style="display: flex; align-items: center;">
+   <a target="_blank" href="https://anaconda.cloud/api/nbserve/launch_notebook?nb_url=https%3A%2F%2Fanaconda.cloud%2Fapi%2Fprojects%2F8ee6a43b-d310-4d19-953b-b0d3cab70f86%2Ffiles%2F05_Evaluacio%CC%81n_de_modelos_de_pronosticos.ipynb%3Fversion%3D49d2e21b-b892-4b5a-8e55-51b03a2faaf7"><img src="https://static.anaconda.cloud/content/a22d04e8445b700f28937ab3231b8cded505d0395c63b7a269696722196d5415"/></a>
+    <a href="https://drive.google.com/file/d/1dhllWkyt11WKdYEIAjrRyS0giQ9_sQp6/view?usp=sharing" target="_blank" style="text-decoration:none;">
+        <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab" height="25"/>
+    </a>
+</div>
 
 ### Clase 5: Evaluación de modelos de pronósticos y regresión lineal
-
-<a target="_blank" href="https://anaconda.cloud/api/nbserve/launch_notebook?nb_url=https%3A%2F%2Fanaconda.cloud%2Fapi%2Fprojects%2F8ee6a43b-d310-4d19-953b-b0d3cab70f86%2Ffiles%2F05_Evaluacio%CC%81n_de_modelos_de_pronosticos.ipynb%3Fversion%3D49d2e21b-b892-4b5a-8e55-51b03a2faaf7"><img src="https://static.anaconda.cloud/content/a22d04e8445b700f28937ab3231b8cded505d0395c63b7a269696722196d5415"/></a>
 
 * Ejercicio de "aprendizaje humano":
     * [Iris dataset](http://archive.ics.uci.edu/ml/datasets/Iris) Organizado por el repositorio de aprendizaje automático de UCI
@@ -323,8 +338,12 @@ Son herramientas low-code de visualización de datos avanzada que permite a los 
 
 ### Clase 6: Regresión logística y árboles de decisión
 
-<a target="_blank" href="https://anaconda.cloud/api/nbserve/launch_notebook?nb_url=https%3A%2F%2Fanaconda.cloud%2Fapi%2Fprojects%2F1dfd06f2-1f99-4e0e-a208-0f7e118f1363%2Ffiles%2F06_logistic_regression.ipynb%3Fversion%3D0464a05a-9f77-487f-abbf-3c8622a2cf16"><img src="https://static.anaconda.cloud/content/a22d04e8445b700f28937ab3231b8cded505d0395c63b7a269696722196d5415"/></a>
-
+<div style="display: flex; align-items: center;">
+   <a target="_blank" href="https://anaconda.cloud/api/nbserve/launch_notebook?nb_url=https%3A%2F%2Fanaconda.cloud%2Fapi%2Fprojects%2F1dfd06f2-1f99-4e0e-a208-0f7e118f1363%2Ffiles%2F06_logistic_regression.ipynb%3Fversion%3D0464a05a-9f77-487f-abbf-3c8622a2cf16"><img src="https://static.anaconda.cloud/content/a22d04e8445b700f28937ab3231b8cded505d0395c63b7a269696722196d5415"/></a>
+    <a href="https://drive.google.com/file/d/1ZnqQ_c6i1Z2BcycWmGUVjhzExS13M63l/view?usp=sharing" target="_blank" style="text-decoration:none;">
+        <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab" height="25"/>
+    </a>
+</div>
 
 * Regresión logística ([notebook] (notebooks/06_logistic_regression.ipynb)
 * Confusion Matrix ([notebook] (notebooks/06_Metricas_matriz_confusion.ipynb)
@@ -370,15 +389,22 @@ Son herramientas low-code de visualización de datos avanzada que permite a los 
 
 ### Clase 7: Clustering y Evaluación de modelos
 
-<a target="_blank" href="https://anaconda.cloud/api/nbserve/launch_notebook?nb_url=https%3A%2F%2Fanaconda.cloud%2Fapi%2Fprojects%2Fe962544b-ba6a-48ff-bdd8-4f67b95eca5a%2Ffiles%2F07_knn_sklearn.ipynb%3Fversion%3D26f07033-9e1c-4eec-8255-9d1e073e11bf"><img src="https://static.anaconda.cloud/content/a22d04e8445b700f28937ab3231b8cded505d0395c63b7a269696722196d5415"/></a>
+<div style="display: flex; align-items: center;">
+   <a target="_blank" href="https://anaconda.cloud/api/nbserve/launch_notebook?nb_url=https%3A%2F%2Fanaconda.cloud%2Fapi%2Fprojects%2Fe962544b-ba6a-48ff-bdd8-4f67b95eca5a%2Ffiles%2F07_knn_sklearn.ipynb%3Fversion%3D26f07033-9e1c-4eec-8255-9d1e073e11bf"><img src="https://static.anaconda.cloud/content/a22d04e8445b700f28937ab3231b8cded505d0395c63b7a269696722196d5415"/></a>
+    <a href="https://drive.google.com/file/d/12as9KUU-2hM55GLt3YHAqR_wbxzxCK97/view?usp=sharing" target="_blank" style="text-decoration:none;">
+        <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab" height="25"/>
+    </a>
+</div>
 
 * Evaluación de modelos ([notebook](notebooks/07_model_evaluation.ipynb))
 * K-Near más vecinos y scikit-learn ([notebook] (notebooks/07_knn_sklearn.ipynb))
 * Explorando la compensación de varianza de sesgo ([notebook] (notebooks/07_clustering.ipynb))
 
-**Tarea:**
+**Asignación:**
 
-* Lea la [Introducción a la reproducibilidad] de Kevin (<http://www.dataschool.io/reproducibilidad-is-not-just-for-researchers/>), lea la guía de Jeff Leek para crear un análisis reproducible] (https: // github.com/jtleek/dataHaring), y vea este video relacionado [Video de Informe de Colbert] (<http://thecolberstreport.cc.com/videos/dcyvro/austerity-s-sepersheet-error>) (8 minutos).
+* Lea la ([Introducción a la reproducibilidad](<http://www.dataschool.io/reproducibilidad-is-not-just-for-researchers/>))
+* Lea la guía de Jeff Leek para [crear un análisis reproducible](https://github.com/jtleek/dataSharing), y vea este video relacionado [Video de Informe de Colbert](http://thecolbertreport.cc.com/videos/dcyvro/austerity-s-spreadsheet-error) (8 minutos).
+
 
 
 **RECURSOS KNN**
@@ -473,19 +499,6 @@ Son herramientas low-code de visualización de datos avanzada que permite a los 
 * Si desea profundizar en bases de datos y SQL, Stanford tiene una serie muy respetada de [14 mini-courses](https://lagunita.stanford.edu/courses/DB/2014/SelfPaced/about).
 * [Blaze](http://blaze.pydata.org) es un paquete de Python que le permite usar una sintaxis similar a Pandas para consultar datos que viven en una variedad de sistemas de almacenamiento de datos.
 
-### Evaluación avanzadas de modelos
-
-* Preparación de datosn ([notebook](notebooks/13_advanced_model_evaluation.ipynb))
-  * Manejo de valores faltantes
-  * Manejo de características categóricas (revisión)
-* Curvas ROC y AUC
-  * Discutir el[video/reading assignment](homework/13_roc_auc.md)
-  * Ejercicio: dibujar una curva ROC ([slides](slides/13_drawing_roc.pdf))
-  * Volver al cuaderno principal
-* Validación cruzada
-  * Discutir el [video/reading assignment](homework/13_cross_validation.md) and associated [notebook](notebooks/13_cross_validation.ipynb)
-  * Volver al cuaderno principal
-* Eejercicio con datos de marketing bancario ([notebook](notebooks/13_bank_exercise.ipynb), [data](data/bank-additional.csv), [data dictionary](https://archive.ics.uci.edu/ml/datasets/Bank+Marketing))
 
 **Recursos ROC:**
 
