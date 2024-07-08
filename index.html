@@ -47,6 +47,15 @@
     </style>
 </head>
 <body>
+    <script>
+        // Seleccionar todos los enlaces en la página
+        const links = document.querySelectorAll('a');
+
+        // Añadir target="_blank" a cada enlace
+        links.forEach(link => {
+            link.setAttribute('target', '_blank');
+        });
+    </script>
 
     <header>
         <div style="position: relative; width: 100%; height: 0; padding-top: 25.0000%;
@@ -189,7 +198,7 @@
                 <li>Para usar <a href="https://colab.research.google.com/">Google Colaboratory</a>, requerirás un correo de Gmail para acceder. Si no dispones de uno, lo puedes crear <a href="https://workspace.google.com/">sin costo acá</a></li>
                 <li>Para usar Anaconda, no necesitarás algo adicional ya que es cloud. Puedes crear una <a href="https://anaconda.cloud/">cuenta acá</a></li>
                 <li>Podrás usar también el notebook de Kaggle. Puedes <a href="https://www.kaggle.com/">crear una cuenta acá</a></li>
-                <li>Puedes ir familiarizándote con Jupyter Notebook en este archivo: <a href="https://mybinder.org/v2/gh/gonzalezulises/comenzando/main?labpath=00_Conceptos_Basicos_Jupyter_Notebooks.ipynb"> Primeros pasos </a></li>
+                <li>Puedes ir familiarizándote con Jupyter Notebook en este archivo: <a href="https://mybinder.org/v2/gh/gonzalezulises/comenzando/main?labpath=00_Conceptos_Basicos_Jupyter_Notebooks.ipynb"target="_blank"> Primeros pasos </a></li>
             </ul>
         </section>
 
@@ -197,13 +206,13 @@
             <h3>Recursos adicionales de práctica</h3>
 
             <ul>
-                <li><a href="http://www.codecademy.com/en/tracks/python">Codecademy's Python course</a>: Buen material para principiantes, incluidos toneladas de ejercicios en el navegador.</li>
-                <li><a href="https://www.dataquest.io">Dataquest</a>: Utiliza ejercicios interactivos para enseñar a Python en el contexto de la ciencia de datos.</li>
-                <li><a href="https://developers.google.com/edu/python/">Google's Python Class</a>: Un poco más avanzado, incluidas horas de videos útiles de conferencias y ejercicios descargables (con soluciones).</li>
-                <li><a href="http://introtopython.org/">Introduction to Python</a>: Una serie de cuadernos de iPython que hacen un gran trabajo explicando conceptos y estructuras de datos de Core Python.</li>
-                <li><a href="http://www.pythonlearn.com/book.php">Python for Informatics</a>: Un libro muy orientado a principiantes, con asociados <a href="https://drive.google.com/folderview?id=0B7X1ycQalUnyal9yeUx3VW81VDg&usp=sharing">slides</a> y <a href="https://www.youtube.com/playlist?list=PLlRFEj9H3Oj4JXIwMwN1_ss1Tk8wZShEJ">videos</a>.</li>
+                <li><a href="http://www.codecademy.com/en/tracks/python" >Codecademy's Python course</a>: Buen material para principiantes, incluidos toneladas de ejercicios en el navegador.</li>
+                <li><a href="https://www.dataquest.io" >Dataquest</a>: Utiliza ejercicios interactivos para enseñar a Python en el contexto de la ciencia de datos.</li>
+                <li><a href="https://developers.google.com/edu/python/" >Google's Python Class</a>: Un poco más avanzado, incluidas horas de videos útiles de conferencias y ejercicios descargables (con soluciones).</li>
+                <li><a href="http://introtopython.org/" >Introduction to Python</a>: Una serie de cuadernos de iPython que hacen un gran trabajo explicando conceptos y estructuras de datos de Core Python.</li>
+                <li><a href="http://www.pythonlearn.com/book.php" >Python for Informatics</a>: Un libro muy orientado a principiantes, con asociados <a href="https://drive.google.com/folderview?id=0B7X1ycQalUnyal9yeUx3VW81VDg&usp=sharing">slides</a> y <a href="https://www.youtube.com/playlist?list=PLlRFEj9H3Oj4JXIwMwN1_ss1Tk8wZShEJ">videos</a>.</li>
                 <li><a href="http://nbviewer.ipython.org/gist/rpmuller/5920182">A Crash Course in Python for Scientists</a>: Lea la sección de descripción general para una introducción muy rápida a Python.</li>
-                <li><a href="http://pythontutor.com/">Python Tutor</a>: Le permite visualizar la ejecución del código Python.</li>
+                <li><a href="http://pythontutor.com/"t>Python Tutor</a>: Le permite visualizar la ejecución del código Python.</li>
             </ul>
         </section>
 
@@ -223,17 +232,17 @@
 
             <ul>
                 <li>Bienvenida a la formación</li>
-                <li>Resumen del curso (<a href="https://docs.google.com/document/d/1tC-gSUFGPTP3rVlfKEkB6fhAfKXqRTnR2xMPfupy5IY/edit?usp=sharing">presentación</a>)</li>
-                <li>Introducción a Data Analytics (<a href="bibliografia/Sesion 1/Python Data Analitics -fragmento.pdf">lectura</a>)</li>
-                <li>Tipos de datos (<a href="https://medium.com/@diego.coder/variables-y-tipos-de-datos-en-python-str-int-bool-etc-45ac17e6acc7">lectura</a>)</li>
-                <li>Dispones de las siguientes fuentes de datos públicos si deseas practicar (<a href="project/public_data.md">fuentes de datos públicos</a>)</li>
+                <li>Resumen del curso (<a href="https://docs.google.com/document/d/1tC-gSUFGPTP3rVlfKEkB6fhAfKXqRTnR2xMPfupy5IY/edit?usp=sharing"target="_blank">presentación</a>)</li>
+                <li>Introducción a Data Analytics (<a href="bibliografia/Sesion 1/Python Data Analitics -fragmento.pdf"target="_blank">lectura</a>)</li>
+                <li>Tipos de datos (<a href="https://medium.com/@diego.coder/variables-y-tipos-de-datos-en-python-str-int-bool-etc-45ac17e6acc7"target="_blank">lectura</a>)</li>
+                <li>Dispones de las siguientes fuentes de datos públicos si deseas practicar (<a href="project/public_data.md"target="_blank"fuentes de datos públicos</a>)</li>
             </ul>            
 
             <h4>Asignación:</h4>
 
             <ul>
-                <li>Leer <a href="bibliografia/Sesion%201/Introducción%20a%20Python.pdf">Introducción a la programación y al análisis de datos con Python</a></li>
-                <li>Leer <a href="https://roadmap.sh/data-analyst">Ruta de desarrollo del Data analytics</a></li>
+                <li>Leer <a href="bibliografia/Sesion%201/Introducción%20a%20Python.pdf"target="_blank">Introducción a la programación y al análisis de datos con Python</a></li>
+                <li>Leer <a href="https://roadmap.sh/data-analyst"target="_blank">Ruta de desarrollo del Data analytics</a></li>
                 <li>Practicar <a href="laboratorios/01_Laborario%20de%20la%20Sesión%201_Ejercicios.ipynb">Laboratorio de la Sesión 1 Ejercicios</a></li>
                 <li>Puedes revisar la solución al laboratorio acá: <a href="laboratorios/01_Laborario%20de%20la%20Sesión%201_con%20solucion.ipynb">Laboratorio de la Sesión 1 con solución</a></li>
                 <li>Leer <a href="guias/Sesion 1/Entendiendo nuestro flujo.pdf">Entendiendo nuestro flujo</a></li>
